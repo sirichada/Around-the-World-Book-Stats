@@ -1,4 +1,15 @@
 body {
     background: antiquewhite;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Garamond', serif;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    margin: 3px;
+}
+
+p {
+    margin: 2px;
 }
