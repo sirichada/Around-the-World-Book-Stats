@@ -126,7 +126,7 @@ const second = d3.select(".second");
 
 const svg = second.append("svg")
         .attr("width", 1500)
-        .attr("height", 800);
+        .attr("height", 500);
 
 const secondGraph = svg.append("g")
         .attr("width", 1500)
