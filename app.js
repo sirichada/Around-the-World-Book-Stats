@@ -1,4 +1,5 @@
-const canvas = d3.select(".canva");
+// for first data visualization (area and line chart)
+const first = d3.select(".first");
 
 // Load NDJSON (line-separated JSON)
 d3.text("./data/copy_book_works.json").then(function(text) {
@@ -22,7 +23,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
                         .sort((a, b) => d3.ascending(a.year, b.year));
 
     // Step 4: Set up the graph
-    const svg = canvas.append("svg")
+    const svg = first.append("svg")
         .attr("width", 1500)
         .attr("height", 1000);
 
@@ -30,7 +31,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
     const graphWidth = 1500 - margin.left - margin.right;
     const graphHeight = 1000 - margin.top - margin.bottom;
 
-    const mainCanvas = svg.append("g")
+    const firstGraph = svg.append("g")
         .attr("width", graphWidth)
         .attr("height", graphHeight)
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
@@ -55,7 +56,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         .y(d => y(d.count));
 
     // Step 7: Append paths
-    mainCanvas.append("path")
+    firstGraph.append("path")
         .datum(yearData)
         .attr("class", "line")
         .attr("d", valueLine)
@@ -63,7 +64,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         .attr("stroke", "black")
         .attr("stroke-width", 2);
 
-    mainCanvas.append("path")
+    firstGraph.append("path")
         .datum(yearData)
         .attr("fill", "lightblue")
         .attr("class", "area")
@@ -76,15 +77,15 @@ d3.text("./data/copy_book_works.json").then(function(text) {
     const yAxis = d3.axisLeft(y)
         .ticks(5);
 
-    mainCanvas.append("g")
+    firstGraph.append("g")
         .attr("transform", `translate(0, ${graphHeight})`)
         .call(xAxis);
 
-    mainCanvas.append("g")
+    firstGraph.append("g")
         .call(yAxis);
 
     // Step 9: Circles on points (optional)
-    mainCanvas.selectAll("circle")
+    firstGraph.selectAll("circle")
         .data(yearData)
         .enter()
         .append("circle")
@@ -97,34 +98,111 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         console.log("Loaded Data:", data);
         console.log("Processed Year Data:", yearData);    
         
-        // X Axis
-mainCanvas.append("g")
-.attr("transform", `translate(0, ${graphHeight})`)
-.call(xAxis);
+            // X Axis
+    firstGraph.append("g")
+    .attr("transform", `translate(0, ${graphHeight})`)
+    .call(xAxis);
 
-// Y Axis
-mainCanvas.append("g")
-.call(yAxis);
+    // Y Axis
+    firstGraph.append("g")
+    .call(yAxis);
 
-// X Axis Label
-mainCanvas.append("text")
-.attr("x", graphWidth / 2)
-.attr("y", graphHeight + 50)
-.attr("text-anchor", "middle")
-.attr("font-size", "14px")
-.text("Publication Year");
+    // X Axis Label
+    firstGraph.append("text")
+    .attr("x", graphWidth / 2)
+    .attr("y", graphHeight + 50)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .text("Publication Year");
 
-// Y Axis Label
-mainCanvas.append("text")
-.attr("x", -graphHeight / 2)
-.attr("y", -50)
-.attr("text-anchor", "middle")
-.attr("font-size", "14px")
-.attr("transform", "rotate(-90)")
-.text("Number of Books");
+    // Y Axis Label
+    firstGraph.append("text")
+    .attr("x", -graphHeight / 2)
+    .attr("y", -50)
+    .attr("text-anchor", "middle")
+    .attr("font-size", "14px")
+    .attr("transform", "rotate(-90)")
+    .text("Number of Books");
 
 }).catch(function(error){
     console.error("Error loading the data:", error);
 });
 
+// select the second graph container
+const second = d3.select(".second");
 
+const svg = second.append("svg")
+        .attr("width", 1500)
+        .attr("height", 800);
+
+const secondGraph = svg.append("g")
+        .attr("width", 1500)
+        .attr("height", 500)
+        .attr("transform", `translate(100, 100)`);
+
+// Load NDJSON (line-separated JSON)
+d3.text("./data/copy_book_genres.json").then(function(text) {
+    console.log("RAW text from file:", text);
+
+    // Step 1: Parse
+    let data = text.trim().split('\n')
+        .filter(line => line.trim() !== "")
+        .map(line => JSON.parse(line));
+
+    // Step 2: Find top genre for each book
+    let topGenres = data.map(d => {
+        let genres = d.genres;
+        let topGenre = "";
+        let topCount = -Infinity;
+        for (let genre in genres) {
+            if (genres[genre] > topCount) {
+                topGenre = genre;
+                topCount = genres[genre];
+            }
+        }
+        return topGenre;
+    });
+
+    // Step 3: Count how many times each top genre appears
+    let genreCounts = d3.rollup(
+        topGenres,
+        v => v.length,
+        d => d
+    );
+
+    // Step 4: Convert to array for word cloud
+    let wordCloudData = Array.from(genreCounts, ([genre, count]) => ({ text: genre, size: count }));
+
+    console.log("Word Cloud Data:", wordCloudData);
+
+    // ✅ Now that `wordCloudData` is ready, create the layout INSIDE here
+    var layout = d3.layout.cloud()
+        .size([1500, 1000])
+        .words(wordCloudData)
+        .padding(0)
+        .rotate(function() { return ~~(Math.random() * 2) * 90; })
+        .fontSize(function(d) { return 10 + Math.sqrt(d.size) * 2; })
+        .on("end", draw);
+
+    layout.start();
+
+    function draw(words) {
+      secondGraph.append("g")
+          .attr("transform", "translate(700, 200)") 
+        .selectAll("text")
+        .data(words)
+        .enter()
+        .append("text")
+          .style("font-size", function(d) { return d.size + "px"; })
+          .style("fill", "#69b3a2")
+          .attr("text-anchor", "middle")
+          .style("font-family", "Impact")
+          .attr("transform", function(d) {
+            return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+          })
+          .text(function(d) { return d.text; });
+    }
+
+}).catch(function(error){
+    console.error("Error loading or processing data:", error);
+});

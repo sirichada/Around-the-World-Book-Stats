@@ -1,46 +1,46 @@
-{"book_id": "5333265", "genres": {"history, historical fiction, biography": 1}}
-{"book_id": "1333909", "genres": {"fiction": 219, "history, historical fiction, biography": 5}}
-{"book_id": "7327624", "genres": {"fantasy, paranormal": 31, "fiction": 8, "mystery, thriller, crime": 1, "poetry": 1}}
-{"book_id": "6066819", "genres": {"fiction": 555, "romance": 23, "mystery, thriller, crime": 10}}
+{"book_id": "5333265", "genres": {"history": 1}}
+{"book_id": "1333909", "genres": {"fiction": 219, "history": 5}}
+{"book_id": "7327624", "genres": {"fantasy, paranormal": 31, "fiction": 8, "mystery": 1, "poetry": 1}}
+{"book_id": "6066819", "genres": {"fiction": 555, "romance": 23, "mystery": 10}}
 {"book_id": "287140", "genres": {"non-fiction": 3}}
-{"book_id": "287141", "genres": {"history, historical fiction, biography": 9, "children": 6, "fantasy, paranormal": 1, "fiction": 1, "young-adult": 1}}
+{"book_id": "287141", "genres": {"history": 9, "children": 6, "fantasy, paranormal": 1, "fiction": 1, "young-adult": 1}}
 {"book_id": "378460", "genres": {"fiction": 2}}
 {"book_id": "6066812", "genres": {"fantasy, paranormal": 32, "young-adult": 8, "fiction": 7, "children": 16}}
 {"book_id": "34883016", "genres": {"romance": 3}}
-{"book_id": "287149", "genres": {"non-fiction": 24, "history, historical fiction, biography": 1}}
-{"book_id": "6066814", "genres": {"fiction": 19, "history, historical fiction, biography": 38, "mystery, thriller, crime": 38}}
-{"book_id": "33394837", "genres": {"fantasy, paranormal": 11, "mystery, thriller, crime": 12, "fiction": 3, "history, historical fiction, biography": 4}}
+{"book_id": "287149", "genres": {"non-fiction": 24, "history": 1}}
+{"book_id": "6066814", "genres": {"fiction": 19, "history": 38, "mystery": 38}}
+{"book_id": "33394837", "genres": {"fantasy, paranormal": 11, "mystery": 12, "fiction": 3, "history": 4}}
 {"book_id": "89371", "genres": {"non-fiction": 266, "fiction": 33, "young-adult": 3, "poetry": 3, "children": 3}}
 {"book_id": "28575155", "genres": {}}
-{"book_id": "89373", "genres": {"fiction": 1760, "mystery, thriller, crime": 31, "history, historical fiction, biography": 12}}
-{"book_id": "89375", "genres": {"non-fiction": 534, "history, historical fiction, biography": 178, "fiction": 16, "comics, graphic": 6}}
+{"book_id": "89373", "genres": {"fiction": 1760, "mystery": 31, "history": 12}}
+{"book_id": "89375", "genres": {"non-fiction": 534, "history": 178, "fiction": 16, "comics, graphic": 6}}
 {"book_id": "89376", "genres": {"non-fiction": 163}}
-{"book_id": "89377", "genres": {"fiction": 425, "history, historical fiction, biography": 330, "young-adult": 93, "children": 190}}
+{"book_id": "89377", "genres": {"fiction": 425, "history": 330, "young-adult": 93, "children": 190}}
 {"book_id": "89378", "genres": {"children": 109, "fiction": 13, "non-fiction": 2, "young-adult": 1}}
 {"book_id": "21401188", "genres": {"fiction": 7, "young-adult": 3, "romance": 1, "fantasy, paranormal": 1}}
 {"book_id": "30227122", "genres": {}}
 {"book_id": "2008911", "genres": {"fiction": 6, "romance": 1}}
 {"book_id": "2008910", "genres": {"fiction": 435, "romance": 65, "young-adult": 39}}
-{"book_id": "7203847", "genres": {"fiction": 1205, "mystery, thriller, crime": 330, "fantasy, paranormal": 247}}
-{"book_id": "6158967", "genres": {"non-fiction": 37, "history, historical fiction, biography": 13, "fiction": 1}}
-{"book_id": "12182387", "genres": {"young-adult": 108, "fantasy, paranormal": 168, "romance": 57, "fiction": 29, "mystery, thriller, crime": 4}}
+{"book_id": "7203847", "genres": {"fiction": 1205, "mystery": 330, "fantasy, paranormal": 247}}
+{"book_id": "6158967", "genres": {"non-fiction": 37, "history": 13, "fiction": 1}}
+{"book_id": "12182387", "genres": {"young-adult": 108, "fantasy, paranormal": 168, "romance": 57, "fiction": 29, "mystery": 4}}
 {"book_id": "287142", "genres": {}}
 {"book_id": "16037548", "genres": {}}
 {"book_id": "16037549", "genres": {"poetry": 3}}
 {"book_id": "12135833", "genres": {"fiction": 7, "romance": 1}}
 {"book_id": "18628482", "genres": {"young-adult": 1}}
-{"book_id": "29074697", "genres": {"fantasy, paranormal": 1, "mystery, thriller, crime": 4, "fiction": 2}}
-{"book_id": "18628480", "genres": {"fiction": 452, "history, historical fiction, biography": 161, "romance": 20}}
-{"book_id": "16037543", "genres": {"history, historical fiction, biography": 7, "non-fiction": 2}}
-{"book_id": "29074693", "genres": {"fantasy, paranormal": 36, "romance": 17, "mystery, thriller, crime": 1}}
-{"book_id": "1902202", "genres": {"mystery, thriller, crime": 23, "fiction": 0}}
+{"book_id": "29074697", "genres": {"fantasy, paranormal": 1, "mystery": 4, "fiction": 2}}
+{"book_id": "18628480", "genres": {"fiction": 452, "history": 161, "romance": 20}}
+{"book_id": "16037543", "genres": {"history": 7, "non-fiction": 2}}
+{"book_id": "29074693", "genres": {"fantasy, paranormal": 36, "romance": 17, "mystery": 1}}
+{"book_id": "1902202", "genres": {"mystery": 23, "fiction": 0}}
 {"book_id": "24994796", "genres": {}}
-{"book_id": "3209316", "genres": {"fiction": 6296, "romance": 3548, "history, historical fiction, biography": 2073}}
+{"book_id": "3209316", "genres": {"fiction": 6296, "romance": 3548, "history": 2073}}
 {"book_id": "25742454", "genres": {"comics, graphic": 2, "fantasy, paranormal": 2, "young-adult": 1}}
 {"book_id": "35714727", "genres": {}}
 {"book_id": "3209312", "genres": {"children": 2}}
-{"book_id": "4541271", "genres": {"fiction": 9698, "fantasy, paranormal": 1611, "history, historical fiction, biography": 37}}
-{"book_id": "3209319", "genres": {"fiction": 107, "history, historical fiction, biography": 12, "mystery, thriller, crime": 9}}
+{"book_id": "4541271", "genres": {"fiction": 9698, "fantasy, paranormal": 1611, "history": 37}}
+{"book_id": "3209319", "genres": {"fiction": 107, "history": 12, "mystery": 9}}
 {"book_id": "30838933", "genres": {"fantasy, paranormal": 5, "romance": 4}}
 {"book_id": "30838930", "genres": {"fiction": 1}}
 {"book_id": "18264569", "genres": {"non-fiction": 1}}
@@ -52,301 +52,301 @@
 {"book_id": "26831576", "genres": {"romance": 4, "young-adult": 1}}
 {"book_id": "17320317", "genres": {"non-fiction": 1}}
 {"book_id": "36299289", "genres": {}}
-{"book_id": "9671976", "genres": {"non-fiction": 1, "history, historical fiction, biography": 1}}
-{"book_id": "9671977", "genres": {"fiction": 8, "history, historical fiction, biography": 11, "mystery, thriller, crime": 9}}
+{"book_id": "9671976", "genres": {"non-fiction": 1, "history": 1}}
+{"book_id": "9671977", "genres": {"fiction": 8, "history": 11, "mystery": 9}}
 {"book_id": "28492512", "genres": {"fantasy, paranormal": 1}}
 {"book_id": "1698376", "genres": {"children": 6}}
 {"book_id": "2592648", "genres": {"children": 6}}
 {"book_id": "30128855", "genres": {"non-fiction": 1, "comics, graphic": 2}}
 {"book_id": "427479", "genres": {"non-fiction": 1}}
-{"book_id": "13707894", "genres": {"history, historical fiction, biography": 27, "non-fiction": 5}}
+{"book_id": "13707894", "genres": {"history": 27, "non-fiction": 5}}
 {"book_id": "29339205", "genres": {}}
-{"book_id": "6395321", "genres": {"history, historical fiction, biography": 13, "non-fiction": 11}}
+{"book_id": "6395321", "genres": {"history": 13, "non-fiction": 11}}
 {"book_id": "28358056", "genres": {"non-fiction": 1}}
 {"book_id": "4691744", "genres": {}}
-{"book_id": "20135365", "genres": {"young-adult": 16, "fiction": 15, "romance": 14, "fantasy, paranormal": 10, "mystery, thriller, crime": 1}}
+{"book_id": "20135365", "genres": {"young-adult": 16, "fiction": 15, "romance": 14, "fantasy, paranormal": 10, "mystery": 1}}
 {"book_id": "24444536", "genres": {}}
 {"book_id": "10789416", "genres": {"non-fiction": 1}}
 {"book_id": "21401181", "genres": {"fantasy, paranormal": 2673, "young-adult": 1570, "fiction": 295, "romance": 123}}
 {"book_id": "22600550", "genres": {"romance": 29}}
 {"book_id": "22466716", "genres": {"poetry": 2, "fiction": 2}}
-{"book_id": "16158998", "genres": {"mystery, thriller, crime": 2672, "fiction": 522, "history, historical fiction, biography": 26}}
+{"book_id": "16158998", "genres": {"mystery": 2672, "fiction": 522, "history": 26}}
 {"book_id": "32615012", "genres": {"children": 795, "fiction": 94, "fantasy, paranormal": 21, "young-adult": 4}}
 {"book_id": "32615013", "genres": {}}
-{"book_id": "1907185", "genres": {"non-fiction": 770, "fiction": 346, "poetry": 76, "history, historical fiction, biography": 25}}
+{"book_id": "1907185", "genres": {"non-fiction": 770, "fiction": 346, "poetry": 76, "history": 25}}
 {"book_id": "1907184", "genres": {"fiction": 84, "fantasy, paranormal": 7, "young-adult": 3}}
-{"book_id": "25162836", "genres": {"mystery, thriller, crime": 2}}
-{"book_id": "2805495", "genres": {"mystery, thriller, crime": 24, "fiction": 7}}
+{"book_id": "25162836", "genres": {"mystery": 2}}
+{"book_id": "2805495", "genres": {"mystery": 24, "fiction": 7}}
 {"book_id": "17373675", "genres": {"fiction": 1, "romance": 1}}
 {"book_id": "7075301", "genres": {"fiction": 16, "romance": 2}}
 {"book_id": "12413392", "genres": {"comics, graphic": 1}}
 {"book_id": "17373671", "genres": {"romance": 883, "fiction": 263, "young-adult": 69}}
-{"book_id": "1393555", "genres": {"fiction": 72, "history, historical fiction, biography": 2}}
+{"book_id": "1393555", "genres": {"fiction": 72, "history": 2}}
 {"book_id": "13571772", "genres": {"comics, graphic": 433, "fiction": 19, "fantasy, paranormal": 2}}
 {"book_id": "16201706", "genres": {}}
-{"book_id": "18355356", "genres": {"history, historical fiction, biography": 1, "non-fiction": 1}}
+{"book_id": "18355356", "genres": {"history": 1, "non-fiction": 1}}
 {"book_id": "10866987", "genres": {}}
-{"book_id": "30525379", "genres": {"fiction": 74, "fantasy, paranormal": 27, "mystery, thriller, crime": 18, "history, historical fiction, biography": 2}}
-{"book_id": "780918", "genres": {"fiction": 33, "history, historical fiction, biography": 38, "fantasy, paranormal": 33, "romance": 1}}
-{"book_id": "35452242", "genres": {"comics, graphic": 3, "history, historical fiction, biography": 6, "non-fiction": 1}}
-{"book_id": "25317381", "genres": {"fiction": 96, "mystery, thriller, crime": 24, "romance": 3, "non-fiction": 2}}
-{"book_id": "23615331", "genres": {"fantasy, paranormal": 34, "romance": 23, "history, historical fiction, biography": 6, "fiction": 3}}
-{"book_id": "18138604", "genres": {"romance": 44, "mystery, thriller, crime": 8}}
-{"book_id": "780911", "genres": {"fiction": 2428, "history, historical fiction, biography": 1793, "romance": 112, "mystery, thriller, crime": 14}}
+{"book_id": "30525379", "genres": {"fiction": 74, "fantasy, paranormal": 27, "mystery": 18, "history": 2}}
+{"book_id": "780918", "genres": {"fiction": 33, "history": 38, "fantasy, paranormal": 33, "romance": 1}}
+{"book_id": "35452242", "genres": {"comics, graphic": 3, "history": 6, "non-fiction": 1}}
+{"book_id": "25317381", "genres": {"fiction": 96, "mystery": 24, "romance": 3, "non-fiction": 2}}
+{"book_id": "23615331", "genres": {"fantasy, paranormal": 34, "romance": 23, "history": 6, "fiction": 3}}
+{"book_id": "18138604", "genres": {"romance": 44, "mystery": 8}}
+{"book_id": "780911", "genres": {"fiction": 2428, "history": 1793, "romance": 112, "mystery": 14}}
 {"book_id": "5371240", "genres": {}}
-{"book_id": "10099492", "genres": {"young-adult": 253, "fantasy, paranormal": 246, "fiction": 61, "romance": 27, "mystery, thriller, crime": 7}}
-{"book_id": "780912", "genres": {"fiction": 1841, "history, historical fiction, biography": 1420, "fantasy, paranormal": 551, "mystery, thriller, crime": 660, "romance": 42}}
-{"book_id": "780917", "genres": {"fantasy, paranormal": 124, "fiction": 10, "romance": 10, "history, historical fiction, biography": 1, "young-adult": 3}}
+{"book_id": "10099492", "genres": {"young-adult": 253, "fantasy, paranormal": 246, "fiction": 61, "romance": 27, "mystery": 7}}
+{"book_id": "780912", "genres": {"fiction": 1841, "history": 1420, "fantasy, paranormal": 551, "mystery": 660, "romance": 42}}
+{"book_id": "780917", "genres": {"fantasy, paranormal": 124, "fiction": 10, "romance": 10, "history": 1, "young-adult": 3}}
 {"book_id": "780916", "genres": {"non-fiction": 18, "fiction": 1}}
 {"book_id": "18283092", "genres": {}}
 {"book_id": "18283091", "genres": {}}
-{"book_id": "26864719", "genres": {"romance": 54, "fiction": 4, "mystery, thriller, crime": 3}}
+{"book_id": "26864719", "genres": {"romance": 54, "fiction": 4, "mystery": 3}}
 {"book_id": "23566096", "genres": {"fiction": 1, "young-adult": 1, "romance": 1, "non-fiction": 1}}
 {"book_id": "18283095", "genres": {"romance": 4, "fiction": 1, "comics, graphic": 1}}
-{"book_id": "89379", "genres": {"non-fiction": 19, "fantasy, paranormal": 6, "mystery, thriller, crime": 1}}
-{"book_id": "18283098", "genres": {"non-fiction": 274, "history, historical fiction, biography": 133, "fiction": 18}}
-{"book_id": "13586237", "genres": {"non-fiction": 5, "history, historical fiction, biography": 3}}
+{"book_id": "89379", "genres": {"non-fiction": 19, "fantasy, paranormal": 6, "mystery": 1}}
+{"book_id": "18283098", "genres": {"non-fiction": 274, "history": 133, "fiction": 18}}
+{"book_id": "13586237", "genres": {"non-fiction": 5, "history": 3}}
 {"book_id": "3631900", "genres": {"fiction": 6, "children": 8, "young-adult": 1}}
 {"book_id": "22642978", "genres": {}}
-{"book_id": "22722787", "genres": {"mystery, thriller, crime": 6, "fiction": 1}}
+{"book_id": "22722787", "genres": {"mystery": 6, "fiction": 1}}
 {"book_id": "23815926", "genres": {"romance": 3}}
 {"book_id": "707611", "genres": {"comics, graphic": 20, "fiction": 1}}
-{"book_id": "22499086", "genres": {"romance": 24, "mystery, thriller, crime": 3}}
+{"book_id": "22499086", "genres": {"romance": 24, "mystery": 3}}
 {"book_id": "27189830", "genres": {}}
-{"book_id": "22642971", "genres": {"young-adult": 235, "fiction": 182, "romance": 56, "fantasy, paranormal": 59, "mystery, thriller, crime": 25}}
+{"book_id": "22642971", "genres": {"young-adult": 235, "fiction": 182, "romance": 56, "fantasy, paranormal": 59, "mystery": 25}}
 {"book_id": "2250580", "genres": {"comics, graphic": 5, "romance": 2}}
-{"book_id": "27189834", "genres": {"fiction": 3, "history, historical fiction, biography": 5}}
-{"book_id": "316994", "genres": {"fiction": 76, "romance": 9, "history, historical fiction, biography": 3}}
-{"book_id": "15837688", "genres": {"fantasy, paranormal": 219, "fiction": 24, "young-adult": 3, "mystery, thriller, crime": 1}}
-{"book_id": "1341793", "genres": {"fiction": 11, "history, historical fiction, biography": 5}}
-{"book_id": "25166650", "genres": {"non-fiction": 533, "history, historical fiction, biography": 431, "comics, graphic": 11}}
+{"book_id": "27189834", "genres": {"fiction": 3, "history": 5}}
+{"book_id": "316994", "genres": {"fiction": 76, "romance": 9, "history": 3}}
+{"book_id": "15837688", "genres": {"fantasy, paranormal": 219, "fiction": 24, "young-adult": 3, "mystery": 1}}
+{"book_id": "1341793", "genres": {"fiction": 11, "history": 5}}
+{"book_id": "25166650", "genres": {"non-fiction": 533, "history": 431, "comics, graphic": 11}}
 {"book_id": "31852883", "genres": {}}
 {"book_id": "6421171", "genres": {"fiction": 5, "romance": 3, "fantasy, paranormal": 2}}
 {"book_id": "17666476", "genres": {"non-fiction": 1}}
-{"book_id": "16158996", "genres": {"mystery, thriller, crime": 2584, "fiction": 122, "history, historical fiction, biography": 28}}
-{"book_id": "17368265", "genres": {"mystery, thriller, crime": 854, "fiction": 254, "history, historical fiction, biography": 19, "fantasy, paranormal": 9}}
+{"book_id": "16158996", "genres": {"mystery": 2584, "fiction": 122, "history": 28}}
+{"book_id": "17368265", "genres": {"mystery": 854, "fiction": 254, "history": 19, "fantasy, paranormal": 9}}
 {"book_id": "16235193", "genres": {}}
 {"book_id": "16235192", "genres": {}}
-{"book_id": "25823101", "genres": {"history, historical fiction, biography": 2, "fiction": 1}}
-{"book_id": "27036535", "genres": {"romance": 48, "fiction": 4, "mystery, thriller, crime": 6}}
-{"book_id": "27036536", "genres": {"comics, graphic": 20, "fiction": 8, "history, historical fiction, biography": 4}}
-{"book_id": "27036537", "genres": {"comics, graphic": 20, "mystery, thriller, crime": 2}}
+{"book_id": "25823101", "genres": {"history": 2, "fiction": 1}}
+{"book_id": "27036535", "genres": {"romance": 48, "fiction": 4, "mystery": 6}}
+{"book_id": "27036536", "genres": {"comics, graphic": 20, "fiction": 8, "history": 4}}
+{"book_id": "27036537", "genres": {"comics, graphic": 20, "mystery": 2}}
 {"book_id": "26096065", "genres": {"fantasy, paranormal": 2}}
 {"book_id": "9303668", "genres": {}}
 {"book_id": "27036533", "genres": {"children": 1}}
-{"book_id": "23992420", "genres": {"fiction": 57, "comics, graphic": 1, "fantasy, paranormal": 3, "mystery, thriller, crime": 1}}
-{"book_id": "27036538", "genres": {"comics, graphic": 21, "mystery, thriller, crime": 2, "fantasy, paranormal": 1}}
-{"book_id": "27036539", "genres": {"comics, graphic": 14, "fiction": 4, "history, historical fiction, biography": 1}}
+{"book_id": "23992420", "genres": {"fiction": 57, "comics, graphic": 1, "fantasy, paranormal": 3, "mystery": 1}}
+{"book_id": "27036538", "genres": {"comics, graphic": 21, "mystery": 2, "fantasy, paranormal": 1}}
+{"book_id": "27036539", "genres": {"comics, graphic": 14, "fiction": 4, "history": 1}}
 {"book_id": "12546931", "genres": {}}
 {"book_id": "23566090", "genres": {}}
-{"book_id": "778285", "genres": {"fiction": 186, "mystery, thriller, crime": 364, "history, historical fiction, biography": 5}}
-{"book_id": "23272155", "genres": {"comics, graphic": 4, "mystery, thriller, crime": 1, "fiction": 1, "fantasy, paranormal": 1}}
+{"book_id": "778285", "genres": {"fiction": 186, "mystery": 364, "history": 5}}
+{"book_id": "23272155", "genres": {"comics, graphic": 4, "mystery": 1, "fiction": 1, "fantasy, paranormal": 1}}
 {"book_id": "31556136", "genres": {"young-adult": 63, "romance": 10, "fiction": 18}}
 {"book_id": "23272157", "genres": {}}
 {"book_id": "8199283", "genres": {"comics, graphic": 1}}
-{"book_id": "3281038", "genres": {"history, historical fiction, biography": 19, "non-fiction": 8}}
-{"book_id": "18877509", "genres": {"history, historical fiction, biography": 2, "romance": 3}}
+{"book_id": "3281038", "genres": {"history": 19, "non-fiction": 8}}
+{"book_id": "18877509", "genres": {"history": 2, "romance": 3}}
 {"book_id": "35568287", "genres": {"fiction": 1}}
 {"book_id": "1531571", "genres": {}}
-{"book_id": "20924358", "genres": {"non-fiction": 8, "history, historical fiction, biography": 5}}
+{"book_id": "20924358", "genres": {"non-fiction": 8, "history": 5}}
 {"book_id": "12997075", "genres": {}}
-{"book_id": "554378", "genres": {"fiction": 1310, "fantasy, paranormal": 175, "mystery, thriller, crime": 49, "non-fiction": 5}}
+{"book_id": "554378", "genres": {"fiction": 1310, "fantasy, paranormal": 175, "mystery": 49, "non-fiction": 5}}
 {"book_id": "13827842", "genres": {}}
 {"book_id": "8030992", "genres": {"non-fiction": 1, "fiction": 2}}
 {"book_id": "18628483", "genres": {"fiction": 1, "fantasy, paranormal": 5, "romance": 2, "young-adult": 1}}
-{"book_id": "16693030", "genres": {"fantasy, paranormal": 3690, "fiction": 1767, "young-adult": 1688, "children": 838, "comics, graphic": 241, "mystery, thriller, crime": 86}}
+{"book_id": "16693030", "genres": {"fantasy, paranormal": 3690, "fiction": 1767, "young-adult": 1688, "children": 838, "comics, graphic": 241, "mystery": 86}}
 {"book_id": "8030991", "genres": {"children": 4, "young-adult": 2}}
-{"book_id": "14781355", "genres": {"fiction": 401, "romance": 6, "history, historical fiction, biography": 3}}
+{"book_id": "14781355", "genres": {"fiction": 401, "romance": 6, "history": 3}}
 {"book_id": "18134258", "genres": {"fiction": 1, "fantasy, paranormal": 2, "romance": 1}}
 {"book_id": "16693035", "genres": {"fiction": 1}}
-{"book_id": "11993624", "genres": {"romance": 18, "history, historical fiction, biography": 15, "fiction": 4}}
+{"book_id": "11993624", "genres": {"romance": 18, "history": 15, "fiction": 4}}
 {"book_id": "316999", "genres": {"fiction": 2}}
-{"book_id": "968456", "genres": {"non-fiction": 21, "mystery, thriller, crime": 16, "history, historical fiction, biography": 6, "fiction": 1}}
+{"book_id": "968456", "genres": {"non-fiction": 21, "mystery": 16, "history": 6, "fiction": 1}}
 {"book_id": "25698032", "genres": {}}
-{"book_id": "16250763", "genres": {"non-fiction": 4, "history, historical fiction, biography": 2}}
+{"book_id": "16250763", "genres": {"non-fiction": 4, "history": 2}}
 {"book_id": "21243294", "genres": {"non-fiction": 2}}
 {"book_id": "24494834", "genres": {"fantasy, paranormal": 7, "romance": 3}}
-{"book_id": "12182388", "genres": {"young-adult": 108, "fantasy, paranormal": 170, "romance": 54, "fiction": 27, "mystery, thriller, crime": 4}}
+{"book_id": "12182388", "genres": {"young-adult": 108, "fantasy, paranormal": 170, "romance": 54, "fiction": 27, "mystery": 4}}
 {"book_id": "16250767", "genres": {"children": 3, "young-adult": 1}}
 {"book_id": "9955028", "genres": {"fiction": 11, "fantasy, paranormal": 1, "romance": -1}}
 {"book_id": "16250765", "genres": {"children": 4, "fiction": 1}}
 {"book_id": "16250764", "genres": {"children": 3, "fiction": 1}}
 {"book_id": "20971607", "genres": {}}
 {"book_id": "25896980", "genres": {"fantasy, paranormal": 5270, "fiction": 3471, "children": 5234, "young-adult": 853, "poetry": 71}}
-{"book_id": "15773972", "genres": {"mystery, thriller, crime": 1, "history, historical fiction, biography": 2, "fiction": 2, "non-fiction": 2}}
-{"book_id": "20971603", "genres": {"fiction": 2053, "history, historical fiction, biography": 1968, "young-adult": 1495, "fantasy, paranormal": 217, "romance": 147, "mystery, thriller, crime": 101}}
+{"book_id": "15773972", "genres": {"mystery": 1, "history": 2, "fiction": 2, "non-fiction": 2}}
+{"book_id": "20971603", "genres": {"fiction": 2053, "history": 1968, "young-adult": 1495, "fantasy, paranormal": 217, "romance": 147, "mystery": 101}}
 {"book_id": "24614930", "genres": {"romance": 14}}
 {"book_id": "26106940", "genres": {}}
-{"book_id": "353523", "genres": {"fiction": 188, "mystery, thriller, crime": 393}}
+{"book_id": "353523", "genres": {"fiction": 188, "mystery": 393}}
 {"book_id": "20882018", "genres": {"fiction": 1}}
 {"book_id": "26106944", "genres": {"romance": 1}}
 {"book_id": "16037540", "genres": {"fantasy, paranormal": 451, "fiction": 47, "young-adult": 19, "romance": 3}}
-{"book_id": "20882013", "genres": {"mystery, thriller, crime": 12, "fiction": 1}}
-{"book_id": "20882012", "genres": {"history, historical fiction, biography": 215, "non-fiction": 127}}
-{"book_id": "958988", "genres": {"history, historical fiction, biography": 54, "romance": 77, "fiction": 8}}
-{"book_id": "18628484", "genres": {"mystery, thriller, crime": 1}}
-{"book_id": "6468516", "genres": {"non-fiction": 3, "history, historical fiction, biography": 5, "comics, graphic": 1}}
+{"book_id": "20882013", "genres": {"mystery": 12, "fiction": 1}}
+{"book_id": "20882012", "genres": {"history": 215, "non-fiction": 127}}
+{"book_id": "958988", "genres": {"history": 54, "romance": 77, "fiction": 8}}
+{"book_id": "18628484", "genres": {"mystery": 1}}
+{"book_id": "6468516", "genres": {"non-fiction": 3, "history": 5, "comics, graphic": 1}}
 {"book_id": "25518199", "genres": {"fantasy, paranormal": 1}}
-{"book_id": "20193550", "genres": {"non-fiction": 50, "history, historical fiction, biography": 16}}
-{"book_id": "31685294", "genres": {"romance": 1, "mystery, thriller, crime": 1}}
-{"book_id": "926660", "genres": {"mystery, thriller, crime": 771, "fiction": 118, "romance": 12}}
+{"book_id": "20193550", "genres": {"non-fiction": 50, "history": 16}}
+{"book_id": "31685294", "genres": {"romance": 1, "mystery": 1}}
+{"book_id": "926660", "genres": {"mystery": 771, "fiction": 118, "romance": 12}}
 {"book_id": "7030881", "genres": {"fiction": 1}}
 {"book_id": "926662", "genres": {"poetry": 10, "children": 9, "fiction": 1, "non-fiction": 1, "comics, graphic": 1, "fantasy, paranormal": 1}}
-{"book_id": "926665", "genres": {"mystery, thriller, crime": 456, "fiction": 59}}
+{"book_id": "926665", "genres": {"mystery": 456, "fiction": 59}}
 {"book_id": "926667", "genres": {"fiction": 30, "poetry": 29}}
 {"book_id": "15773978", "genres": {}}
 {"book_id": "8674855", "genres": {"fiction": 0, "fantasy, paranormal": 1}}
 {"book_id": "16103386", "genres": {"fantasy, paranormal": 1}}
-{"book_id": "16103380", "genres": {"fiction": 6, "history, historical fiction, biography": 1}}
+{"book_id": "16103380", "genres": {"fiction": 6, "history": 1}}
 {"book_id": "16081442", "genres": {"romance": 2}}
-{"book_id": "10573356", "genres": {"fiction": 6873, "mystery, thriller, crime": 811, "history, historical fiction, biography": 504}}
-{"book_id": "10573355", "genres": {"mystery, thriller, crime": 2}}
+{"book_id": "10573356", "genres": {"fiction": 6873, "mystery": 811, "history": 504}}
+{"book_id": "10573355", "genres": {"mystery": 2}}
 {"book_id": "16103388", "genres": {"fiction": 2}}
-{"book_id": "9684424", "genres": {"young-adult": 32, "fiction": 24, "mystery, thriller, crime": 10}}
-{"book_id": "8037411", "genres": {"children": 436, "fiction": 172, "young-adult": 38, "history, historical fiction, biography": 29}}
-{"book_id": "8529354", "genres": {"non-fiction": 94, "history, historical fiction, biography": 33}}
-{"book_id": "11738076", "genres": {"fiction": 14, "history, historical fiction, biography": 16}}
-{"book_id": "6866862", "genres": {"children": 51, "fiction": 9, "fantasy, paranormal": 9, "mystery, thriller, crime": 7, "young-adult": 5}}
-{"book_id": "2097274", "genres": {"history, historical fiction, biography": 2, "fiction": 2}}
+{"book_id": "9684424", "genres": {"young-adult": 32, "fiction": 24, "mystery": 10}}
+{"book_id": "8037411", "genres": {"children": 436, "fiction": 172, "young-adult": 38, "history": 29}}
+{"book_id": "8529354", "genres": {"non-fiction": 94, "history": 33}}
+{"book_id": "11738076", "genres": {"fiction": 14, "history": 16}}
+{"book_id": "6866862", "genres": {"children": 51, "fiction": 9, "fantasy, paranormal": 9, "mystery": 7, "young-adult": 5}}
+{"book_id": "2097274", "genres": {"history": 2, "fiction": 2}}
 {"book_id": "28094336", "genres": {"fiction": 1, "poetry": 1}}
-{"book_id": "25421507", "genres": {"young-adult": 4, "mystery, thriller, crime": 1, "fiction": 7, "history, historical fiction, biography": 1}}
+{"book_id": "25421507", "genres": {"young-adult": 4, "mystery": 1, "fiction": 7, "history": 1}}
 {"book_id": "36171424", "genres": {"romance": 4}}
 {"book_id": "25162658", "genres": {"romance": 20, "fantasy, paranormal": 22}}
-{"book_id": "4352776", "genres": {"history, historical fiction, biography": 1}}
+{"book_id": "4352776", "genres": {"history": 1}}
 {"book_id": "28669888", "genres": {}}
-{"book_id": "16174656", "genres": {"fiction": 16, "comics, graphic": 5, "mystery, thriller, crime": 1}}
+{"book_id": "16174656", "genres": {"fiction": 16, "comics, graphic": 5, "mystery": 1}}
 {"book_id": "30413316", "genres": {}}
 {"book_id": "1187380", "genres": {}}
 {"book_id": "18656391", "genres": {"fantasy, paranormal": 1526, "fiction": 139, "romance": 8}}
 {"book_id": "11371089", "genres": {}}
 {"book_id": "31738891", "genres": {"romance": 12}}
-{"book_id": "7351310", "genres": {"history, historical fiction, biography": 4, "non-fiction": 4}}
-{"book_id": "7214750", "genres": {"non-fiction": 3, "history, historical fiction, biography": 2}}
-{"book_id": "20236329", "genres": {"fiction": 180, "history, historical fiction, biography": 13, "young-adult": 5, "fantasy, paranormal": 3}}
-{"book_id": "6375329", "genres": {"fiction": 2, "history, historical fiction, biography": 2, "romance": 1}}
-{"book_id": "28251011", "genres": {"non-fiction": 42, "history, historical fiction, biography": 2}}
+{"book_id": "7351310", "genres": {"history": 4, "non-fiction": 4}}
+{"book_id": "7214750", "genres": {"non-fiction": 3, "history": 2}}
+{"book_id": "20236329", "genres": {"fiction": 180, "history": 13, "young-adult": 5, "fantasy, paranormal": 3}}
+{"book_id": "6375329", "genres": {"fiction": 2, "history": 2, "romance": 1}}
+{"book_id": "28251011", "genres": {"non-fiction": 42, "history": 2}}
 {"book_id": "828185", "genres": {"children": 9, "comics, graphic": 1}}
 {"book_id": "31124996", "genres": {"romance": 347, "young-adult": 79, "fiction": 19}}
-{"book_id": "31124995", "genres": {"romance": 33, "mystery, thriller, crime": 7}}
-{"book_id": "31124994", "genres": {"fiction": 322, "history, historical fiction, biography": 59, "romance": 22}}
-{"book_id": "828180", "genres": {"history, historical fiction, biography": 105, "non-fiction": 56}}
-{"book_id": "23301515", "genres": {"fiction": 7, "non-fiction": 2, "history, historical fiction, biography": -3}}
+{"book_id": "31124995", "genres": {"romance": 33, "mystery": 7}}
+{"book_id": "31124994", "genres": {"fiction": 322, "history": 59, "romance": 22}}
+{"book_id": "828180", "genres": {"history": 105, "non-fiction": 56}}
+{"book_id": "23301515", "genres": {"fiction": 7, "non-fiction": 2, "history": -3}}
 {"book_id": "12752275", "genres": {"non-fiction": 3, "young-adult": 1}}
-{"book_id": "828189", "genres": {"fiction": 825, "fantasy, paranormal": 507, "romance": 45, "history, historical fiction, biography": 64, "young-adult": 36, "children": 31, "mystery, thriller, crime": 11}}
-{"book_id": "23301510", "genres": {"mystery, thriller, crime": 78, "fiction": 6}}
+{"book_id": "828189", "genres": {"fiction": 825, "fantasy, paranormal": 507, "romance": 45, "history": 64, "young-adult": 36, "children": 31, "mystery": 11}}
+{"book_id": "23301510", "genres": {"mystery": 78, "fiction": 6}}
 {"book_id": "31124999", "genres": {"fantasy, paranormal": 2, "romance": 1}}
 {"book_id": "18396714", "genres": {}}
-{"book_id": "23336818", "genres": {"mystery, thriller, crime": 1}}
-{"book_id": "17279616", "genres": {"fiction": 32, "history, historical fiction, biography": 7, "romance": 2, "non-fiction": 1}}
-{"book_id": "6646561", "genres": {"mystery, thriller, crime": 1736, "fiction": 272, "romance": 9}}
-{"book_id": "25719218", "genres": {"non-fiction": 41, "history, historical fiction, biography": 26, "fiction": 3, "comics, graphic": 2}}
+{"book_id": "23336818", "genres": {"mystery": 1}}
+{"book_id": "17279616", "genres": {"fiction": 32, "history": 7, "romance": 2, "non-fiction": 1}}
+{"book_id": "6646561", "genres": {"mystery": 1736, "fiction": 272, "romance": 9}}
+{"book_id": "25719218", "genres": {"non-fiction": 41, "history": 26, "fiction": 3, "comics, graphic": 2}}
 {"book_id": "30056199", "genres": {"romance": 177, "fiction": 11}}
-{"book_id": "1488662", "genres": {"history, historical fiction, biography": 7}}
+{"book_id": "1488662", "genres": {"history": 7}}
 {"book_id": "1488663", "genres": {"fiction": 18, "fantasy, paranormal": 7, "children": 1, "non-fiction": 1}}
-{"book_id": "1488661", "genres": {"history, historical fiction, biography": 2}}
-{"book_id": "27255991", "genres": {"history, historical fiction, biography": 1, "comics, graphic": 1}}
+{"book_id": "1488661", "genres": {"history": 2}}
+{"book_id": "27255991", "genres": {"history": 1, "comics, graphic": 1}}
 {"book_id": "29065952", "genres": {"poetry": 2}}
 {"book_id": "19407047", "genres": {"romance": 25, "fiction": 2}}
-{"book_id": "1263542", "genres": {"non-fiction": 2, "history, historical fiction, biography": 2}}
-{"book_id": "30807926", "genres": {"fantasy, paranormal": 67, "romance": 31, "mystery, thriller, crime": 2, "fiction": 2}}
-{"book_id": "1263540", "genres": {"history, historical fiction, biography": 8, "non-fiction": 12}}
+{"book_id": "1263542", "genres": {"non-fiction": 2, "history": 2}}
+{"book_id": "30807926", "genres": {"fantasy, paranormal": 67, "romance": 31, "mystery": 2, "fiction": 2}}
+{"book_id": "1263540", "genres": {"history": 8, "non-fiction": 12}}
 {"book_id": "13598466", "genres": {}}
 {"book_id": "22926146", "genres": {}}
-{"book_id": "1263548", "genres": {"fiction": 239, "history, historical fiction, biography": 237, "non-fiction": 8, "fantasy, paranormal": 2}}
-{"book_id": "22926143", "genres": {"romance": 31, "fiction": 2, "mystery, thriller, crime": 6}}
+{"book_id": "1263548", "genres": {"fiction": 239, "history": 237, "non-fiction": 8, "fantasy, paranormal": 2}}
+{"book_id": "22926143", "genres": {"romance": 31, "fiction": 2, "mystery": 6}}
 {"book_id": "1035130", "genres": {}}
 {"book_id": "29345617", "genres": {"romance": 9, "young-adult": 3}}
 {"book_id": "35129404", "genres": {"romance": 5}}
-{"book_id": "16180168", "genres": {"fiction": 155, "history, historical fiction, biography": 37, "fantasy, paranormal": 2}}
-{"book_id": "6642589", "genres": {"history, historical fiction, biography": 3}}
+{"book_id": "16180168", "genres": {"fiction": 155, "history": 37, "fantasy, paranormal": 2}}
+{"book_id": "6642589", "genres": {"history": 3}}
 {"book_id": "13598469", "genres": {"non-fiction": 1, "comics, graphic": 1}}
 {"book_id": "2471303", "genres": {}}
 {"book_id": "25046281", "genres": {}}
-{"book_id": "2471306", "genres": {"history, historical fiction, biography": 263, "non-fiction": 74, "fiction": 9, "comics, graphic": 2}}
+{"book_id": "2471306", "genres": {"history": 263, "non-fiction": 74, "fiction": 9, "comics, graphic": 2}}
 {"book_id": "2471304", "genres": {"fiction": 1}}
 {"book_id": "25046284", "genres": {}}
 {"book_id": "12624257", "genres": {"children": 3}}
-{"book_id": "32065872", "genres": {"fantasy, paranormal": 23, "romance": 18, "mystery, thriller, crime": 5}}
+{"book_id": "32065872", "genres": {"fantasy, paranormal": 23, "romance": 18, "mystery": 5}}
 {"book_id": "11880408", "genres": {}}
-{"book_id": "31144338", "genres": {"mystery, thriller, crime": 3}}
+{"book_id": "31144338", "genres": {"mystery": 3}}
 {"book_id": "13637105", "genres": {}}
 {"book_id": "11691537", "genres": {"fiction": 1}}
-{"book_id": "17871524", "genres": {"mystery, thriller, crime": 2, "fiction": 1, "romance": 1}}
+{"book_id": "17871524", "genres": {"mystery": 2, "fiction": 1, "romance": 1}}
 {"book_id": "4824808", "genres": {}}
-{"book_id": "32970513", "genres": {"fantasy, paranormal": 58, "romance": 15, "fiction": 17, "comics, graphic": 7, "history, historical fiction, biography": 1}}
-{"book_id": "17871520", "genres": {"non-fiction": 7, "history, historical fiction, biography": 10}}
-{"book_id": "25414982", "genres": {"young-adult": 15, "romance": 10, "mystery, thriller, crime": 10, "fiction": 4}}
+{"book_id": "32970513", "genres": {"fantasy, paranormal": 58, "romance": 15, "fiction": 17, "comics, graphic": 7, "history": 1}}
+{"book_id": "17871520", "genres": {"non-fiction": 7, "history": 10}}
+{"book_id": "25414982", "genres": {"young-adult": 15, "romance": 10, "mystery": 10, "fiction": 4}}
 {"book_id": "25414981", "genres": {}}
-{"book_id": "35912936", "genres": {"mystery, thriller, crime": 2, "comics, graphic": 1, "romance": 2}}
-{"book_id": "25396192", "genres": {"history, historical fiction, biography": 2, "romance": 1}}
+{"book_id": "35912936", "genres": {"mystery": 2, "comics, graphic": 1, "romance": 2}}
+{"book_id": "25396192", "genres": {"history": 2, "romance": 1}}
 {"book_id": "25414989", "genres": {"children": 1}}
-{"book_id": "32336119", "genres": {"romance": 84, "mystery, thriller, crime": 4, "fiction": 6}}
-{"book_id": "32317911", "genres": {"history, historical fiction, biography": 1}}
+{"book_id": "32336119", "genres": {"romance": 84, "mystery": 4, "fiction": 6}}
+{"book_id": "32317911", "genres": {"history": 1}}
 {"book_id": "32317913", "genres": {"romance": 3}}
 {"book_id": "34680604", "genres": {"children": 2}}
-{"book_id": "30340820", "genres": {"fiction": 164, "fantasy, paranormal": 84, "mystery, thriller, crime": 29}}
+{"book_id": "30340820", "genres": {"fiction": 164, "fantasy, paranormal": 84, "mystery": 29}}
 {"book_id": "30340821", "genres": {"romance": 2}}
 {"book_id": "34680601", "genres": {}}
-{"book_id": "23003914", "genres": {"mystery, thriller, crime": 321, "romance": 97, "fiction": 39}}
+{"book_id": "23003914", "genres": {"mystery": 321, "romance": 97, "fiction": 39}}
 {"book_id": "30340824", "genres": {"romance": 3}}
 {"book_id": "13639108", "genres": {}}
 {"book_id": "30330416", "genres": {}}
-{"book_id": "388674", "genres": {"mystery, thriller, crime": 237, "fiction": 192, "history, historical fiction, biography": 245}}
+{"book_id": "388674", "genres": {"mystery": 237, "fiction": 192, "history": 245}}
 {"book_id": "18624033", "genres": {"fantasy, paranormal": 1, "young-adult": 2}}
 {"book_id": "388676", "genres": {"children": 8, "fiction": 2}}
 {"book_id": "30330413", "genres": {"fiction": 1}}
 {"book_id": "388678", "genres": {"romance": 54, "fiction": 7, "fantasy, paranormal": 3}}
-{"book_id": "11981294", "genres": {"fiction": 49, "history, historical fiction, biography": 36, "romance": 3}}
-{"book_id": "7295549", "genres": {"fiction": 15, "non-fiction": 7, "history, historical fiction, biography": 10}}
-{"book_id": "10729354", "genres": {"mystery, thriller, crime": 5}}
-{"book_id": "25205644", "genres": {"mystery, thriller, crime": 20, "history, historical fiction, biography": 5, "fantasy, paranormal": 5, "romance": 1, "fiction": 1}}
+{"book_id": "11981294", "genres": {"fiction": 49, "history": 36, "romance": 3}}
+{"book_id": "7295549", "genres": {"fiction": 15, "non-fiction": 7, "history": 10}}
+{"book_id": "10729354", "genres": {"mystery": 5}}
+{"book_id": "25205644", "genres": {"mystery": 20, "history": 5, "fantasy, paranormal": 5, "romance": 1, "fiction": 1}}
 {"book_id": "24700112", "genres": {}}
 {"book_id": "23943020", "genres": {}}
-{"book_id": "13374002", "genres": {"fantasy, paranormal": 77, "fiction": 89, "children": 141, "mystery, thriller, crime": 33, "young-adult": 26}}
-{"book_id": "28385532", "genres": {"history, historical fiction, biography": 31, "non-fiction": 7}}
-{"book_id": "35235890", "genres": {"non-fiction": 40, "poetry": 32, "fiction": 11, "history, historical fiction, biography": 9}}
+{"book_id": "13374002", "genres": {"fantasy, paranormal": 77, "fiction": 89, "children": 141, "mystery": 33, "young-adult": 26}}
+{"book_id": "28385532", "genres": {"history": 31, "non-fiction": 7}}
+{"book_id": "35235890", "genres": {"non-fiction": 40, "poetry": 32, "fiction": 11, "history": 9}}
 {"book_id": "11387072", "genres": {"non-fiction": 1}}
-{"book_id": "18498572", "genres": {"history, historical fiction, biography": 30, "non-fiction": 6}}
-{"book_id": "89588", "genres": {"fiction": 130, "fantasy, paranormal": 86, "mystery, thriller, crime": 1}}
-{"book_id": "18522274", "genres": {"young-adult": 24, "fiction": 20, "romance": 10, "fantasy, paranormal": 9, "mystery, thriller, crime": 1}}
-{"book_id": "11827783", "genres": {"mystery, thriller, crime": 26, "comics, graphic": 55, "fiction": 9, "history, historical fiction, biography": 7, "non-fiction": 1, "young-adult": 1}}
-{"book_id": "26160213", "genres": {"romance": 72, "mystery, thriller, crime": 9, "fiction": 2}}
-{"book_id": "12349665", "genres": {"comics, graphic": 69, "fiction": 15, "mystery, thriller, crime": 17, "fantasy, paranormal": 4}}
+{"book_id": "18498572", "genres": {"history": 30, "non-fiction": 6}}
+{"book_id": "89588", "genres": {"fiction": 130, "fantasy, paranormal": 86, "mystery": 1}}
+{"book_id": "18522274", "genres": {"young-adult": 24, "fiction": 20, "romance": 10, "fantasy, paranormal": 9, "mystery": 1}}
+{"book_id": "11827783", "genres": {"mystery": 26, "comics, graphic": 55, "fiction": 9, "history": 7, "non-fiction": 1, "young-adult": 1}}
+{"book_id": "26160213", "genres": {"romance": 72, "mystery": 9, "fiction": 2}}
+{"book_id": "12349665", "genres": {"comics, graphic": 69, "fiction": 15, "mystery": 17, "fantasy, paranormal": 4}}
 {"book_id": "257654", "genres": {"children": 2, "fiction": 3}}
-{"book_id": "17262776", "genres": {"fiction": 35, "history, historical fiction, biography": 39, "young-adult": 29, "children": 1, "romance": 1}}
+{"book_id": "17262776", "genres": {"fiction": 35, "history": 39, "young-adult": 29, "children": 1, "romance": 1}}
 {"book_id": "26145465", "genres": {}}
 {"book_id": "257651", "genres": {"non-fiction": 1}}
 {"book_id": "15861987", "genres": {"fantasy, paranormal": 2, "children": 1}}
-{"book_id": "257653", "genres": {"history, historical fiction, biography": 3}}
+{"book_id": "257653", "genres": {"history": 3}}
 {"book_id": "15861985", "genres": {"romance": 12, "fiction": 3, "young-adult": 1}}
-{"book_id": "12349663", "genres": {"comics, graphic": 64, "fiction": 16, "mystery, thriller, crime": 16, "fantasy, paranormal": 1}}
+{"book_id": "12349663", "genres": {"comics, graphic": 64, "fiction": 16, "mystery": 16, "fantasy, paranormal": 1}}
 {"book_id": "15861988", "genres": {"poetry": 3}}
-{"book_id": "1561754", "genres": {"non-fiction": 13, "children": 17, "fiction": 2, "poetry": 1, "history, historical fiction, biography": 1, "young-adult": 1}}
+{"book_id": "1561754", "genres": {"non-fiction": 13, "children": 17, "fiction": 2, "poetry": 1, "history": 1, "young-adult": 1}}
 {"book_id": "16066751", "genres": {}}
 {"book_id": "89583", "genres": {"fiction": 136, "fantasy, paranormal": 72}}
 {"book_id": "36442770", "genres": {}}
 {"book_id": "16066755", "genres": {}}
 {"book_id": "16066754", "genres": {}}
 {"book_id": "17937228", "genres": {"children": 2, "comics, graphic": 1}}
-{"book_id": "14427277", "genres": {"history, historical fiction, biography": 2, "children": 3, "non-fiction": 1}}
+{"book_id": "14427277", "genres": {"history": 2, "children": 3, "non-fiction": 1}}
 {"book_id": "28950979", "genres": {"romance": 6, "fiction": 3}}
 {"book_id": "11890856", "genres": {"young-adult": 1869, "fantasy, paranormal": 2644, "romance": 1163, "fiction": 310}}
-{"book_id": "11890857", "genres": {"fantasy, paranormal": 145, "romance": 167, "history, historical fiction, biography": 95, "fiction": 15}}
+{"book_id": "11890857", "genres": {"fantasy, paranormal": 145, "romance": 167, "history": 95, "fiction": 15}}
 {"book_id": "11890850", "genres": {}}
 {"book_id": "14427270", "genres": {}}
 {"book_id": "32615018", "genres": {}}
 {"book_id": "25208146", "genres": {"fiction": 1}}
-{"book_id": "25208140", "genres": {"mystery, thriller, crime": 36, "romance": 33, "fiction": 8}}
+{"book_id": "25208140", "genres": {"mystery": 36, "romance": 33, "fiction": 8}}
 {"book_id": "1907188", "genres": {}}
-{"book_id": "25208148", "genres": {"mystery, thriller, crime": 138, "children": 203, "fiction": 126, "young-adult": 61, "fantasy, paranormal": 34, "history, historical fiction, biography": 33}}
+{"book_id": "25208148", "genres": {"mystery": 138, "children": 203, "fiction": 126, "young-adult": 61, "fantasy, paranormal": 34, "history": 33}}
 {"book_id": "25208149", "genres": {"fiction": 1}}
 {"book_id": "16111978", "genres": {}}
 {"book_id": "3324070", "genres": {}}
 {"book_id": "30735315", "genres": {"comics, graphic": 32, "fantasy, paranormal": 5}}
-{"book_id": "8342870", "genres": {"history, historical fiction, biography": 2, "romance": 1, "fiction": 4}}
+{"book_id": "8342870", "genres": {"history": 2, "romance": 1, "fiction": 4}}
 {"book_id": "17313129", "genres": {"fantasy, paranormal": 8, "romance": 3, "young-adult": 3}}
 {"book_id": "3760643", "genres": {"fiction": 5}}
-{"book_id": "18527178", "genres": {"fantasy, paranormal": 275, "young-adult": 250, "romance": 85, "fiction": 68, "mystery, thriller, crime": 9}}
+{"book_id": "18527178", "genres": {"fantasy, paranormal": 275, "young-adult": 250, "romance": 85, "fiction": 68, "mystery": 9}}
 {"book_id": "30193082", "genres": {}}
 {"book_id": "13519484", "genres": {"fantasy, paranormal": 39, "young-adult": 20, "romance": 7, "fiction": 3}}
 {"book_id": "11342865", "genres": {}}
@@ -354,96 +354,96 @@
 {"book_id": "13519483", "genres": {"romance": 2}}
 {"book_id": "28191455", "genres": {}}
 {"book_id": "16731475", "genres": {}}
-{"book_id": "12725797", "genres": {"fiction": 3, "mystery, thriller, crime": 1, "fantasy, paranormal": 1}}
+{"book_id": "12725797", "genres": {"fiction": 3, "mystery": 1, "fantasy, paranormal": 1}}
 {"book_id": "19016508", "genres": {"romance": 10, "fantasy, paranormal": 14}}
 {"book_id": "21771068", "genres": {"non-fiction": 1}}
-{"book_id": "13519488", "genres": {"history, historical fiction, biography": 3697, "romance": 4396, "fiction": 548}}
+{"book_id": "13519488", "genres": {"history": 3697, "romance": 4396, "fiction": 548}}
 {"book_id": "12725792", "genres": {"romance": 6, "fiction": 4}}
 {"book_id": "17405342", "genres": {"romance": 8, "comics, graphic": 7, "young-adult": 1}}
 {"book_id": "25635139", "genres": {}}
 {"book_id": "25635138", "genres": {}}
-{"book_id": "8498672", "genres": {"history, historical fiction, biography": 26, "non-fiction": 7}}
+{"book_id": "8498672", "genres": {"history": 26, "non-fiction": 7}}
 {"book_id": "1103031", "genres": {"non-fiction": 2}}
-{"book_id": "2741850", "genres": {"fantasy, paranormal": 1758, "romance": 317, "fiction": 153, "mystery, thriller, crime": 38}}
+{"book_id": "2741850", "genres": {"fantasy, paranormal": 1758, "romance": 317, "fiction": 153, "mystery": 38}}
 {"book_id": "2741853", "genres": {"romance": 555, "fiction": 61}}
 {"book_id": "12597209", "genres": {"young-adult": 13, "fiction": 15, "fantasy, paranormal": 2}}
-{"book_id": "26185014", "genres": {"mystery, thriller, crime": 5, "fiction": 3, "non-fiction": 1}}
+{"book_id": "26185014", "genres": {"mystery": 5, "fiction": 3, "non-fiction": 1}}
 {"book_id": "28820570", "genres": {}}
-{"book_id": "28820571", "genres": {"fiction": 623, "history, historical fiction, biography": 489, "romance": 112}}
-{"book_id": "1877618", "genres": {"non-fiction": 15, "fiction": 5, "history, historical fiction, biography": 2}}
-{"book_id": "117707", "genres": {"history, historical fiction, biography": 17, "non-fiction": 7, "comics, graphic": 1}}
+{"book_id": "28820571", "genres": {"fiction": 623, "history": 489, "romance": 112}}
+{"book_id": "1877618", "genres": {"non-fiction": 15, "fiction": 5, "history": 2}}
+{"book_id": "117707", "genres": {"history": 17, "non-fiction": 7, "comics, graphic": 1}}
 {"book_id": "29391170", "genres": {}}
 {"book_id": "12597207", "genres": {"young-adult": 3, "fantasy, paranormal": 3, "fiction": 2}}
-{"book_id": "12077902", "genres": {"fiction": 2695, "fantasy, paranormal": 358, "romance": 25, "mystery, thriller, crime": 23}}
+{"book_id": "12077902", "genres": {"fiction": 2695, "fantasy, paranormal": 358, "romance": 25, "mystery": 23}}
 {"book_id": "1887702", "genres": {"non-fiction": 1}}
-{"book_id": "10315513", "genres": {"fiction": 9, "history, historical fiction, biography": 6, "romance": 2}}
-{"book_id": "958987", "genres": {"fiction": 13, "romance": 3, "history, historical fiction, biography": 1}}
+{"book_id": "10315513", "genres": {"fiction": 9, "history": 6, "romance": 2}}
+{"book_id": "958987", "genres": {"fiction": 13, "romance": 3, "history": 1}}
 {"book_id": "6016342", "genres": {}}
-{"book_id": "34910950", "genres": {"mystery, thriller, crime": 1, "non-fiction": 1, "history, historical fiction, biography": 2}}
-{"book_id": "7815674", "genres": {"fiction": 15, "non-fiction": 1, "history, historical fiction, biography": 1}}
-{"book_id": "7843586", "genres": {"romance": 232, "fiction": 11, "mystery, thriller, crime": 6}}
+{"book_id": "34910950", "genres": {"mystery": 1, "non-fiction": 1, "history": 2}}
+{"book_id": "7815674", "genres": {"fiction": 15, "non-fiction": 1, "history": 1}}
+{"book_id": "7843586", "genres": {"romance": 232, "fiction": 11, "mystery": 6}}
 {"book_id": "7815670", "genres": {}}
 {"book_id": "7815672", "genres": {}}
 {"book_id": "34404233", "genres": {"romance": 32, "fiction": 1}}
 {"book_id": "34404230", "genres": {"romance": 4, "fiction": 1}}
 {"book_id": "13569478", "genres": {"children": 7, "fiction": 1}}
 {"book_id": "16074814", "genres": {"children": 33, "fiction": 5, "fantasy, paranormal": 1}}
-{"book_id": "18663978", "genres": {"fiction": 152, "mystery, thriller, crime": 165, "non-fiction": 2}}
-{"book_id": "28144874", "genres": {"fiction": 830, "mystery, thriller, crime": 1272, "fantasy, paranormal": 52}}
-{"book_id": "18663975", "genres": {"fiction": 337, "fantasy, paranormal": 39, "mystery, thriller, crime": 5}}
-{"book_id": "18663972", "genres": {"romance": 291, "fiction": 203, "fantasy, paranormal": 306, "young-adult": 17, "mystery, thriller, crime": 21}}
+{"book_id": "18663978", "genres": {"fiction": 152, "mystery": 165, "non-fiction": 2}}
+{"book_id": "28144874", "genres": {"fiction": 830, "mystery": 1272, "fantasy, paranormal": 52}}
+{"book_id": "18663975", "genres": {"fiction": 337, "fantasy, paranormal": 39, "mystery": 5}}
+{"book_id": "18663972", "genres": {"romance": 291, "fiction": 203, "fantasy, paranormal": 306, "young-adult": 17, "mystery": 21}}
 {"book_id": "8425263", "genres": {"fiction": 15}}
 {"book_id": "8425260", "genres": {"non-fiction": 2}}
-{"book_id": "28484700", "genres": {"romance": 4, "fiction": 4, "mystery, thriller, crime": 4}}
+{"book_id": "28484700", "genres": {"romance": 4, "fiction": 4, "mystery": 4}}
 {"book_id": "6452080", "genres": {"non-fiction": 4}}
-{"book_id": "13340338", "genres": {"history, historical fiction, biography": 2}}
-{"book_id": "28109037", "genres": {"non-fiction": 1059, "history, historical fiction, biography": 435, "comics, graphic": 9}}
+{"book_id": "13340338", "genres": {"history": 2}}
+{"book_id": "28109037", "genres": {"non-fiction": 1059, "history": 435, "comics, graphic": 9}}
 {"book_id": "15190785", "genres": {}}
 {"book_id": "22701782", "genres": {"romance": 12, "children": 1, "fiction": 1}}
 {"book_id": "34114533", "genres": {}}
-{"book_id": "13340336", "genres": {"comics, graphic": 68, "fiction": 16, "mystery, thriller, crime": 17, "fantasy, paranormal": 4}}
+{"book_id": "13340336", "genres": {"comics, graphic": 68, "fiction": 16, "mystery": 17, "fantasy, paranormal": 4}}
 {"book_id": "17399275", "genres": {}}
 {"book_id": "7943805", "genres": {"romance": 31, "fiction": 4}}
-{"book_id": "9176116", "genres": {"fantasy, paranormal": 2872, "romance": 913, "fiction": 104, "mystery, thriller, crime": 15}}
-{"book_id": "24835465", "genres": {"mystery, thriller, crime": 117, "fiction": 31}}
-{"book_id": "9402756", "genres": {"fantasy, paranormal": 1214, "romance": 155, "fiction": 82, "mystery, thriller, crime": 6, "young-adult": 5}}
-{"book_id": "17668616", "genres": {"mystery, thriller, crime": 2, "romance": 1, "fiction": 1}}
+{"book_id": "9176116", "genres": {"fantasy, paranormal": 2872, "romance": 913, "fiction": 104, "mystery": 15}}
+{"book_id": "24835465", "genres": {"mystery": 117, "fiction": 31}}
+{"book_id": "9402756", "genres": {"fantasy, paranormal": 1214, "romance": 155, "fiction": 82, "mystery": 6, "young-adult": 5}}
+{"book_id": "17668616", "genres": {"mystery": 2, "romance": 1, "fiction": 1}}
 {"book_id": "17668619", "genres": {"romance": 68, "fiction": 9, "fantasy, paranormal": 3}}
 {"book_id": "6136152", "genres": {}}
-{"book_id": "33022718", "genres": {"non-fiction": 224, "history, historical fiction, biography": 1}}
+{"book_id": "33022718", "genres": {"non-fiction": 224, "history": 1}}
 {"book_id": "18711347", "genres": {"fiction": 35, "romance": 10}}
-{"book_id": "18711345", "genres": {"history, historical fiction, biography": 1, "non-fiction": 1}}
+{"book_id": "18711345", "genres": {"history": 1, "non-fiction": 1}}
 {"book_id": "17794780", "genres": {"poetry": 1}}
 {"book_id": "18711343", "genres": {"comics, graphic": 17, "fiction": 2, "children": 2}}
-{"book_id": "18711342", "genres": {"romance": 2975, "history, historical fiction, biography": 2429, "fiction": 503, "fantasy, paranormal": 50}}
-{"book_id": "1650286", "genres": {"fiction": 3, "mystery, thriller, crime": 23, "romance": 1}}
-{"book_id": "17794787", "genres": {"fiction": 98, "history, historical fiction, biography": 31, "mystery, thriller, crime": 24}}
-{"book_id": "22374354", "genres": {"mystery, thriller, crime": 64, "fiction": 10, "history, historical fiction, biography": 1, "romance": 1}}
-{"book_id": "3113048", "genres": {"fiction": 518, "mystery, thriller, crime": 506}}
-{"book_id": "2168736", "genres": {"fiction": 35, "history, historical fiction, biography": 2}}
+{"book_id": "18711342", "genres": {"romance": 2975, "history": 2429, "fiction": 503, "fantasy, paranormal": 50}}
+{"book_id": "1650286", "genres": {"fiction": 3, "mystery": 23, "romance": 1}}
+{"book_id": "17794787", "genres": {"fiction": 98, "history": 31, "mystery": 24}}
+{"book_id": "22374354", "genres": {"mystery": 64, "fiction": 10, "history": 1, "romance": 1}}
+{"book_id": "3113048", "genres": {"fiction": 518, "mystery": 506}}
+{"book_id": "2168736", "genres": {"fiction": 35, "history": 2}}
 {"book_id": "2168737", "genres": {"comics, graphic": 33, "fiction": 2}}
-{"book_id": "18711348", "genres": {"history, historical fiction, biography": 751, "romance": 822, "fiction": 99}}
+{"book_id": "18711348", "genres": {"history": 751, "romance": 822, "fiction": 99}}
 {"book_id": "25501128", "genres": {"romance": 72}}
 {"book_id": "581164", "genres": {"fantasy, paranormal": 60, "fiction": 23, "children": 3}}
 {"book_id": "581166", "genres": {"fantasy, paranormal": 53, "fiction": 18, "children": 1}}
-{"book_id": "10806009", "genres": {"young-adult": 319, "mystery, thriller, crime": 207, "romance": 151, "fantasy, paranormal": 80, "fiction": 115}}
-{"book_id": "10806008", "genres": {"fantasy, paranormal": 462, "fiction": 147, "children": 302, "young-adult": 82, "mystery, thriller, crime": 21}}
+{"book_id": "10806009", "genres": {"young-adult": 319, "mystery": 207, "romance": 151, "fantasy, paranormal": 80, "fiction": 115}}
+{"book_id": "10806008", "genres": {"fantasy, paranormal": 462, "fiction": 147, "children": 302, "young-adult": 82, "mystery": 21}}
 {"book_id": "18908446", "genres": {"non-fiction": 9, "fiction": 1}}
 {"book_id": "581162", "genres": {"fiction": 14, "fantasy, paranormal": 7, "children": 25, "young-adult": 5}}
-{"book_id": "10806005", "genres": {"non-fiction": 447, "history, historical fiction, biography": 264, "young-adult": 8}}
-{"book_id": "10806004", "genres": {"young-adult": 9, "fantasy, paranormal": 8, "mystery, thriller, crime": 2, "children": 4, "fiction": 2}}
+{"book_id": "10806005", "genres": {"non-fiction": 447, "history": 264, "young-adult": 8}}
+{"book_id": "10806004", "genres": {"young-adult": 9, "fantasy, paranormal": 8, "mystery": 2, "children": 4, "fiction": 2}}
 {"book_id": "11712594", "genres": {"fantasy, paranormal": 1676, "fiction": 298, "young-adult": 16}}
 {"book_id": "10806006", "genres": {"fiction": 13, "young-adult": 5, "children": 3, "romance": 1}}
 {"book_id": "581169", "genres": {"fiction": 1803, "children": 4670, "fantasy, paranormal": 1240, "young-adult": 388}}
 {"book_id": "9784572", "genres": {}}
 {"book_id": "25501126", "genres": {"non-fiction": 1}}
-{"book_id": "25501127", "genres": {"fiction": 927, "mystery, thriller, crime": 528, "fantasy, paranormal": 229}}
-{"book_id": "105639", "genres": {"fiction": 9, "romance": 1, "mystery, thriller, crime": 1}}
-{"book_id": "105638", "genres": {"non-fiction": 60, "history, historical fiction, biography": 32, "fiction": 6, "young-adult": 2, "comics, graphic": 2}}
-{"book_id": "18955715", "genres": {"fantasy, paranormal": 21, "comics, graphic": 27, "history, historical fiction, biography": 3, "fiction": 4, "young-adult": 3, "mystery, thriller, crime": 2}}
+{"book_id": "25501127", "genres": {"fiction": 927, "mystery": 528, "fantasy, paranormal": 229}}
+{"book_id": "105639", "genres": {"fiction": 9, "romance": 1, "mystery": 1}}
+{"book_id": "105638", "genres": {"non-fiction": 60, "history": 32, "fiction": 6, "young-adult": 2, "comics, graphic": 2}}
+{"book_id": "18955715", "genres": {"fantasy, paranormal": 21, "comics, graphic": 27, "history": 3, "fiction": 4, "young-adult": 3, "mystery": 2}}
 {"book_id": "31291952", "genres": {"fiction": 4407, "young-adult": 1898, "fantasy, paranormal": 2459, "romance": 71}}
 {"book_id": "13398212", "genres": {"fantasy, paranormal": 3, "fiction": 3}}
-{"book_id": "23615336", "genres": {"young-adult": 131, "fantasy, paranormal": 35, "fiction": 50, "romance": 32, "mystery, thriller, crime": 5}}
+{"book_id": "23615336", "genres": {"young-adult": 131, "fantasy, paranormal": 35, "fiction": 50, "romance": 32, "mystery": 5}}
 {"book_id": "105630", "genres": {"fiction": 1}}
 {"book_id": "12435882", "genres": {"children": 18, "fiction": 1}}
 {"book_id": "6459501", "genres": {}}
@@ -451,179 +451,179 @@
 {"book_id": "23825456", "genres": {"romance": 39, "fiction": 18, "fantasy, paranormal": 4}}
 {"book_id": "30199811", "genres": {"children": 12, "non-fiction": 1}}
 {"book_id": "3473240", "genres": {}}
-{"book_id": "19035291", "genres": {"mystery, thriller, crime": 2}}
-{"book_id": "7465463", "genres": {"history, historical fiction, biography": 2, "non-fiction": 3}}
+{"book_id": "19035291", "genres": {"mystery": 2}}
+{"book_id": "7465463", "genres": {"history": 2, "non-fiction": 3}}
 {"book_id": "7465461", "genres": {}}
-{"book_id": "6719824", "genres": {"fiction": 4370, "young-adult": 792, "history, historical fiction, biography": 1052, "children": 2161, "fantasy, paranormal": 422, "mystery, thriller, crime": 48}}
+{"book_id": "6719824", "genres": {"fiction": 4370, "young-adult": 792, "history": 1052, "children": 2161, "fantasy, paranormal": 422, "mystery": 48}}
 {"book_id": "6719825", "genres": {"romance": 1}}
 {"book_id": "12504534", "genres": {"fiction": 3, "non-fiction": 1}}
 {"book_id": "6719823", "genres": {"romance": 2}}
 {"book_id": "1403505", "genres": {"fiction": 8, "young-adult": 3, "children": 1, "non-fiction": -1}}
 {"book_id": "6719828", "genres": {"romance": 8, "fiction": 5}}
-{"book_id": "9848978", "genres": {"romance": 24, "mystery, thriller, crime": 5, "fiction": 2}}
-{"book_id": "21820225", "genres": {"mystery, thriller, crime": 612, "fiction": 114, "history, historical fiction, biography": 19}}
-{"book_id": "19115865", "genres": {"comics, graphic": 1702, "fiction": 221, "mystery, thriller, crime": 4, "fantasy, paranormal": 7}}
+{"book_id": "9848978", "genres": {"romance": 24, "mystery": 5, "fiction": 2}}
+{"book_id": "21820225", "genres": {"mystery": 612, "fiction": 114, "history": 19}}
+{"book_id": "19115865", "genres": {"comics, graphic": 1702, "fiction": 221, "mystery": 4, "fantasy, paranormal": 7}}
 {"book_id": "14287194", "genres": {"non-fiction": 1}}
 {"book_id": "24089666", "genres": {"comics, graphic": 2}}
 {"book_id": "14287192", "genres": {"children": 5, "non-fiction": 1, "young-adult": 1}}
-{"book_id": "9858341", "genres": {"comics, graphic": 47, "fiction": 5, "mystery, thriller, crime": 1, "romance": 1}}
+{"book_id": "9858341", "genres": {"comics, graphic": 47, "fiction": 5, "mystery": 1, "romance": 1}}
 {"book_id": "351696", "genres": {"fantasy, paranormal": 31, "fiction": 19}}
-{"book_id": "351698", "genres": {"history, historical fiction, biography": 11, "children": 8, "non-fiction": 3}}
+{"book_id": "351698", "genres": {"history": 11, "children": 8, "non-fiction": 3}}
 {"book_id": "30309543", "genres": {"romance": 6, "fiction": 1}}
-{"book_id": "13648085", "genres": {"romance": 395, "mystery, thriller, crime": 42, "fiction": 8}}
-{"book_id": "1835865", "genres": {"fiction": 15, "history, historical fiction, biography": 8, "non-fiction": 1}}
-{"book_id": "14287198", "genres": {"non-fiction": 6, "history, historical fiction, biography": 1, "children": 1}}
+{"book_id": "13648085", "genres": {"romance": 395, "mystery": 42, "fiction": 8}}
+{"book_id": "1835865", "genres": {"fiction": 15, "history": 8, "non-fiction": 1}}
+{"book_id": "14287198", "genres": {"non-fiction": 6, "history": 1, "children": 1}}
 {"book_id": "11993207", "genres": {"fiction": 22, "non-fiction": 4, "comics, graphic": 1, "poetry": 1}}
 {"book_id": "11731784", "genres": {"romance": 15, "fiction": 1}}
-{"book_id": "11731785", "genres": {"fantasy, paranormal": 19, "fiction": 13, "young-adult": 4, "history, historical fiction, biography": 7}}
-{"book_id": "11731786", "genres": {"non-fiction": 24, "history, historical fiction, biography": 8}}
+{"book_id": "11731785", "genres": {"fantasy, paranormal": 19, "fiction": 13, "young-adult": 4, "history": 7}}
+{"book_id": "11731786", "genres": {"non-fiction": 24, "history": 8}}
 {"book_id": "11731782", "genres": {"fantasy, paranormal": 262, "young-adult": 89, "romance": 127, "fiction": 32}}
-{"book_id": "16640015", "genres": {"fantasy, paranormal": 6, "mystery, thriller, crime": 2, "fiction": 2}}
-{"book_id": "25181937", "genres": {"fantasy, paranormal": 2, "young-adult": 1, "romance": 1, "mystery, thriller, crime": 1}}
+{"book_id": "16640015", "genres": {"fantasy, paranormal": 6, "mystery": 2, "fiction": 2}}
+{"book_id": "25181937", "genres": {"fantasy, paranormal": 2, "young-adult": 1, "romance": 1, "mystery": 1}}
 {"book_id": "25181935", "genres": {}}
-{"book_id": "34104667", "genres": {"romance": 78, "mystery, thriller, crime": 3, "fiction": 2}}
-{"book_id": "25181930", "genres": {"history, historical fiction, biography": 3, "romance": 5, "fiction": 1}}
+{"book_id": "34104667", "genres": {"romance": 78, "mystery": 3, "fiction": 2}}
+{"book_id": "25181930", "genres": {"history": 3, "romance": 5, "fiction": 1}}
 {"book_id": "4966601", "genres": {}}
-{"book_id": "17740337", "genres": {"mystery, thriller, crime": 24, "fiction": 1}}
-{"book_id": "23615339", "genres": {"romance": 79, "fantasy, paranormal": 44, "history, historical fiction, biography": 41, "fiction": 25}}
-{"book_id": "8307481", "genres": {"children": 16, "fantasy, paranormal": 7, "fiction": 5, "history, historical fiction, biography": 7, "young-adult": 2}}
-{"book_id": "929945", "genres": {"fantasy, paranormal": 50, "young-adult": 35, "fiction": 52, "children": 77, "mystery, thriller, crime": 2}}
-{"book_id": "22796932", "genres": {"fiction": 7, "mystery, thriller, crime": 7, "romance": 1}}
+{"book_id": "17740337", "genres": {"mystery": 24, "fiction": 1}}
+{"book_id": "23615339", "genres": {"romance": 79, "fantasy, paranormal": 44, "history": 41, "fiction": 25}}
+{"book_id": "8307481", "genres": {"children": 16, "fantasy, paranormal": 7, "fiction": 5, "history": 7, "young-adult": 2}}
+{"book_id": "929945", "genres": {"fantasy, paranormal": 50, "young-adult": 35, "fiction": 52, "children": 77, "mystery": 2}}
+{"book_id": "22796932", "genres": {"fiction": 7, "mystery": 7, "romance": 1}}
 {"book_id": "30525376", "genres": {}}
-{"book_id": "386848", "genres": {"fantasy, paranormal": 83, "fiction": 11, "history, historical fiction, biography": 3}}
+{"book_id": "386848", "genres": {"fantasy, paranormal": 83, "fiction": 11, "history": 3}}
 {"book_id": "1006140", "genres": {"children": 27, "poetry": 4, "fiction": 3, "non-fiction": 2}}
 {"book_id": "15920987", "genres": {}}
-{"book_id": "34443445", "genres": {"non-fiction": 46, "history, historical fiction, biography": 17}}
-{"book_id": "12158822", "genres": {"fiction": 36, "history, historical fiction, biography": 8}}
+{"book_id": "34443445", "genres": {"non-fiction": 46, "history": 17}}
+{"book_id": "12158822", "genres": {"fiction": 36, "history": 8}}
 {"book_id": "2864845", "genres": {}}
 {"book_id": "802870", "genres": {"fiction": 1}}
 {"book_id": "4608421", "genres": {}}
 {"book_id": "802872", "genres": {"fantasy, paranormal": 18, "fiction": 1, "non-fiction": 1}}
-{"book_id": "9495428", "genres": {"poetry": 44, "young-adult": 35, "fiction": 35, "history, historical fiction, biography": 17, "children": 2}}
-{"book_id": "8244283", "genres": {"fantasy, paranormal": 7, "mystery, thriller, crime": 2, "fiction": 5, "young-adult": 1}}
+{"book_id": "9495428", "genres": {"poetry": 44, "young-adult": 35, "fiction": 35, "history": 17, "children": 2}}
+{"book_id": "8244283", "genres": {"fantasy, paranormal": 7, "mystery": 2, "fiction": 5, "young-adult": 1}}
 {"book_id": "9036325", "genres": {"fantasy, paranormal": 160, "romance": 13, "fiction": 18}}
-{"book_id": "34893712", "genres": {"fiction": 33, "history, historical fiction, biography": 27}}
-{"book_id": "25937301", "genres": {"non-fiction": 2632, "history, historical fiction, biography": 850, "fiction": 23}}
-{"book_id": "29985598", "genres": {"mystery, thriller, crime": 15, "fiction": 2, "fantasy, paranormal": 2}}
+{"book_id": "34893712", "genres": {"fiction": 33, "history": 27}}
+{"book_id": "25937301", "genres": {"non-fiction": 2632, "history": 850, "fiction": 23}}
+{"book_id": "29985598", "genres": {"mystery": 15, "fiction": 2, "fantasy, paranormal": 2}}
 {"book_id": "8206562", "genres": {"non-fiction": 4, "romance": 1}}
 {"book_id": "27879033", "genres": {}}
 {"book_id": "27879034", "genres": {}}
 {"book_id": "25937307", "genres": {}}
 {"book_id": "26100521", "genres": {"romance": 4}}
 {"book_id": "26100522", "genres": {}}
-{"book_id": "1167728", "genres": {"history, historical fiction, biography": 27, "non-fiction": 20}}
-{"book_id": "19396714", "genres": {"mystery, thriller, crime": 146, "fiction": 29}}
+{"book_id": "1167728", "genres": {"history": 27, "non-fiction": 20}}
+{"book_id": "19396714", "genres": {"mystery": 146, "fiction": 29}}
 {"book_id": "35422382", "genres": {}}
 {"book_id": "10835294", "genres": {"romance": 694, "fiction": 613, "young-adult": 718, "fantasy, paranormal": 886}}
 {"book_id": "10835295", "genres": {"romance": 694, "fiction": 613, "young-adult": 718, "fantasy, paranormal": 886}}
-{"book_id": "26100528", "genres": {"fiction": 81, "mystery, thriller, crime": 30, "romance": 13, "fantasy, paranormal": 13, "history, historical fiction, biography": 8}}
-{"book_id": "6590855", "genres": {"history, historical fiction, biography": 2, "romance": 2}}
+{"book_id": "26100528", "genres": {"fiction": 81, "mystery": 30, "romance": 13, "fantasy, paranormal": 13, "history": 8}}
+{"book_id": "6590855", "genres": {"history": 2, "romance": 2}}
 {"book_id": "831611", "genres": {"non-fiction": 1}}
 {"book_id": "29238713", "genres": {"children": 6, "fiction": 2, "fantasy, paranormal": 1, "young-adult": 2}}
-{"book_id": "16114775", "genres": {"mystery, thriller, crime": 27, "fiction": 3}}
+{"book_id": "16114775", "genres": {"mystery": 27, "fiction": 3}}
 {"book_id": "11497621", "genres": {"romance": 19}}
 {"book_id": "16114777", "genres": {"romance": 20, "fiction": 1}}
 {"book_id": "2794455", "genres": {}}
 {"book_id": "891444", "genres": {"fiction": 6}}
-{"book_id": "35503050", "genres": {"fantasy, paranormal": 21, "comics, graphic": 21, "mystery, thriller, crime": 5, "fiction": 2}}
+{"book_id": "35503050", "genres": {"fantasy, paranormal": 21, "comics, graphic": 21, "mystery": 5, "fiction": 2}}
 {"book_id": "16114773", "genres": {"fiction": 1}}
 {"book_id": "21964472", "genres": {}}
 {"book_id": "891448", "genres": {}}
-{"book_id": "22796939", "genres": {"fantasy, paranormal": 158, "young-adult": 34, "children": 47, "fiction": 26, "mystery, thriller, crime": 2}}
+{"book_id": "22796939", "genres": {"fantasy, paranormal": 158, "young-adult": 34, "children": 47, "fiction": 26, "mystery": 2}}
 {"book_id": "16114779", "genres": {}}
 {"book_id": "3025352", "genres": {"non-fiction": 5}}
 {"book_id": "12458828", "genres": {"fantasy, paranormal": 3024, "young-adult": 1655, "romance": 771, "fiction": 260}}
 {"book_id": "12458829", "genres": {"fantasy, paranormal": 3024, "young-adult": 1655, "romance": 771, "fiction": 260}}
 {"book_id": "9463563", "genres": {"young-adult": 167, "romance": 139, "fiction": 26}}
-{"book_id": "23208104", "genres": {"fiction": 2804, "young-adult": 2349, "romance": 469, "mystery, thriller, crime": 104}}
-{"book_id": "9463561", "genres": {"fiction": 82, "romance": 31, "mystery, thriller, crime": 4}}
-{"book_id": "32177192", "genres": {"fiction": 38, "non-fiction": 4, "history, historical fiction, biography": 3}}
+{"book_id": "23208104", "genres": {"fiction": 2804, "young-adult": 2349, "romance": 469, "mystery": 104}}
+{"book_id": "9463561", "genres": {"fiction": 82, "romance": 31, "mystery": 4}}
+{"book_id": "32177192", "genres": {"fiction": 38, "non-fiction": 4, "history": 3}}
 {"book_id": "12458821", "genres": {"fantasy, paranormal": 62, "romance": 39, "fiction": 5}}
-{"book_id": "596920", "genres": {"mystery, thriller, crime": 12, "fiction": 2}}
-{"book_id": "18468020", "genres": {"fiction": 6, "romance": 4, "mystery, thriller, crime": 6}}
+{"book_id": "596920", "genres": {"mystery": 12, "fiction": 2}}
+{"book_id": "18468020", "genres": {"fiction": 6, "romance": 4, "mystery": 6}}
 {"book_id": "18189999", "genres": {}}
-{"book_id": "27693272", "genres": {"fantasy, paranormal": 87, "fiction": 20, "mystery, thriller, crime": 2, "history, historical fiction, biography": 2}}
-{"book_id": "596926", "genres": {"fiction": 19, "history, historical fiction, biography": 21, "children": 8, "young-adult": 1, "romance": 1}}
-{"book_id": "18189990", "genres": {"fantasy, paranormal": 1277, "fiction": 1325, "history, historical fiction, biography": 1168, "romance": 317, "mystery, thriller, crime": 63, "young-adult": 63}}
-{"book_id": "15243630", "genres": {"children": 43, "fantasy, paranormal": 6, "fiction": 4, "mystery, thriller, crime": 1, "young-adult": 1}}
-{"book_id": "15900897", "genres": {"young-adult": 267, "fantasy, paranormal": 450, "romance": 186, "fiction": 33, "mystery, thriller, crime": 9}}
-{"book_id": "25081415", "genres": {"history, historical fiction, biography": 108, "romance": 127, "fiction": 11, "mystery, thriller, crime": 3, "children": 1}}
+{"book_id": "27693272", "genres": {"fantasy, paranormal": 87, "fiction": 20, "mystery": 2, "history": 2}}
+{"book_id": "596926", "genres": {"fiction": 19, "history": 21, "children": 8, "young-adult": 1, "romance": 1}}
+{"book_id": "18189990", "genres": {"fantasy, paranormal": 1277, "fiction": 1325, "history": 1168, "romance": 317, "mystery": 63, "young-adult": 63}}
+{"book_id": "15243630", "genres": {"children": 43, "fantasy, paranormal": 6, "fiction": 4, "mystery": 1, "young-adult": 1}}
+{"book_id": "15900897", "genres": {"young-adult": 267, "fantasy, paranormal": 450, "romance": 186, "fiction": 33, "mystery": 9}}
+{"book_id": "25081415", "genres": {"history": 108, "romance": 127, "fiction": 11, "mystery": 3, "children": 1}}
 {"book_id": "25407244", "genres": {}}
-{"book_id": "18468025", "genres": {"history, historical fiction, biography": 14, "romance": 10}}
+{"book_id": "18468025", "genres": {"history": 14, "romance": 10}}
 {"book_id": "34329805", "genres": {}}
-{"book_id": "2972957", "genres": {"non-fiction": 389, "history, historical fiction, biography": 229, "fiction": 85, "comics, graphic": 5}}
-{"book_id": "6359544", "genres": {"non-fiction": 1737, "history, historical fiction, biography": 105}}
+{"book_id": "2972957", "genres": {"non-fiction": 389, "history": 229, "fiction": 85, "comics, graphic": 5}}
+{"book_id": "6359544", "genres": {"non-fiction": 1737, "history": 105}}
 {"book_id": "25918513", "genres": {}}
 {"book_id": "30833565", "genres": {"young-adult": 1, "fiction": 3, "fantasy, paranormal": 1}}
-{"book_id": "28385535", "genres": {"mystery, thriller, crime": 12, "fiction": 3}}
+{"book_id": "28385535", "genres": {"mystery": 12, "fiction": 3}}
 {"book_id": "1163226", "genres": {"non-fiction": 41}}
 {"book_id": "9284802", "genres": {}}
 {"book_id": "446868", "genres": {"romance": 2}}
-{"book_id": "54276", "genres": {"history, historical fiction, biography": 54, "non-fiction": 18}}
-{"book_id": "3082635", "genres": {"history, historical fiction, biography": 6}}
+{"book_id": "54276", "genres": {"history": 54, "non-fiction": 18}}
+{"book_id": "3082635", "genres": {"history": 6}}
 {"book_id": "1025074", "genres": {"fiction": 19, "fantasy, paranormal": 1}}
-{"book_id": "17575466", "genres": {"young-adult": 124, "fiction": 127, "fantasy, paranormal": 21, "mystery, thriller, crime": 13}}
-{"book_id": "15837683", "genres": {"mystery, thriller, crime": 21}}
-{"book_id": "30971680", "genres": {"non-fiction": 20, "history, historical fiction, biography": 6}}
-{"book_id": "7966174", "genres": {"non-fiction": 15, "poetry": 1, "history, historical fiction, biography": 1}}
-{"book_id": "30971682", "genres": {"mystery, thriller, crime": 55, "fiction": 58, "history, historical fiction, biography": 47, "children": 33, "young-adult": 6}}
-{"book_id": "33283402", "genres": {"history, historical fiction, biography": 78, "non-fiction": 50}}
-{"book_id": "30971684", "genres": {"fantasy, paranormal": 120, "children": 45, "fiction": 27, "young-adult": 11, "mystery, thriller, crime": 3}}
-{"book_id": "30971685", "genres": {"fantasy, paranormal": 203, "young-adult": 194, "mystery, thriller, crime": 115, "fiction": 111, "history, historical fiction, biography": 99, "romance": 11}}
+{"book_id": "17575466", "genres": {"young-adult": 124, "fiction": 127, "fantasy, paranormal": 21, "mystery": 13}}
+{"book_id": "15837683", "genres": {"mystery": 21}}
+{"book_id": "30971680", "genres": {"non-fiction": 20, "history": 6}}
+{"book_id": "7966174", "genres": {"non-fiction": 15, "poetry": 1, "history": 1}}
+{"book_id": "30971682", "genres": {"mystery": 55, "fiction": 58, "history": 47, "children": 33, "young-adult": 6}}
+{"book_id": "33283402", "genres": {"history": 78, "non-fiction": 50}}
+{"book_id": "30971684", "genres": {"fantasy, paranormal": 120, "children": 45, "fiction": 27, "young-adult": 11, "mystery": 3}}
+{"book_id": "30971685", "genres": {"fantasy, paranormal": 203, "young-adult": 194, "mystery": 115, "fiction": 111, "history": 99, "romance": 11}}
 {"book_id": "30971686", "genres": {"children": 3}}
 {"book_id": "25096548", "genres": {}}
-{"book_id": "18192847", "genres": {"mystery, thriller, crime": 6, "fiction": 1}}
+{"book_id": "18192847", "genres": {"mystery": 6, "fiction": 1}}
 {"book_id": "18192846", "genres": {}}
-{"book_id": "8244287", "genres": {"mystery, thriller, crime": 182, "fiction": 18}}
+{"book_id": "8244287", "genres": {"mystery": 182, "fiction": 18}}
 {"book_id": "18192843", "genres": {"romance": 82, "fiction": 2}}
-{"book_id": "18192841", "genres": {"children": 12, "fiction": 6, "young-adult": 2, "mystery, thriller, crime": 3}}
+{"book_id": "18192841", "genres": {"children": 12, "fiction": 6, "young-adult": 2, "mystery": 3}}
 {"book_id": "18192840", "genres": {"young-adult": 5, "romance": 1}}
 {"book_id": "22542042", "genres": {"non-fiction": 5}}
-{"book_id": "1163220", "genres": {"mystery, thriller, crime": 29, "fiction": 5}}
-{"book_id": "29326097", "genres": {"non-fiction": 97, "history, historical fiction, biography": 81}}
-{"book_id": "54270", "genres": {"history, historical fiction, biography": 1084, "non-fiction": 548, "comics, graphic": 16}}
-{"book_id": "346383", "genres": {"history, historical fiction, biography": 2, "non-fiction": 1}}
+{"book_id": "1163220", "genres": {"mystery": 29, "fiction": 5}}
+{"book_id": "29326097", "genres": {"non-fiction": 97, "history": 81}}
+{"book_id": "54270", "genres": {"history": 1084, "non-fiction": 548, "comics, graphic": 16}}
+{"book_id": "346383", "genres": {"history": 2, "non-fiction": 1}}
 {"book_id": "346381", "genres": {"poetry": 8, "children": 3, "young-adult": 1, "comics, graphic": -1}}
-{"book_id": "12953503", "genres": {"fiction": 70, "children": 37, "history, historical fiction, biography": 11, "young-adult": 7}}
-{"book_id": "30010194", "genres": {"fantasy, paranormal": 21, "fiction": 3, "young-adult": 6, "mystery, thriller, crime": 2, "romance": 3}}
-{"book_id": "3783663", "genres": {"history, historical fiction, biography": 2}}
-{"book_id": "3783665", "genres": {"history, historical fiction, biography": 4, "non-fiction": 1}}
-{"book_id": "1641083", "genres": {"mystery, thriller, crime": 4, "poetry": 1, "fiction": 1}}
+{"book_id": "12953503", "genres": {"fiction": 70, "children": 37, "history": 11, "young-adult": 7}}
+{"book_id": "30010194", "genres": {"fantasy, paranormal": 21, "fiction": 3, "young-adult": 6, "mystery": 2, "romance": 3}}
+{"book_id": "3783663", "genres": {"history": 2}}
+{"book_id": "3783665", "genres": {"history": 4, "non-fiction": 1}}
+{"book_id": "1641083", "genres": {"mystery": 4, "poetry": 1, "fiction": 1}}
 {"book_id": "3038871", "genres": {"children": 22, "fantasy, paranormal": 4, "young-adult": 2, "fiction": 2}}
-{"book_id": "13082921", "genres": {"mystery, thriller, crime": 13, "comics, graphic": 12, "romance": 6, "fiction": 2}}
-{"book_id": "25402549", "genres": {"history, historical fiction, biography": 10, "fantasy, paranormal": 10, "romance": 9, "fiction": 2}}
+{"book_id": "13082921", "genres": {"mystery": 13, "comics, graphic": 12, "romance": 6, "fiction": 2}}
+{"book_id": "25402549", "genres": {"history": 10, "fantasy, paranormal": 10, "romance": 9, "fiction": 2}}
 {"book_id": "25647297", "genres": {}}
 {"book_id": "30821268", "genres": {}}
-{"book_id": "25799079", "genres": {"fiction": 1, "mystery, thriller, crime": 1, "young-adult": 1}}
+{"book_id": "25799079", "genres": {"fiction": 1, "mystery": 1, "young-adult": 1}}
 {"book_id": "36207565", "genres": {"romance": 5}}
 {"book_id": "19048328", "genres": {}}
 {"book_id": "34704992", "genres": {"fantasy, paranormal": 322, "fiction": 27, "young-adult": 3}}
 {"book_id": "30821261", "genres": {"romance": 3}}
-{"book_id": "15837689", "genres": {"mystery, thriller, crime": 32, "fiction": 2, "romance": 1}}
+{"book_id": "15837689", "genres": {"mystery": 32, "fiction": 2, "romance": 1}}
 {"book_id": "19048323", "genres": {}}
-{"book_id": "25799070", "genres": {"fiction": 1515, "fantasy, paranormal": 421, "mystery, thriller, crime": 162}}
+{"book_id": "25799070", "genres": {"fiction": 1515, "fantasy, paranormal": 421, "mystery": 162}}
 {"book_id": "19048320", "genres": {"romance": 4}}
-{"book_id": "12468741", "genres": {"non-fiction": 116, "history, historical fiction, biography": 1}}
-{"book_id": "1534567", "genres": {"romance": 38, "history, historical fiction, biography": 21, "fiction": 15}}
+{"book_id": "12468741", "genres": {"non-fiction": 116, "history": 1}}
+{"book_id": "1534567", "genres": {"romance": 38, "history": 21, "fiction": 15}}
 {"book_id": "15524469", "genres": {}}
-{"book_id": "5280606", "genres": {"history, historical fiction, biography": 3, "non-fiction": 1}}
-{"book_id": "19256674", "genres": {"non-fiction": 2, "history, historical fiction, biography": 2}}
-{"book_id": "7650279", "genres": {"fantasy, paranormal": 35, "young-adult": 4, "fiction": 3, "romance": 2, "history, historical fiction, biography": 3, "mystery, thriller, crime": 0}}
+{"book_id": "5280606", "genres": {"history": 3, "non-fiction": 1}}
+{"book_id": "19256674", "genres": {"non-fiction": 2, "history": 2}}
+{"book_id": "7650279", "genres": {"fantasy, paranormal": 35, "young-adult": 4, "fiction": 3, "romance": 2, "history": 3, "mystery": 0}}
 {"book_id": "27859395", "genres": {"romance": 5}}
 {"book_id": "16241078", "genres": {"non-fiction": 4}}
 {"book_id": "19256672", "genres": {"fantasy, paranormal": 52, "children": 27, "young-adult": 9, "fiction": 5}}
-{"book_id": "27280240", "genres": {"history, historical fiction, biography": 9, "non-fiction": 4}}
-{"book_id": "268461", "genres": {"non-fiction": 20, "history, historical fiction, biography": 16}}
-{"book_id": "268463", "genres": {"history, historical fiction, biography": 6, "fantasy, paranormal": 2, "non-fiction": 2}}
-{"book_id": "268464", "genres": {"fiction": 15, "history, historical fiction, biography": 4}}
+{"book_id": "27280240", "genres": {"history": 9, "non-fiction": 4}}
+{"book_id": "268461", "genres": {"non-fiction": 20, "history": 16}}
+{"book_id": "268463", "genres": {"history": 6, "fantasy, paranormal": 2, "non-fiction": 2}}
+{"book_id": "268464", "genres": {"fiction": 15, "history": 4}}
 {"book_id": "6860440", "genres": {"children": 2, "young-adult": 1}}
 {"book_id": "34637232", "genres": {}}
-{"book_id": "268469", "genres": {"romance": 13, "fiction": 4, "mystery, thriller, crime": 1}}
-{"book_id": "25717062", "genres": {"fantasy, paranormal": 87, "fiction": 64, "mystery, thriller, crime": 29, "history, historical fiction, biography": 5}}
+{"book_id": "268469", "genres": {"romance": 13, "fiction": 4, "mystery": 1}}
+{"book_id": "25717062", "genres": {"fantasy, paranormal": 87, "fiction": 64, "mystery": 29, "history": 5}}
 {"book_id": "29788139", "genres": {}}
-{"book_id": "13325505", "genres": {"history, historical fiction, biography": 4}}
-{"book_id": "13325504", "genres": {"history, historical fiction, biography": 223, "non-fiction": 105}}
-{"book_id": "25717066", "genres": {"fiction": 2, "history, historical fiction, biography": 1}}
+{"book_id": "13325505", "genres": {"history": 4}}
+{"book_id": "13325504", "genres": {"history": 223, "non-fiction": 105}}
+{"book_id": "25717066", "genres": {"fiction": 2, "history": 1}}
 {"book_id": "35201178", "genres": {"fiction": 2, "children": 4}}
 {"book_id": "9469517", "genres": {"romance": 136, "fiction": 11, "fantasy, paranormal": 2}}
 {"book_id": "19222476", "genres": {"non-fiction": 47}}
@@ -631,28 +631,28 @@
 {"book_id": "1763572", "genres": {}}
 {"book_id": "35401992", "genres": {}}
 {"book_id": "30970791", "genres": {"fantasy, paranormal": 112, "romance": 45, "fiction": 8}}
-{"book_id": "30970790", "genres": {"fiction": 753, "history, historical fiction, biography": 727, "romance": 13, "mystery, thriller, crime": 8}}
-{"book_id": "31622344", "genres": {"romance": 30, "mystery, thriller, crime": 10, "fiction": 5}}
-{"book_id": "28592019", "genres": {"history, historical fiction, biography": 1, "non-fiction": 1}}
-{"book_id": "31675216", "genres": {"mystery, thriller, crime": 7, "romance": 11, "young-adult": 3, "fiction": 2, "history, historical fiction, biography": 2}}
+{"book_id": "30970790", "genres": {"fiction": 753, "history": 727, "romance": 13, "mystery": 8}}
+{"book_id": "31622344", "genres": {"romance": 30, "mystery": 10, "fiction": 5}}
+{"book_id": "28592019", "genres": {"history": 1, "non-fiction": 1}}
+{"book_id": "31675216", "genres": {"mystery": 7, "romance": 11, "young-adult": 3, "fiction": 2, "history": 2}}
 {"book_id": "36052618", "genres": {}}
 {"book_id": "10318640", "genres": {}}
-{"book_id": "598199", "genres": {"history, historical fiction, biography": 10, "non-fiction": 3}}
+{"book_id": "598199", "genres": {"history": 10, "non-fiction": 3}}
 {"book_id": "6728819", "genres": {"fiction": 5483, "fantasy, paranormal": 3846, "children": 8884, "young-adult": 1127}}
 {"book_id": "23278689", "genres": {"non-fiction": 21}}
-{"book_id": "345899", "genres": {"fiction": 104, "fantasy, paranormal": 11, "mystery, thriller, crime": 4}}
+{"book_id": "345899", "genres": {"fiction": 104, "fantasy, paranormal": 11, "mystery": 4}}
 {"book_id": "13611714", "genres": {"young-adult": 3, "fantasy, paranormal": 2}}
 {"book_id": "13611715", "genres": {"fantasy, paranormal": 1676, "fiction": 298, "young-adult": 16}}
 {"book_id": "345895", "genres": {"non-fiction": 1}}
 {"book_id": "31127047", "genres": {}}
-{"book_id": "598196", "genres": {"history, historical fiction, biography": 72, "non-fiction": 12}}
+{"book_id": "598196", "genres": {"history": 72, "non-fiction": 12}}
 {"book_id": "13231865", "genres": {"non-fiction": 12, "children": 8, "young-adult": 1}}
 {"book_id": "2572584", "genres": {"children": 2, "young-adult": 1, "fiction": 1}}
-{"book_id": "598195", "genres": {"non-fiction": 289, "poetry": 111, "history, historical fiction, biography": 29, "fiction": 6}}
+{"book_id": "598195", "genres": {"non-fiction": 289, "poetry": 111, "history": 29, "fiction": 6}}
 {"book_id": "16138074", "genres": {"romance": 2835, "fiction": 208, "young-adult": 25}}
 {"book_id": "4842168", "genres": {}}
-{"book_id": "10939315", "genres": {"fiction": 46, "romance": 12, "history, historical fiction, biography": 9}}
-{"book_id": "18819853", "genres": {"young-adult": 2, "fantasy, paranormal": 3, "mystery, thriller, crime": 1}}
+{"book_id": "10939315", "genres": {"fiction": 46, "romance": 12, "history": 9}}
+{"book_id": "18819853", "genres": {"young-adult": 2, "fantasy, paranormal": 3, "mystery": 1}}
 {"book_id": "10023577", "genres": {"non-fiction": 1}}
 {"book_id": "36340366", "genres": {}}
 {"book_id": "19417017", "genres": {"romance": 11, "fiction": 1}}
@@ -660,23 +660,23 @@
 {"book_id": "26096061", "genres": {}}
 {"book_id": "11354545", "genres": {"fiction": 6}}
 {"book_id": "16138077", "genres": {"romance": 1662, "fiction": 106}}
-{"book_id": "13605042", "genres": {"comics, graphic": 15, "non-fiction": 8, "fiction": 4, "history, historical fiction, biography": 1}}
+{"book_id": "13605042", "genres": {"comics, graphic": 15, "non-fiction": 8, "fiction": 4, "history": 1}}
 {"book_id": "11354541", "genres": {"fiction": 1}}
 {"book_id": "11354540", "genres": {"fiction": 2}}
 {"book_id": "33786215", "genres": {}}
 {"book_id": "20928522", "genres": {"non-fiction": 106, "fiction": 1}}
-{"book_id": "35623970", "genres": {"fiction": 11, "history, historical fiction, biography": 1}}
+{"book_id": "35623970", "genres": {"fiction": 11, "history": 1}}
 {"book_id": "32822271", "genres": {}}
 {"book_id": "2437856", "genres": {"fantasy, paranormal": 27, "children": 26, "young-adult": 17, "fiction": 6}}
-{"book_id": "11354548", "genres": {"romance": 29, "history, historical fiction, biography": 13, "fiction": 2, "fantasy, paranormal": 1}}
-{"book_id": "616289", "genres": {"history, historical fiction, biography": 236, "romance": 291, "fiction": 18}}
-{"book_id": "10313894", "genres": {"mystery, thriller, crime": 4, "history, historical fiction, biography": 1, "non-fiction": 1}}
+{"book_id": "11354548", "genres": {"romance": 29, "history": 13, "fiction": 2, "fantasy, paranormal": 1}}
+{"book_id": "616289", "genres": {"history": 236, "romance": 291, "fiction": 18}}
+{"book_id": "10313894", "genres": {"mystery": 4, "history": 1, "non-fiction": 1}}
 {"book_id": "755065", "genres": {"children": 1}}
-{"book_id": "31951969", "genres": {"romance": 6, "mystery, thriller, crime": 3, "fiction": 1}}
+{"book_id": "31951969", "genres": {"romance": 6, "mystery": 3, "fiction": 1}}
 {"book_id": "755063", "genres": {"children": 2}}
 {"book_id": "755062", "genres": {"young-adult": 5, "fiction": 7, "children": 7, "comics, graphic": 1}}
 {"book_id": "755061", "genres": {"fiction": 1}}
-{"book_id": "10066326", "genres": {"history, historical fiction, biography": 23, "non-fiction": 6, "fiction": 1}}
+{"book_id": "10066326", "genres": {"history": 23, "non-fiction": 6, "fiction": 1}}
 {"book_id": "35625406", "genres": {}}
 {"book_id": "23437668", "genres": {"non-fiction": 1}}
 {"book_id": "18088686", "genres": {}}
@@ -688,346 +688,346 @@
 {"book_id": "30114924", "genres": {"fantasy, paranormal": 1}}
 {"book_id": "23124351", "genres": {}}
 {"book_id": "6186097", "genres": {"fantasy, paranormal": 8}}
-{"book_id": "23217087", "genres": {"non-fiction": 29, "history, historical fiction, biography": 1}}
-{"book_id": "23217086", "genres": {"non-fiction": 36, "history, historical fiction, biography": 7}}
+{"book_id": "23217087", "genres": {"non-fiction": 29, "history": 1}}
+{"book_id": "23217086", "genres": {"non-fiction": 36, "history": 7}}
 {"book_id": "23217084", "genres": {"non-fiction": 27}}
-{"book_id": "23217083", "genres": {"fiction": 83, "mystery, thriller, crime": 50, "history, historical fiction, biography": 23}}
+{"book_id": "23217083", "genres": {"fiction": 83, "mystery": 50, "history": 23}}
 {"book_id": "5168652", "genres": {"young-adult": 31, "romance": 12, "fiction": 13}}
 {"book_id": "13149186", "genres": {}}
 {"book_id": "218093", "genres": {"fiction": 4}}
-{"book_id": "10683086", "genres": {"fantasy, paranormal": 1, "fiction": 2, "mystery, thriller, crime": 1}}
+{"book_id": "10683086", "genres": {"fantasy, paranormal": 1, "fiction": 2, "mystery": 1}}
 {"book_id": "10683087", "genres": {"non-fiction": 4}}
-{"book_id": "13407377", "genres": {"comics, graphic": 259, "non-fiction": 23, "history, historical fiction, biography": 17, "fiction": 2, "young-adult": 1}}
-{"book_id": "218097", "genres": {"non-fiction": 14, "history, historical fiction, biography": 2}}
-{"book_id": "218094", "genres": {"fiction": 85, "romance": 3, "history, historical fiction, biography": 4}}
-{"book_id": "218095", "genres": {"fiction": 3, "mystery, thriller, crime": 1, "romance": 3, "history, historical fiction, biography": 1}}
+{"book_id": "13407377", "genres": {"comics, graphic": 259, "non-fiction": 23, "history": 17, "fiction": 2, "young-adult": 1}}
+{"book_id": "218097", "genres": {"non-fiction": 14, "history": 2}}
+{"book_id": "218094", "genres": {"fiction": 85, "romance": 3, "history": 4}}
+{"book_id": "218095", "genres": {"fiction": 3, "mystery": 1, "romance": 3, "history": 1}}
 {"book_id": "8647214", "genres": {"romance": 102, "fiction": 12, "fantasy, paranormal": 3}}
-{"book_id": "218098", "genres": {"non-fiction": 20, "history, historical fiction, biography": 3}}
-{"book_id": "218099", "genres": {"non-fiction": 66, "history, historical fiction, biography": 6, "fiction": 4, "children": 1}}
-{"book_id": "8565134", "genres": {"non-fiction": 321, "history, historical fiction, biography": 47}}
-{"book_id": "24849836", "genres": {"mystery, thriller, crime": 99, "fiction": 10}}
+{"book_id": "218098", "genres": {"non-fiction": 20, "history": 3}}
+{"book_id": "218099", "genres": {"non-fiction": 66, "history": 6, "fiction": 4, "children": 1}}
+{"book_id": "8565134", "genres": {"non-fiction": 321, "history": 47}}
+{"book_id": "24849836", "genres": {"mystery": 99, "fiction": 10}}
 {"book_id": "24849837", "genres": {"poetry": 9, "romance": 1}}
-{"book_id": "15702848", "genres": {"fantasy, paranormal": 387, "romance": 92, "fiction": 41, "mystery, thriller, crime": 36}}
+{"book_id": "15702848", "genres": {"fantasy, paranormal": 387, "romance": 92, "fiction": 41, "mystery": 36}}
 {"book_id": "25589291", "genres": {"fantasy, paranormal": 125, "fiction": 64, "romance": 5}}
-{"book_id": "4507203", "genres": {"fantasy, paranormal": 410, "romance": 187, "fiction": 13, "young-adult": 2, "mystery, thriller, crime": 2}}
-{"book_id": "1707463", "genres": {"mystery, thriller, crime": 115, "fiction": 25}}
-{"book_id": "8364795", "genres": {"history, historical fiction, biography": 7, "fiction": 2, "comics, graphic": 1}}
+{"book_id": "4507203", "genres": {"fantasy, paranormal": 410, "romance": 187, "fiction": 13, "young-adult": 2, "mystery": 2}}
+{"book_id": "1707463", "genres": {"mystery": 115, "fiction": 25}}
+{"book_id": "8364795", "genres": {"history": 7, "fiction": 2, "comics, graphic": 1}}
 {"book_id": "15702846", "genres": {"fiction": 3, "non-fiction": 1}}
-{"book_id": "26198827", "genres": {"mystery, thriller, crime": 34, "history, historical fiction, biography": 1, "romance": 1, "fiction": 4}}
-{"book_id": "13643933", "genres": {"non-fiction": 32, "history, historical fiction, biography": 20, "fiction": 6, "young-adult": 3}}
-{"book_id": "981695", "genres": {"history, historical fiction, biography": 1}}
+{"book_id": "26198827", "genres": {"mystery": 34, "history": 1, "romance": 1, "fiction": 4}}
+{"book_id": "13643933", "genres": {"non-fiction": 32, "history": 20, "fiction": 6, "young-adult": 3}}
+{"book_id": "981695", "genres": {"history": 1}}
 {"book_id": "981692", "genres": {"fantasy, paranormal": 29, "young-adult": 6, "fiction": 3, "romance": 1, "children": 1, "comics, graphic": 1}}
-{"book_id": "28693548", "genres": {"history, historical fiction, biography": 26, "romance": 29, "fiction": 1}}
+{"book_id": "28693548", "genres": {"history": 26, "romance": 29, "fiction": 1}}
 {"book_id": "23241512", "genres": {"fantasy, paranormal": 1}}
-{"book_id": "32068554", "genres": {"history, historical fiction, biography": 1, "mystery, thriller, crime": 2}}
+{"book_id": "32068554", "genres": {"history": 1, "mystery": 2}}
 {"book_id": "28169281", "genres": {"romance": 1, "fantasy, paranormal": 2}}
-{"book_id": "22826347", "genres": {"non-fiction": 22, "history, historical fiction, biography": 4, "young-adult": 1}}
-{"book_id": "551339", "genres": {"young-adult": 304, "children": 517, "fiction": 260, "fantasy, paranormal": 224, "mystery, thriller, crime": 70}}
-{"book_id": "1477670", "genres": {"fiction": 21, "history, historical fiction, biography": 23, "poetry": 1, "children": 7, "non-fiction": 2, "young-adult": 1}}
-{"book_id": "19381732", "genres": {"fiction": 6129, "history, historical fiction, biography": 5345, "young-adult": 2056, "children": 673}}
+{"book_id": "22826347", "genres": {"non-fiction": 22, "history": 4, "young-adult": 1}}
+{"book_id": "551339", "genres": {"young-adult": 304, "children": 517, "fiction": 260, "fantasy, paranormal": 224, "mystery": 70}}
+{"book_id": "1477670", "genres": {"fiction": 21, "history": 23, "poetry": 1, "children": 7, "non-fiction": 2, "young-adult": 1}}
+{"book_id": "19381732", "genres": {"fiction": 6129, "history": 5345, "young-adult": 2056, "children": 673}}
 {"book_id": "17252158", "genres": {"fiction": 15}}
-{"book_id": "8363211", "genres": {"romance": 40, "mystery, thriller, crime": 8, "fiction": 5, "fantasy, paranormal": 1}}
-{"book_id": "977525", "genres": {"fiction": 3, "poetry": 1, "mystery, thriller, crime": 1}}
-{"book_id": "26201145", "genres": {"romance": 8, "young-adult": 1, "fiction": 1, "mystery, thriller, crime": 1}}
+{"book_id": "8363211", "genres": {"romance": 40, "mystery": 8, "fiction": 5, "fantasy, paranormal": 1}}
+{"book_id": "977525", "genres": {"fiction": 3, "poetry": 1, "mystery": 1}}
+{"book_id": "26201145", "genres": {"romance": 8, "young-adult": 1, "fiction": 1, "mystery": 1}}
 {"book_id": "26201146", "genres": {"romance": 175, "fiction": 9}}
 {"book_id": "26201141", "genres": {"non-fiction": 7}}
 {"book_id": "17252155", "genres": {"fantasy, paranormal": 4, "fiction": 2}}
-{"book_id": "3520750", "genres": {"non-fiction": 4, "history, historical fiction, biography": 2}}
+{"book_id": "3520750", "genres": {"non-fiction": 4, "history": 2}}
 {"book_id": "15776245", "genres": {"romance": 12, "fiction": 3}}
-{"book_id": "8431279", "genres": {"history, historical fiction, biography": 20, "romance": 13}}
+{"book_id": "8431279", "genres": {"history": 20, "romance": 13}}
 {"book_id": "32860452", "genres": {"fiction": 19}}
 {"book_id": "15975111", "genres": {}}
-{"book_id": "3338617", "genres": {"fiction": 9446, "mystery, thriller, crime": 2206, "fantasy, paranormal": 1595, "young-adult": 47}}
-{"book_id": "9829651", "genres": {"fiction": 132, "mystery, thriller, crime": 77, "history, historical fiction, biography": 12, "fantasy, paranormal": 7, "young-adult": 4}}
-{"book_id": "23246799", "genres": {"fantasy, paranormal": 10, "young-adult": 8, "fiction": 2, "children": 1, "mystery, thriller, crime": 1}}
+{"book_id": "3338617", "genres": {"fiction": 9446, "mystery": 2206, "fantasy, paranormal": 1595, "young-adult": 47}}
+{"book_id": "9829651", "genres": {"fiction": 132, "mystery": 77, "history": 12, "fantasy, paranormal": 7, "young-adult": 4}}
+{"book_id": "23246799", "genres": {"fantasy, paranormal": 10, "young-adult": 8, "fiction": 2, "children": 1, "mystery": 1}}
 {"book_id": "32064259", "genres": {}}
 {"book_id": "17909253", "genres": {"fantasy, paranormal": 2, "romance": 5, "fiction": 2}}
 {"book_id": "15722212", "genres": {"fantasy, paranormal": 35, "young-adult": 14, "romance": 6, "fiction": 3}}
-{"book_id": "15722216", "genres": {"romance": 3999, "fiction": 2228, "history, historical fiction, biography": 2164}}
-{"book_id": "7727326", "genres": {"non-fiction": 274, "history, historical fiction, biography": 46, "romance": 11}}
+{"book_id": "15722216", "genres": {"romance": 3999, "fiction": 2228, "history": 2164}}
+{"book_id": "7727326", "genres": {"non-fiction": 274, "history": 46, "romance": 11}}
 {"book_id": "22407160", "genres": {"romance": 168, "young-adult": 25, "fiction": 5}}
-{"book_id": "23246792", "genres": {"young-adult": 9, "mystery, thriller, crime": 8, "fiction": 4, "history, historical fiction, biography": 1, "fantasy, paranormal": 2}}
-{"book_id": "12388485", "genres": {"fiction": 360, "mystery, thriller, crime": 361, "fantasy, paranormal": 7, "young-adult": 4}}
+{"book_id": "23246792", "genres": {"young-adult": 9, "mystery": 8, "fiction": 4, "history": 1, "fantasy, paranormal": 2}}
+{"book_id": "12388485", "genres": {"fiction": 360, "mystery": 361, "fantasy, paranormal": 7, "young-adult": 4}}
 {"book_id": "22361805", "genres": {"fantasy, paranormal": 84, "young-adult": 31, "romance": 10, "fiction": 20, "children": 3}}
-{"book_id": "12388481", "genres": {"non-fiction": 3, "history, historical fiction, biography": 1, "fiction": 1}}
+{"book_id": "12388481", "genres": {"non-fiction": 3, "history": 1, "fiction": 1}}
 {"book_id": "6898789", "genres": {}}
 {"book_id": "13605048", "genres": {"non-fiction": 18, "fiction": 3, "fantasy, paranormal": 1, "comics, graphic": 1}}
-{"book_id": "13632422", "genres": {"fantasy, paranormal": 31, "fiction": 7, "young-adult": 1, "romance": 1, "mystery, thriller, crime": 1}}
-{"book_id": "12388488", "genres": {"fantasy, paranormal": 18, "romance": 7, "fiction": 6, "history, historical fiction, biography": 2, "young-adult": 1, "mystery, thriller, crime": 2}}
-{"book_id": "6898781", "genres": {"fiction": 791, "fantasy, paranormal": 536, "mystery, thriller, crime": 108, "comics, graphic": 50}}
+{"book_id": "13632422", "genres": {"fantasy, paranormal": 31, "fiction": 7, "young-adult": 1, "romance": 1, "mystery": 1}}
+{"book_id": "12388488", "genres": {"fantasy, paranormal": 18, "romance": 7, "fiction": 6, "history": 2, "young-adult": 1, "mystery": 2}}
+{"book_id": "6898781", "genres": {"fiction": 791, "fantasy, paranormal": 536, "mystery": 108, "comics, graphic": 50}}
 {"book_id": "12106351", "genres": {"romance": 5, "fiction": 2}}
 {"book_id": "667794", "genres": {}}
 {"book_id": "17693019", "genres": {"fantasy, paranormal": 4}}
 {"book_id": "33670590", "genres": {"romance": 5, "young-adult": 8, "fantasy, paranormal": 6, "fiction": 2}}
-{"book_id": "12106356", "genres": {"mystery, thriller, crime": 504, "fiction": 126}}
+{"book_id": "12106356", "genres": {"mystery": 504, "fiction": 126}}
 {"book_id": "977528", "genres": {"children": 3, "fiction": 1}}
 {"book_id": "17693016", "genres": {"fiction": 1, "romance": 2}}
 {"book_id": "667799", "genres": {"non-fiction": 6}}
-{"book_id": "977529", "genres": {"fantasy, paranormal": 11, "fiction": 5, "children": 24, "young-adult": 2, "history, historical fiction, biography": 1}}
-{"book_id": "23374904", "genres": {"romance": 18, "young-adult": 6, "history, historical fiction, biography": 1}}
-{"book_id": "22889758", "genres": {"comics, graphic": 226, "fantasy, paranormal": 99, "fiction": 7, "mystery, thriller, crime": 1, "non-fiction": 1}}
+{"book_id": "977529", "genres": {"fantasy, paranormal": 11, "fiction": 5, "children": 24, "young-adult": 2, "history": 1}}
+{"book_id": "23374904", "genres": {"romance": 18, "young-adult": 6, "history": 1}}
+{"book_id": "22889758", "genres": {"comics, graphic": 226, "fantasy, paranormal": 99, "fiction": 7, "mystery": 1, "non-fiction": 1}}
 {"book_id": "28010056", "genres": {}}
 {"book_id": "554372", "genres": {"poetry": 4, "fiction": 2}}
 {"book_id": "2829512", "genres": {"children": 3}}
-{"book_id": "35046085", "genres": {"history, historical fiction, biography": 3, "romance": 3}}
+{"book_id": "35046085", "genres": {"history": 3, "romance": 3}}
 {"book_id": "1226371", "genres": {"fiction": 10}}
 {"book_id": "18042275", "genres": {"poetry": 1, "fiction": 1}}
 {"book_id": "31180257", "genres": {"fantasy, paranormal": 8, "children": 3, "young-adult": 1}}
 {"book_id": "31180254", "genres": {}}
-{"book_id": "9749376", "genres": {"mystery, thriller, crime": 3}}
+{"book_id": "9749376", "genres": {"mystery": 3}}
 {"book_id": "14305822", "genres": {"fiction": 151}}
-{"book_id": "26535163", "genres": {"fiction": 404, "history, historical fiction, biography": 20}}
-{"book_id": "23204594", "genres": {"mystery, thriller, crime": 20, "fiction": 7}}
-{"book_id": "4001420", "genres": {"non-fiction": 20, "history, historical fiction, biography": 20, "romance": 1, "comics, graphic": 1}}
-{"book_id": "19192696", "genres": {"non-fiction": 4, "history, historical fiction, biography": 2}}
+{"book_id": "26535163", "genres": {"fiction": 404, "history": 20}}
+{"book_id": "23204594", "genres": {"mystery": 20, "fiction": 7}}
+{"book_id": "4001420", "genres": {"non-fiction": 20, "history": 20, "romance": 1, "comics, graphic": 1}}
+{"book_id": "19192696", "genres": {"non-fiction": 4, "history": 2}}
 {"book_id": "26791581", "genres": {}}
-{"book_id": "1626346", "genres": {"fiction": 1022, "poetry": 54, "history, historical fiction, biography": 56, "non-fiction": 29, "young-adult": 17, "comics, graphic": 27}}
-{"book_id": "19192691", "genres": {"non-fiction": 2, "history, historical fiction, biography": 3, "children": 1}}
+{"book_id": "1626346", "genres": {"fiction": 1022, "poetry": 54, "history": 56, "non-fiction": 29, "young-adult": 17, "comics, graphic": 27}}
+{"book_id": "19192691", "genres": {"non-fiction": 2, "history": 3, "children": 1}}
 {"book_id": "22161927", "genres": {"fiction": 3}}
-{"book_id": "820228", "genres": {"fiction": 760, "mystery, thriller, crime": 131, "fantasy, paranormal": 115, "romance": 55, "history, historical fiction, biography": 27}}
-{"book_id": "820229", "genres": {"fiction": 760, "mystery, thriller, crime": 131, "fantasy, paranormal": 115, "romance": 55, "history, historical fiction, biography": 27}}
-{"book_id": "12409097", "genres": {"fiction": 174, "fantasy, paranormal": 20, "mystery, thriller, crime": 2}}
-{"book_id": "17681424", "genres": {"mystery, thriller, crime": 1, "fiction": 1}}
+{"book_id": "820228", "genres": {"fiction": 760, "mystery": 131, "fantasy, paranormal": 115, "romance": 55, "history": 27}}
+{"book_id": "820229", "genres": {"fiction": 760, "mystery": 131, "fantasy, paranormal": 115, "romance": 55, "history": 27}}
+{"book_id": "12409097", "genres": {"fiction": 174, "fantasy, paranormal": 20, "mystery": 2}}
+{"book_id": "17681424", "genres": {"mystery": 1, "fiction": 1}}
 {"book_id": "17681423", "genres": {"children": 1}}
-{"book_id": "2650339", "genres": {"non-fiction": 17, "history, historical fiction, biography": 11}}
+{"book_id": "2650339", "genres": {"non-fiction": 17, "history": 11}}
 {"book_id": "1517589", "genres": {"fantasy, paranormal": 36930, "fiction": 8918, "young-adult": 661}}
 {"book_id": "22061330", "genres": {"romance": 5}}
-{"book_id": "2650331", "genres": {"history, historical fiction, biography": 18, "non-fiction": 15, "children": 10, "fiction": 5, "comics, graphic": 3, "young-adult": 2}}
-{"book_id": "820226", "genres": {"fiction": 760, "mystery, thriller, crime": 131, "fantasy, paranormal": 115, "romance": 55, "history, historical fiction, biography": 27}}
-{"book_id": "820227", "genres": {"fiction": 760, "mystery, thriller, crime": 131, "fantasy, paranormal": 115, "romance": 55, "history, historical fiction, biography": 27}}
+{"book_id": "2650331", "genres": {"history": 18, "non-fiction": 15, "children": 10, "fiction": 5, "comics, graphic": 3, "young-adult": 2}}
+{"book_id": "820226", "genres": {"fiction": 760, "mystery": 131, "fantasy, paranormal": 115, "romance": 55, "history": 27}}
+{"book_id": "820227", "genres": {"fiction": 760, "mystery": 131, "fantasy, paranormal": 115, "romance": 55, "history": 27}}
 {"book_id": "2599206", "genres": {"non-fiction": 6}}
 {"book_id": "20544060", "genres": {"poetry": 2}}
 {"book_id": "28436751", "genres": {"young-adult": 216, "fiction": 103, "romance": 25}}
 {"book_id": "24484184", "genres": {"fiction": 2}}
-{"book_id": "25268526", "genres": {"fantasy, paranormal": 10, "mystery, thriller, crime": 6, "romance": 1, "fiction": 1}}
-{"book_id": "10192426", "genres": {"romance": 5, "history, historical fiction, biography": 5, "comics, graphic": 3, "fiction": 1, "fantasy, paranormal": 1}}
-{"book_id": "1409922", "genres": {"fiction": 6, "mystery, thriller, crime": 2}}
+{"book_id": "25268526", "genres": {"fantasy, paranormal": 10, "mystery": 6, "romance": 1, "fiction": 1}}
+{"book_id": "10192426", "genres": {"romance": 5, "history": 5, "comics, graphic": 3, "fiction": 1, "fantasy, paranormal": 1}}
+{"book_id": "1409922", "genres": {"fiction": 6, "mystery": 2}}
 {"book_id": "10192420", "genres": {"romance": 2874, "fiction": 1255, "fantasy, paranormal": 1953, "young-adult": 1416}}
-{"book_id": "18090481", "genres": {"non-fiction": 9, "history, historical fiction, biography": 1}}
+{"book_id": "18090481", "genres": {"non-fiction": 9, "history": 1}}
 {"book_id": "38569", "genres": {"non-fiction": 1}}
 {"book_id": "38568", "genres": {"fantasy, paranormal": 1907, "romance": 1598, "fiction": 79}}
 {"book_id": "18662551", "genres": {}}
 {"book_id": "18662550", "genres": {"fiction": 1305, "romance": 32}}
-{"book_id": "33929303", "genres": {"fantasy, paranormal": 11, "mystery, thriller, crime": 1}}
-{"book_id": "15751505", "genres": {"romance": 6, "history, historical fiction, biography": 4, "fantasy, paranormal": 2, "fiction": 2}}
-{"book_id": "16075231", "genres": {"fiction": 13, "history, historical fiction, biography": 10}}
+{"book_id": "33929303", "genres": {"fantasy, paranormal": 11, "mystery": 1}}
+{"book_id": "15751505", "genres": {"romance": 6, "history": 4, "fantasy, paranormal": 2, "fiction": 2}}
+{"book_id": "16075231", "genres": {"fiction": 13, "history": 10}}
 {"book_id": "38561", "genres": {"non-fiction": 6}}
-{"book_id": "33833122", "genres": {"fiction": 2133, "mystery, thriller, crime": 954, "young-adult": 76, "fantasy, paranormal": 75}}
+{"book_id": "33833122", "genres": {"fiction": 2133, "mystery": 954, "young-adult": 76, "fantasy, paranormal": 75}}
 {"book_id": "38563", "genres": {"non-fiction": 6}}
-{"book_id": "38562", "genres": {"fantasy, paranormal": 1002, "romance": 896, "fiction": 42, "mystery, thriller, crime": 20}}
+{"book_id": "38562", "genres": {"fantasy, paranormal": 1002, "romance": 896, "fiction": 42, "mystery": 20}}
 {"book_id": "38565", "genres": {"children": 37, "fiction": 5, "fantasy, paranormal": 1}}
 {"book_id": "38564", "genres": {"young-adult": 315, "fantasy, paranormal": 275, "fiction": 30, "romance": 20}}
 {"book_id": "38567", "genres": {}}
 {"book_id": "16075239", "genres": {"fiction": 5, "non-fiction": 1}}
 {"book_id": "27998344", "genres": {"non-fiction": 1, "fiction": 1}}
-{"book_id": "17991730", "genres": {"non-fiction": 3, "history, historical fiction, biography": 1, "comics, graphic": 1}}
-{"book_id": "20613514", "genres": {"fiction": 23, "history, historical fiction, biography": 10, "young-adult": 1, "non-fiction": 1}}
-{"book_id": "20613515", "genres": {"history, historical fiction, biography": 51, "non-fiction": 28}}
+{"book_id": "17991730", "genres": {"non-fiction": 3, "history": 1, "comics, graphic": 1}}
+{"book_id": "20613514", "genres": {"fiction": 23, "history": 10, "young-adult": 1, "non-fiction": 1}}
+{"book_id": "20613515", "genres": {"history": 51, "non-fiction": 28}}
 {"book_id": "20613512", "genres": {"fiction": 2, "children": 3, "comics, graphic": 1}}
-{"book_id": "20613513", "genres": {"mystery, thriller, crime": 107, "fiction": 18}}
-{"book_id": "12958077", "genres": {"fantasy, paranormal": 55, "comics, graphic": 52, "mystery, thriller, crime": 13, "young-adult": 8, "romance": 5, "fiction": 6, "history, historical fiction, biography": 7}}
-{"book_id": "20613511", "genres": {"non-fiction": 898, "history, historical fiction, biography": 77}}
-{"book_id": "5986601", "genres": {"fiction": 2, "history, historical fiction, biography": 4, "romance": 1}}
-{"book_id": "4073030", "genres": {"mystery, thriller, crime": 1}}
+{"book_id": "20613513", "genres": {"mystery": 107, "fiction": 18}}
+{"book_id": "12958077", "genres": {"fantasy, paranormal": 55, "comics, graphic": 52, "mystery": 13, "young-adult": 8, "romance": 5, "fiction": 6, "history": 7}}
+{"book_id": "20613511", "genres": {"non-fiction": 898, "history": 77}}
+{"book_id": "5986601", "genres": {"fiction": 2, "history": 4, "romance": 1}}
+{"book_id": "4073030", "genres": {"mystery": 1}}
 {"book_id": "20613518", "genres": {"fiction": 12, "young-adult": 1}}
 {"book_id": "20613519", "genres": {"fiction": 15, "poetry": 1}}
-{"book_id": "28422525", "genres": {"comics, graphic": 154, "fantasy, paranormal": 16, "fiction": 8, "mystery, thriller, crime": 1}}
+{"book_id": "28422525", "genres": {"comics, graphic": 154, "fantasy, paranormal": 16, "fiction": 8, "mystery": 1}}
 {"book_id": "35201177", "genres": {}}
 {"book_id": "26458788", "genres": {"romance": 121, "fiction": 9}}
-{"book_id": "24489718", "genres": {"fiction": 31, "history, historical fiction, biography": 32, "romance": 5, "fantasy, paranormal": 1}}
+{"book_id": "24489718", "genres": {"fiction": 31, "history": 32, "romance": 5, "fantasy, paranormal": 1}}
 {"book_id": "18207021", "genres": {}}
-{"book_id": "8892236", "genres": {"non-fiction": 12, "history, historical fiction, biography": 3, "comics, graphic": 1}}
-{"book_id": "8892235", "genres": {"young-adult": 578, "fantasy, paranormal": 997, "romance": 142, "fiction": 109, "mystery, thriller, crime": 15}}
+{"book_id": "8892236", "genres": {"non-fiction": 12, "history": 3, "comics, graphic": 1}}
+{"book_id": "8892235", "genres": {"young-adult": 578, "fantasy, paranormal": 997, "romance": 142, "fiction": 109, "mystery": 15}}
 {"book_id": "34627196", "genres": {}}
 {"book_id": "246205", "genres": {"non-fiction": 2, "fiction": 1}}
-{"book_id": "6296529", "genres": {"history, historical fiction, biography": 18, "non-fiction": 14, "comics, graphic": 21, "fiction": 1}}
+{"book_id": "6296529", "genres": {"history": 18, "non-fiction": 14, "comics, graphic": 21, "fiction": 1}}
 {"book_id": "13448159", "genres": {}}
-{"book_id": "246200", "genres": {"non-fiction": 9, "history, historical fiction, biography": 3}}
-{"book_id": "27502751", "genres": {"fantasy, paranormal": 2279, "young-adult": 998, "fiction": 936, "mystery, thriller, crime": 42, "romance": 35}}
+{"book_id": "246200", "genres": {"non-fiction": 9, "history": 3}}
+{"book_id": "27502751", "genres": {"fantasy, paranormal": 2279, "young-adult": 998, "fiction": 936, "mystery": 42, "romance": 35}}
 {"book_id": "12719273", "genres": {"non-fiction": 33}}
-{"book_id": "12914124", "genres": {"fiction": 200, "fantasy, paranormal": 89, "mystery, thriller, crime": 31}}
+{"book_id": "12914124", "genres": {"fiction": 200, "fantasy, paranormal": 89, "mystery": 31}}
 {"book_id": "13892", "genres": {"fantasy, paranormal": 57, "fiction": 10, "young-adult": 1}}
-{"book_id": "6296527", "genres": {"fiction": 942, "mystery, thriller, crime": 599, "fantasy, paranormal": 41}}
-{"book_id": "12914122", "genres": {"fiction": 21523, "history, historical fiction, biography": 10820, "young-adult": 120}}
-{"book_id": "1385724", "genres": {"history, historical fiction, biography": 2}}
+{"book_id": "6296527", "genres": {"fiction": 942, "mystery": 599, "fantasy, paranormal": 41}}
+{"book_id": "12914122", "genres": {"fiction": 21523, "history": 10820, "young-adult": 120}}
+{"book_id": "1385724", "genres": {"history": 2}}
 {"book_id": "7431646", "genres": {"non-fiction": 2}}
 {"book_id": "12291714", "genres": {"children": 38, "young-adult": 3}}
-{"book_id": "18593020", "genres": {"fiction": 29, "history, historical fiction, biography": 5}}
-{"book_id": "175248", "genres": {"fiction": 107, "fantasy, paranormal": 117, "mystery, thriller, crime": 93, "young-adult": 3}}
+{"book_id": "18593020", "genres": {"fiction": 29, "history": 5}}
+{"book_id": "175248", "genres": {"fiction": 107, "fantasy, paranormal": 117, "mystery": 93, "young-adult": 3}}
 {"book_id": "27139767", "genres": {"romance": 1}}
 {"book_id": "18593027", "genres": {"romance": 56, "fiction": 3, "comics, graphic": 1}}
 {"book_id": "35751759", "genres": {}}
 {"book_id": "14782003", "genres": {}}
-{"book_id": "175243", "genres": {"mystery, thriller, crime": 549, "fiction": 83, "fantasy, paranormal": 24}}
-{"book_id": "175242", "genres": {"mystery, thriller, crime": 1156, "fiction": 198, "fantasy, paranormal": 38}}
+{"book_id": "175243", "genres": {"mystery": 549, "fiction": 83, "fantasy, paranormal": 24}}
+{"book_id": "175242", "genres": {"mystery": 1156, "fiction": 198, "fantasy, paranormal": 38}}
 {"book_id": "18593029", "genres": {}}
-{"book_id": "175247", "genres": {"mystery, thriller, crime": 359, "fiction": 65, "fantasy, paranormal": 22}}
-{"book_id": "175246", "genres": {"mystery, thriller, crime": 497, "fiction": 87, "fantasy, paranormal": 27}}
-{"book_id": "175245", "genres": {"mystery, thriller, crime": 399, "fiction": 72, "fantasy, paranormal": 45}}
-{"book_id": "175244", "genres": {"mystery, thriller, crime": 300, "fiction": 65, "fantasy, paranormal": 19}}
-{"book_id": "16059847", "genres": {"fiction": 121, "mystery, thriller, crime": 9}}
+{"book_id": "175247", "genres": {"mystery": 359, "fiction": 65, "fantasy, paranormal": 22}}
+{"book_id": "175246", "genres": {"mystery": 497, "fiction": 87, "fantasy, paranormal": 27}}
+{"book_id": "175245", "genres": {"mystery": 399, "fiction": 72, "fantasy, paranormal": 45}}
+{"book_id": "175244", "genres": {"mystery": 300, "fiction": 65, "fantasy, paranormal": 19}}
+{"book_id": "16059847", "genres": {"fiction": 121, "mystery": 9}}
 {"book_id": "10898316", "genres": {"poetry": 3}}
-{"book_id": "17975149", "genres": {"fantasy, paranormal": 16, "romance": 9, "young-adult": 1, "history, historical fiction, biography": 2, "fiction": 2}}
+{"book_id": "17975149", "genres": {"fantasy, paranormal": 16, "romance": 9, "young-adult": 1, "history": 2, "fiction": 2}}
 {"book_id": "19541855", "genres": {"fiction": 7, "romance": 4}}
 {"book_id": "19541857", "genres": {"comics, graphic": 493, "fiction": 12, "young-adult": 5, "fantasy, paranormal": 2}}
 {"book_id": "27312280", "genres": {"romance": 1}}
 {"book_id": "32855795", "genres": {"comics, graphic": 73, "young-adult": 6, "fiction": 5, "romance": 1}}
-{"book_id": "19541858", "genres": {"mystery, thriller, crime": 10, "fiction": 2}}
-{"book_id": "17975140", "genres": {"non-fiction": 26, "history, historical fiction, biography": 28, "fiction": 4}}
+{"book_id": "19541858", "genres": {"mystery": 10, "fiction": 2}}
+{"book_id": "17975140", "genres": {"non-fiction": 26, "history": 28, "fiction": 4}}
 {"book_id": "21416393", "genres": {"fiction": 61, "fantasy, paranormal": 6}}
-{"book_id": "6453923", "genres": {"non-fiction": 1, "history, historical fiction, biography": 6, "fiction": 1}}
+{"book_id": "6453923", "genres": {"non-fiction": 1, "history": 6, "fiction": 1}}
 {"book_id": "17975145", "genres": {"fantasy, paranormal": 4, "young-adult": 3, "romance": 1}}
-{"book_id": "18634982", "genres": {"mystery, thriller, crime": 209, "fiction": 82, "romance": 6}}
-{"book_id": "13382196", "genres": {"non-fiction": 218, "fiction": 42, "history, historical fiction, biography": 11, "fantasy, paranormal": 2}}
-{"book_id": "23716534", "genres": {"mystery, thriller, crime": 1}}
+{"book_id": "18634982", "genres": {"mystery": 209, "fiction": 82, "romance": 6}}
+{"book_id": "13382196", "genres": {"non-fiction": 218, "fiction": 42, "history": 11, "fantasy, paranormal": 2}}
+{"book_id": "23716534", "genres": {"mystery": 1}}
 {"book_id": "6282355", "genres": {"romance": 29, "fiction": 4, "fantasy, paranormal": 1}}
-{"book_id": "18634986", "genres": {"fiction": 22, "mystery, thriller, crime": 52}}
+{"book_id": "18634986", "genres": {"fiction": 22, "mystery": 52}}
 {"book_id": "6282357", "genres": {}}
 {"book_id": "12361920", "genres": {"comics, graphic": 1, "children": 1}}
-{"book_id": "2657344", "genres": {"fiction": 313, "history, historical fiction, biography": 310, "romance": 51}}
+{"book_id": "2657344", "genres": {"fiction": 313, "history": 310, "romance": 51}}
 {"book_id": "19012266", "genres": {"non-fiction": 2}}
-{"book_id": "12446890", "genres": {"fiction": 36, "mystery, thriller, crime": 6, "children": 16, "young-adult": 6, "fantasy, paranormal": 6}}
+{"book_id": "12446890", "genres": {"fiction": 36, "mystery": 6, "children": 16, "young-adult": 6, "fantasy, paranormal": 6}}
 {"book_id": "16250761", "genres": {"children": 2}}
 {"book_id": "117709", "genres": {}}
 {"book_id": "1610908", "genres": {"non-fiction": 4}}
-{"book_id": "33394411", "genres": {"romance": 5, "mystery, thriller, crime": 1, "fiction": 1}}
+{"book_id": "33394411", "genres": {"romance": 5, "mystery": 1, "fiction": 1}}
 {"book_id": "23964845", "genres": {"romance": 5, "young-adult": 1}}
 {"book_id": "18362697", "genres": {}}
 {"book_id": "18362696", "genres": {}}
-{"book_id": "348524", "genres": {"non-fiction": 4, "history, historical fiction, biography": 2}}
+{"book_id": "348524", "genres": {"non-fiction": 4, "history": 2}}
 {"book_id": "33809724", "genres": {"romance": 2, "fiction": 1}}
 {"book_id": "454859", "genres": {"children": 2701, "fiction": 937, "young-adult": 345}}
-{"book_id": "29940158", "genres": {"romance": 4, "mystery, thriller, crime": 7}}
-{"book_id": "17510247", "genres": {"poetry": 46, "non-fiction": 3, "history, historical fiction, biography": 1}}
+{"book_id": "29940158", "genres": {"romance": 4, "mystery": 7}}
+{"book_id": "17510247", "genres": {"poetry": 46, "non-fiction": 3, "history": 1}}
 {"book_id": "33809720", "genres": {}}
-{"book_id": "1610906", "genres": {"fiction": 2669, "history, historical fiction, biography": 1345, "young-adult": 142, "children": 45}}
+{"book_id": "1610906", "genres": {"fiction": 2669, "history": 1345, "young-adult": 142, "children": 45}}
 {"book_id": "21243290", "genres": {}}
-{"book_id": "33355016", "genres": {"fantasy, paranormal": 15, "romance": 5, "young-adult": 2, "fiction": 2, "mystery, thriller, crime": 1}}
+{"book_id": "33355016", "genres": {"fantasy, paranormal": 15, "romance": 5, "young-adult": 2, "fiction": 2, "mystery": 1}}
 {"book_id": "17337053", "genres": {"fiction": 2}}
-{"book_id": "13579397", "genres": {"fantasy, paranormal": 70, "fiction": 64, "history, historical fiction, biography": 2}}
+{"book_id": "13579397", "genres": {"fantasy, paranormal": 70, "fiction": 64, "history": 2}}
 {"book_id": "18389080", "genres": {"non-fiction": 3, "comics, graphic": 1}}
-{"book_id": "29779125", "genres": {"fantasy, paranormal": 156, "romance": 41, "young-adult": 7, "fiction": 5, "mystery, thriller, crime": 1}}
+{"book_id": "29779125", "genres": {"fantasy, paranormal": 156, "romance": 41, "young-adult": 7, "fiction": 5, "mystery": 1}}
 {"book_id": "16089850", "genres": {"fantasy, paranormal": 2, "fiction": 1}}
 {"book_id": "16089853", "genres": {"fiction": 1}}
-{"book_id": "16089852", "genres": {"fiction": 4, "fantasy, paranormal": 6, "romance": 0, "history, historical fiction, biography": 1}}
-{"book_id": "3404127", "genres": {"non-fiction": 9, "mystery, thriller, crime": 8}}
+{"book_id": "16089852", "genres": {"fiction": 4, "fantasy, paranormal": 6, "romance": 0, "history": 1}}
+{"book_id": "3404127", "genres": {"non-fiction": 9, "mystery": 8}}
 {"book_id": "16089854", "genres": {"fiction": 2}}
-{"book_id": "243804", "genres": {"non-fiction": 3, "history, historical fiction, biography": 1, "young-adult": 1}}
-{"book_id": "693710", "genres": {"fantasy, paranormal": 31, "fiction": 11, "history, historical fiction, biography": 3}}
-{"book_id": "10102379", "genres": {"fiction": 3680, "history, historical fiction, biography": 174, "romance": 48}}
-{"book_id": "693712", "genres": {"fantasy, paranormal": 25, "fiction": 22, "history, historical fiction, biography": 18}}
-{"book_id": "916805", "genres": {"fiction": 15, "poetry": 8, "history, historical fiction, biography": 11, "non-fiction": 3, "fantasy, paranormal": 1}}
-{"book_id": "20426738", "genres": {"romance": 5, "history, historical fiction, biography": 2}}
+{"book_id": "243804", "genres": {"non-fiction": 3, "history": 1, "young-adult": 1}}
+{"book_id": "693710", "genres": {"fantasy, paranormal": 31, "fiction": 11, "history": 3}}
+{"book_id": "10102379", "genres": {"fiction": 3680, "history": 174, "romance": 48}}
+{"book_id": "693712", "genres": {"fantasy, paranormal": 25, "fiction": 22, "history": 18}}
+{"book_id": "916805", "genres": {"fiction": 15, "poetry": 8, "history": 11, "non-fiction": 3, "fantasy, paranormal": 1}}
+{"book_id": "20426738", "genres": {"romance": 5, "history": 2}}
 {"book_id": "20426739", "genres": {"fantasy, paranormal": 1909, "romance": 837, "young-adult": 203, "fiction": 50}}
-{"book_id": "20650678", "genres": {"romance": 40, "mystery, thriller, crime": 8, "fiction": 2}}
-{"book_id": "20650677", "genres": {"romance": 94, "mystery, thriller, crime": 27, "fiction": 11}}
+{"book_id": "20650678", "genres": {"romance": 40, "mystery": 8, "fiction": 2}}
+{"book_id": "20650677", "genres": {"romance": 94, "mystery": 27, "fiction": 11}}
 {"book_id": "20426736", "genres": {"fantasy, paranormal": 19, "young-adult": 5, "romance": 7}}
-{"book_id": "916809", "genres": {"romance": 50, "history, historical fiction, biography": 29, "fantasy, paranormal": 19, "fiction": 4}}
-{"book_id": "8730981", "genres": {"fiction": 32, "history, historical fiction, biography": 13, "romance": 1}}
-{"book_id": "803251", "genres": {"mystery, thriller, crime": 35, "fiction": 13, "young-adult": 7, "children": 12}}
-{"book_id": "22889750", "genres": {"non-fiction": 166, "history, historical fiction, biography": 74, "fiction": 3}}
-{"book_id": "29862816", "genres": {"fiction": 30, "non-fiction": 17, "history, historical fiction, biography": 8, "romance": 3}}
+{"book_id": "916809", "genres": {"romance": 50, "history": 29, "fantasy, paranormal": 19, "fiction": 4}}
+{"book_id": "8730981", "genres": {"fiction": 32, "history": 13, "romance": 1}}
+{"book_id": "803251", "genres": {"mystery": 35, "fiction": 13, "young-adult": 7, "children": 12}}
+{"book_id": "22889750", "genres": {"non-fiction": 166, "history": 74, "fiction": 3}}
+{"book_id": "29862816", "genres": {"fiction": 30, "non-fiction": 17, "history": 8, "romance": 3}}
 {"book_id": "25902707", "genres": {"romance": 9, "fiction": 5, "fantasy, paranormal": 3}}
-{"book_id": "8730988", "genres": {"fiction": 23, "history, historical fiction, biography": 2, "poetry": 1}}
-{"book_id": "25010560", "genres": {"non-fiction": 9, "history, historical fiction, biography": 3, "poetry": 3}}
+{"book_id": "8730988", "genres": {"fiction": 23, "history": 2, "poetry": 1}}
+{"book_id": "25010560", "genres": {"non-fiction": 9, "history": 3, "poetry": 3}}
 {"book_id": "33293455", "genres": {}}
-{"book_id": "34320236", "genres": {"romance": 48, "mystery, thriller, crime": 4}}
+{"book_id": "34320236", "genres": {"romance": 48, "mystery": 4}}
 {"book_id": "34320231", "genres": {}}
-{"book_id": "25010564", "genres": {"mystery, thriller, crime": 2227, "fiction": 459, "history, historical fiction, biography": 24}}
+{"book_id": "25010564", "genres": {"mystery": 2227, "fiction": 459, "history": 24}}
 {"book_id": "28928603", "genres": {"children": 3, "fiction": 1, "young-adult": 1}}
-{"book_id": "34507785", "genres": {"romance": 12, "mystery, thriller, crime": 7, "fiction": 6}}
+{"book_id": "34507785", "genres": {"romance": 12, "mystery": 7, "fiction": 6}}
 {"book_id": "785553", "genres": {"children": 21, "fiction": 1}}
-{"book_id": "12167635", "genres": {"fiction": 3, "mystery, thriller, crime": 3}}
-{"book_id": "10862067", "genres": {"comics, graphic": 1164, "fiction": 49, "fantasy, paranormal": 15, "young-adult": 4, "history, historical fiction, biography": 4}}
+{"book_id": "12167635", "genres": {"fiction": 3, "mystery": 3}}
+{"book_id": "10862067", "genres": {"comics, graphic": 1164, "fiction": 49, "fantasy, paranormal": 15, "young-adult": 4, "history": 4}}
 {"book_id": "9567066", "genres": {"non-fiction": 1}}
-{"book_id": "9540538", "genres": {"fiction": 206, "history, historical fiction, biography": 125, "romance": 31, "fantasy, paranormal": 4}}
+{"book_id": "9540538", "genres": {"fiction": 206, "history": 125, "romance": 31, "fantasy, paranormal": 4}}
 {"book_id": "18074816", "genres": {"romance": 11}}
 {"book_id": "25636252", "genres": {}}
-{"book_id": "12996838", "genres": {"fiction": 44, "history, historical fiction, biography": 1}}
-{"book_id": "1884380", "genres": {"fiction": 17, "mystery, thriller, crime": 1}}
+{"book_id": "12996838", "genres": {"fiction": 44, "history": 1}}
+{"book_id": "1884380", "genres": {"fiction": 17, "mystery": 1}}
 {"book_id": "22736662", "genres": {"fiction": 1}}
 {"book_id": "24735548", "genres": {"romance": -1}}
-{"book_id": "16084759", "genres": {"young-adult": 18, "mystery, thriller, crime": 6, "fiction": 3, "children": 4}}
-{"book_id": "16084758", "genres": {"history, historical fiction, biography": 1}}
+{"book_id": "16084759", "genres": {"young-adult": 18, "mystery": 6, "fiction": 3, "children": 4}}
+{"book_id": "16084758", "genres": {"history": 1}}
 {"book_id": "17827455", "genres": {"non-fiction": 1}}
 {"book_id": "16084755", "genres": {"fiction": 2, "romance": 2}}
-{"book_id": "591284", "genres": {"non-fiction": 19, "history, historical fiction, biography": 5, "poetry": 1}}
-{"book_id": "16084757", "genres": {"mystery, thriller, crime": 561, "fiction": 84}}
+{"book_id": "591284", "genres": {"non-fiction": 19, "history": 5, "poetry": 1}}
+{"book_id": "16084757", "genres": {"mystery": 561, "fiction": 84}}
 {"book_id": "30362097", "genres": {"children": 13, "fiction": 1}}
-{"book_id": "591280", "genres": {"fiction": 1139, "history, historical fiction, biography": 1156, "romance": 133, "fantasy, paranormal": 5}}
-{"book_id": "12996836", "genres": {"mystery, thriller, crime": 129, "fiction": 117, "history, historical fiction, biography": 200, "romance": 92, "fantasy, paranormal": 18}}
+{"book_id": "591280", "genres": {"fiction": 1139, "history": 1156, "romance": 133, "fantasy, paranormal": 5}}
+{"book_id": "12996836", "genres": {"mystery": 129, "fiction": 117, "history": 200, "romance": 92, "fantasy, paranormal": 18}}
 {"book_id": "25308193", "genres": {"fantasy, paranormal": 1}}
 {"book_id": "15774736", "genres": {}}
 {"book_id": "5889804", "genres": {}}
-{"book_id": "15774735", "genres": {"fantasy, paranormal": 16, "fiction": 6, "children": 4, "young-adult": 3, "mystery, thriller, crime": 1}}
+{"book_id": "15774735", "genres": {"fantasy, paranormal": 16, "fiction": 6, "children": 4, "young-adult": 3, "mystery": 1}}
 {"book_id": "15774732", "genres": {"fiction": 5, "fantasy, paranormal": 2}}
-{"book_id": "23010495", "genres": {"fiction": 38, "mystery, thriller, crime": 25}}
+{"book_id": "23010495", "genres": {"fiction": 38, "mystery": 25}}
 {"book_id": "27630357", "genres": {"comics, graphic": 7, "fiction": 2}}
-{"book_id": "17175207", "genres": {"romance": 36, "mystery, thriller, crime": 3, "fantasy, paranormal": 1, "children": 1}}
+{"book_id": "17175207", "genres": {"romance": 36, "mystery": 3, "fantasy, paranormal": 1, "children": 1}}
 {"book_id": "30338792", "genres": {}}
-{"book_id": "27220550", "genres": {"history, historical fiction, biography": 3, "non-fiction": 1}}
+{"book_id": "27220550", "genres": {"history": 3, "non-fiction": 1}}
 {"book_id": "35896194", "genres": {}}
-{"book_id": "8128563", "genres": {"history, historical fiction, biography": 562, "non-fiction": 196}}
-{"book_id": "8128565", "genres": {"non-fiction": 14, "history, historical fiction, biography": 2}}
+{"book_id": "8128563", "genres": {"history": 562, "non-fiction": 196}}
+{"book_id": "8128565", "genres": {"non-fiction": 14, "history": 2}}
 {"book_id": "35268988", "genres": {"comics, graphic": 12, "fantasy, paranormal": 5, "fiction": 1, "young-adult": 1}}
-{"book_id": "6611793", "genres": {"fiction": 456, "history, historical fiction, biography": 91}}
-{"book_id": "17593132", "genres": {"history, historical fiction, biography": 4}}
+{"book_id": "6611793", "genres": {"fiction": 456, "history": 91}}
+{"book_id": "17593132", "genres": {"history": 4}}
 {"book_id": "31075220", "genres": {}}
 {"book_id": "6611798", "genres": {}}
-{"book_id": "27220733", "genres": {"history, historical fiction, biography": 532, "non-fiction": 447, "comics, graphic": 8}}
+{"book_id": "27220733", "genres": {"history": 532, "non-fiction": 447, "comics, graphic": 8}}
 {"book_id": "27220730", "genres": {"young-adult": 901, "fiction": 712, "romance": 126, "fantasy, paranormal": 51}}
 {"book_id": "27220737", "genres": {"comics, graphic": 7, "fiction": 1}}
-{"book_id": "27220736", "genres": {"history, historical fiction, biography": 532, "non-fiction": 447, "comics, graphic": 8}}
-{"book_id": "11887018", "genres": {"non-fiction": 627, "history, historical fiction, biography": 550, "fiction": 25, "comics, graphic": 22}}
-{"book_id": "28572508", "genres": {"fiction": 3, "mystery, thriller, crime": 1, "romance": 1}}
+{"book_id": "27220736", "genres": {"history": 532, "non-fiction": 447, "comics, graphic": 8}}
+{"book_id": "11887018", "genres": {"non-fiction": 627, "history": 550, "fiction": 25, "comics, graphic": 22}}
+{"book_id": "28572508", "genres": {"fiction": 3, "mystery": 1, "romance": 1}}
 {"book_id": "27220739", "genres": {"non-fiction": 38, "romance": 2, "fiction": 1, "children": 1, "comics, graphic": 1, "fantasy, paranormal": 1}}
 {"book_id": "8845714", "genres": {"children": 12, "fiction": 1, "poetry": 1, "fantasy, paranormal": 1}}
 {"book_id": "30515690", "genres": {"romance": 2}}
 {"book_id": "11417346", "genres": {"non-fiction": 2}}
 {"book_id": "16034998", "genres": {"non-fiction": 3}}
-{"book_id": "15843139", "genres": {"non-fiction": 22, "history, historical fiction, biography": 6}}
-{"book_id": "13110467", "genres": {"fiction": 20, "fantasy, paranormal": 26, "mystery, thriller, crime": 6}}
-{"book_id": "25767012", "genres": {"fiction": 2, "mystery, thriller, crime": 2, "romance": 1}}
+{"book_id": "15843139", "genres": {"non-fiction": 22, "history": 6}}
+{"book_id": "13110467", "genres": {"fiction": 20, "fantasy, paranormal": 26, "mystery": 6}}
+{"book_id": "25767012", "genres": {"fiction": 2, "mystery": 2, "romance": 1}}
 {"book_id": "4811044", "genres": {"children": 7, "fiction": 1}}
 {"book_id": "13110462", "genres": {"fantasy, paranormal": 57, "romance": 19, "fiction": 4}}
-{"book_id": "10852766", "genres": {"fiction": 2, "history, historical fiction, biography": 1}}
-{"book_id": "15843133", "genres": {"non-fiction": 27, "history, historical fiction, biography": 4, "mystery, thriller, crime": 7}}
+{"book_id": "10852766", "genres": {"fiction": 2, "history": 1}}
+{"book_id": "15843133", "genres": {"non-fiction": 27, "history": 4, "mystery": 7}}
 {"book_id": "17609729", "genres": {"romance": 90, "fiction": 3, "young-adult": 3}}
-{"book_id": "16034992", "genres": {"fiction": 8594, "history, historical fiction, biography": 2991, "romance": 384, "young-adult": 159}}
-{"book_id": "10290982", "genres": {"fantasy, paranormal": 20, "fiction": 9, "poetry": 1, "history, historical fiction, biography": 3, "young-adult": 1}}
+{"book_id": "16034992", "genres": {"fiction": 8594, "history": 2991, "romance": 384, "young-adult": 159}}
+{"book_id": "10290982", "genres": {"fantasy, paranormal": 20, "fiction": 9, "poetry": 1, "history": 3, "young-adult": 1}}
 {"book_id": "7561212", "genres": {"fiction": 19, "non-fiction": 1}}
 {"book_id": "10290984", "genres": {"comics, graphic": 5, "fiction": 1}}
-{"book_id": "15843134", "genres": {"history, historical fiction, biography": 54, "non-fiction": 55, "fiction": 6, "poetry": 5}}
+{"book_id": "15843134", "genres": {"history": 54, "non-fiction": 55, "fiction": 6, "poetry": 5}}
 {"book_id": "1871354", "genres": {"fiction": 8, "romance": 4}}
 {"book_id": "20564017", "genres": {"fantasy, paranormal": 2, "romance": 1}}
 {"book_id": "8783223", "genres": {"fiction": 112, "romance": 22}}
 {"book_id": "20564013", "genres": {}}
 {"book_id": "2067880", "genres": {"poetry": 19, "children": 9, "non-fiction": 3, "young-adult": 1}}
-{"book_id": "12896692", "genres": {"history, historical fiction, biography": 3, "non-fiction": 1}}
+{"book_id": "12896692", "genres": {"history": 3, "non-fiction": 1}}
 {"book_id": "6444165", "genres": {"fantasy, paranormal": 2, "romance": 0}}
-{"book_id": "213185", "genres": {"fiction": 53, "comics, graphic": 11, "history, historical fiction, biography": 2, "young-adult": 1}}
-{"book_id": "213184", "genres": {"history, historical fiction, biography": 8, "non-fiction": 5}}
+{"book_id": "213185", "genres": {"fiction": 53, "comics, graphic": 11, "history": 2, "young-adult": 1}}
+{"book_id": "213184", "genres": {"history": 8, "non-fiction": 5}}
 {"book_id": "213186", "genres": {"non-fiction": 93, "children": 20}}
 {"book_id": "213181", "genres": {"poetry": 11}}
-{"book_id": "12360291", "genres": {"romance": 19, "fiction": 5, "mystery, thriller, crime": 1}}
+{"book_id": "12360291", "genres": {"romance": 19, "fiction": 5, "mystery": 1}}
 {"book_id": "24793293", "genres": {}}
-{"book_id": "28495143", "genres": {"mystery, thriller, crime": 45, "fiction": 11, "romance": 3}}
+{"book_id": "28495143", "genres": {"mystery": 45, "fiction": 11, "romance": 3}}
 {"book_id": "213189", "genres": {"non-fiction": 93, "children": 20}}
 {"book_id": "213188", "genres": {"children": 1}}
-{"book_id": "24793295", "genres": {"fantasy, paranormal": 240, "mystery, thriller, crime": 78, "fiction": 36, "romance": 19, "history, historical fiction, biography": 16}}
+{"book_id": "24793295", "genres": {"fantasy, paranormal": 240, "mystery": 78, "fiction": 36, "romance": 19, "history": 16}}
 {"book_id": "10172520", "genres": {"fiction": 19, "young-adult": 9, "romance": 6}}
-{"book_id": "25739780", "genres": {"mystery, thriller, crime": 31, "fiction": 12, "history, historical fiction, biography": 3}}
+{"book_id": "25739780", "genres": {"mystery": 31, "fiction": 12, "history": 3}}
 {"book_id": "877612", "genres": {"fantasy, paranormal": 3, "comics, graphic": 8, "fiction": 1}}
 {"book_id": "25739783", "genres": {"comics, graphic": 1}}
-{"book_id": "10172528", "genres": {"mystery, thriller, crime": 2}}
-{"book_id": "24611571", "genres": {"history, historical fiction, biography": 214, "non-fiction": 93, "fiction": 1}}
-{"book_id": "35593692", "genres": {"mystery, thriller, crime": 30, "fiction": 4}}
-{"book_id": "35593693", "genres": {"mystery, thriller, crime": 30, "fiction": 4}}
-{"book_id": "24611575", "genres": {"history, historical fiction, biography": 271, "romance": 285, "fiction": 26}}
-{"book_id": "120623", "genres": {"non-fiction": 997, "history, historical fiction, biography": 1179, "fiction": 46}}
+{"book_id": "10172528", "genres": {"mystery": 2}}
+{"book_id": "24611571", "genres": {"history": 214, "non-fiction": 93, "fiction": 1}}
+{"book_id": "35593692", "genres": {"mystery": 30, "fiction": 4}}
+{"book_id": "35593693", "genres": {"mystery": 30, "fiction": 4}}
+{"book_id": "24611575", "genres": {"history": 271, "romance": 285, "fiction": 26}}
+{"book_id": "120623", "genres": {"non-fiction": 997, "history": 1179, "fiction": 46}}
 {"book_id": "9409405", "genres": {"romance": 4, "fantasy, paranormal": 2}}
-{"book_id": "120621", "genres": {"fiction": 178, "history, historical fiction, biography": 16, "non-fiction": 8, "children": 4}}
-{"book_id": "7169720", "genres": {"mystery, thriller, crime": 2, "history, historical fiction, biography": 2}}
-{"book_id": "120626", "genres": {"fiction": 12665, "history, historical fiction, biography": 1965, "young-adult": 339}}
-{"book_id": "10154453", "genres": {"fiction": 224, "history, historical fiction, biography": 247, "young-adult": 121, "mystery, thriller, crime": 20, "romance": 2}}
+{"book_id": "120621", "genres": {"fiction": 178, "history": 16, "non-fiction": 8, "children": 4}}
+{"book_id": "7169720", "genres": {"mystery": 2, "history": 2}}
+{"book_id": "120626", "genres": {"fiction": 12665, "history": 1965, "young-adult": 339}}
+{"book_id": "10154453", "genres": {"fiction": 224, "history": 247, "young-adult": 121, "mystery": 20, "romance": 2}}
 {"book_id": "22044508", "genres": {}}
