@@ -1,28 +1,24 @@
 // for first data visualization (area and line chart)
 const first = d3.select(".first");
 
-// Load NDJSON (line-separated JSON)
-d3.text("./data/copy_book_works.json").then(function(text) {
-    console.log("RAW text from file:", text);  // <--- ADD THIS
-    // Step 1: Parse each non-empty line into an object
+d3.text("./data/copy_book_works.json").then(function(text) { // get data 
     let data = text.trim().split('\n')
-        .filter(line => line.trim() !== "") // <- NEW
+        .filter(line => line.trim() !== "") 
         .map(line => JSON.parse(line));
         data = data.filter(d => d.original_publication_year !== "");
 
-    // Step 2: Process data to count books per year
     let yearCounts = d3.rollup(
         data,
         v => v.length,
         d => +d.original_publication_year // convert year to number
     );
 
-    // Step 3: Convert map to sorted array and filter invalid years
+    // convert map to sorted array and filter invalid years
     let yearData = Array.from(yearCounts, ([year, count]) => ({ year, count }))
                         .filter(d => !isNaN(d.year))
                         .sort((a, b) => d3.ascending(a.year, b.year));
 
-    // Step 4: Set up the graph
+    // set up the graph
     const svg = first.append("svg")
         .attr("width", 1500)
         .attr("height", 1000);
@@ -36,7 +32,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         .attr("height", graphHeight)
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    // Step 5: Create scales
+    // create scales
     const x = d3.scaleLinear()
         .domain([1900, d3.max(yearData, d => d.year)])
         .range([0, graphWidth]);
@@ -45,7 +41,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         .domain([0, d3.max(yearData, d => d.count)])
         .range([graphHeight, 0]);
 
-    // Step 6: Create area and line generators
+    // create area and line generators
     const areaChart = d3.area()
         .x(d => x(d.year))
         .y0(graphHeight)
@@ -55,7 +51,6 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         .x(d => x(d.year))
         .y(d => y(d.count));
 
-    // Step 7: Append paths
     firstGraph.append("path")
         .datum(yearData)
         .attr("class", "line")
@@ -70,7 +65,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         .attr("class", "area")
         .attr("d", areaChart);
 
-    // Step 8: Axes
+    // axes
     const xAxis = d3.axisBottom(x)
         .tickFormat(d3.format("d")); // plain year format
 
@@ -84,7 +79,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
     firstGraph.append("g")
         .call(yAxis);
 
-    // Step 9: Circles on points (optional)
+    // circles on points 
     firstGraph.selectAll("circle")
         .data(yearData)
         .enter()
@@ -98,16 +93,16 @@ d3.text("./data/copy_book_works.json").then(function(text) {
         console.log("Loaded Data:", data);
         console.log("Processed Year Data:", yearData);    
         
-            // X Axis
+    // x axis
     firstGraph.append("g")
     .attr("transform", `translate(0, ${graphHeight})`)
     .call(xAxis);
 
-    // Y Axis
+    // y axis
     firstGraph.append("g")
     .call(yAxis);
 
-    // X Axis Label
+    // x axis label 
     firstGraph.append("text")
     .attr("x", graphWidth / 2)
     .attr("y", graphHeight + 50)
@@ -115,7 +110,7 @@ d3.text("./data/copy_book_works.json").then(function(text) {
     .attr("font-size", "14px")
     .text("Publication Year");
 
-    // Y Axis Label
+    // y axis label
     firstGraph.append("text")
     .attr("x", -graphHeight / 2)
     .attr("y", -50)
@@ -124,8 +119,6 @@ d3.text("./data/copy_book_works.json").then(function(text) {
     .attr("transform", "rotate(-90)")
     .text("Number of Books");
 
-}).catch(function(error){
-    console.error("Error loading the data:", error);
 });
 
 // select the second graph container
@@ -140,16 +133,12 @@ const secondGraph = svg.append("g")
         .attr("height", 500)
         .attr("transform", `translate(100, 100)`);
 
-// Load NDJSON (line-separated JSON)
-d3.text("./data/copy_book_genres.json").then(function(text) {
-    console.log("RAW text from file:", text);
-
-    // Step 1: Parse
+d3.text("./data/copy_book_genres.json").then(function(text) { // load data 
     let data = text.trim().split('\n')
         .filter(line => line.trim() !== "")
         .map(line => JSON.parse(line));
 
-    // Step 2: Find top genre for each book
+    // find top genre for each book
     let topGenres = data.map(d => {
         let genres = d.genres;
         let topGenre = "";
@@ -163,19 +152,17 @@ d3.text("./data/copy_book_genres.json").then(function(text) {
         return topGenre;
     });
 
-    // Step 3: Count how many times each top genre appears
+    // count how many times each top genre appears
     let genreCounts = d3.rollup(
         topGenres,
         v => v.length,
         d => d
     );
 
-    // Step 4: Convert to array for word cloud
+    // convert to array for word cloud
     let wordCloudData = Array.from(genreCounts, ([genre, count]) => ({ text: genre, size: count }));
 
-    console.log("Word Cloud Data:", wordCloudData);
-
-    // ✅ Now that `wordCloudData` is ready, create the layout INSIDE here
+    // functions from https://d3-graph-gallery.com/graph/wordcloud_size.html
     var layout = d3.layout.cloud()
         .size([1500, 1000])
         .words(wordCloudData)
@@ -203,6 +190,4 @@ d3.text("./data/copy_book_genres.json").then(function(text) {
           .text(function(d) { return d.text; });
     }
 
-}).catch(function(error){
-    console.error("Error loading or processing data:", error);
 });
