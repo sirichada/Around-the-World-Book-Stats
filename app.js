@@ -191,3 +191,246 @@ d3.text("./data/copy_book_genres.json").then(function(text) { // load data
     }
 
 });
+
+// third visualization 
+const third = d3.select(".third");
+
+const mapSvg = third.append("svg")
+    .attr("width", 1200)
+    .attr("height", 700);
+
+const mapGraph = mapSvg.append("g")
+    .attr("width", 1200)
+    .attr("height", 700);
+
+// Map of 3-letter language codes to ISO3 country codes
+// This helps us visualize languages on a map
+const iso3LanguageToCountry = {
+    'eng': 'USA', // English -> USA
+    'ger': 'DEU', // German -> Germany
+    'deu': 'DEU', // German (alternative code) -> Germany
+    'spa': 'ESP', // Spanish -> Spain
+    'fra': 'FRA', // French -> France
+    'ita': 'ITA', // Italian -> Italy
+    'jpn': 'JPN', // Japanese -> Japan
+    'zho': 'CHN', // Chinese -> China
+    'rus': 'RUS', // Russian -> Russia
+    'por': 'PRT', // Portuguese -> Portugal
+    'kor': 'KOR', // Korean -> South Korea
+    'ara': 'SAU', // Arabic -> Saudi Arabia
+    'hin': 'IND', // Hindi -> India
+    'nld': 'NLD', // Dutch -> Netherlands
+    'swe': 'SWE', // Swedish -> Sweden
+    'fin': 'FIN', // Finnish -> Finland
+    'nor': 'NOR', // Norwegian -> Norway
+    'dan': 'DNK', // Danish -> Denmark
+    'pol': 'POL', // Polish -> Poland
+    'tur': 'TUR', // Turkish -> Turkey
+    'ces': 'CZE', // Czech -> Czech Republic
+    'ell': 'GRC', // Greek -> Greece
+    'hun': 'HUN', // Hungarian -> Hungary
+    'heb': 'ISR', // Hebrew -> Israel
+    'tha': 'THA', // Thai -> Thailand
+    'ukr': 'UKR', // Ukrainian -> Ukraine
+    'ind': 'IDN', // Indonesian -> Indonesia
+    'vie': 'VNM', // Vietnamese -> Vietnam
+    'fas': 'IRN', // Persian/Farsi -> Iran
+    'ron': 'ROU', // Romanian -> Romania
+    'ben': 'BGD'  // Bengali -> Bangladesh
+};
+
+// Map of language codes to full language names
+const languageCodeToName = {
+    'eng': 'English',
+    'ger': 'German',
+    'deu': 'German',
+    'spa': 'Spanish',
+    'fra': 'French',
+    'ita': 'Italian',
+    'jpn': 'Japanese',
+    'zho': 'Chinese',
+    'rus': 'Russian',
+    'por': 'Portuguese',
+    'kor': 'Korean',
+    'ara': 'Arabic',
+    'hin': 'Hindi',
+    'nld': 'Dutch',
+    'swe': 'Swedish',
+    'fin': 'Finnish',
+    'nor': 'Norwegian',
+    'dan': 'Danish',
+    'pol': 'Polish',
+    'tur': 'Turkish',
+    'ces': 'Czech',
+    'ell': 'Greek',
+    'hun': 'Hungarian',
+    'heb': 'Hebrew',
+    'tha': 'Thai',
+    'ukr': 'Ukrainian',
+    'ind': 'Indonesian',
+    'vie': 'Vietnamese',
+    'fas': 'Persian',
+    'ron': 'Romanian',
+    'ben': 'Bengali'
+};
+
+// Load the book data and world map data
+Promise.all([
+    d3.text("./data/copy_books.json"),
+    d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
+]).then(function([bookText, worldData]) {
+    // Process book data
+    let bookData = bookText.trim().split('\n')
+        .filter(line => line.trim() !== "")
+        .map(line => JSON.parse(line));
+    
+    // Count books by language
+    const languageCounts = {};
+    bookData.forEach(book => {
+        // Only process books with a valid language code
+        if (book.language_code && book.language_code !== "") {
+            const languageCode = book.language_code.toLowerCase();
+            languageCounts[languageCode] = (languageCounts[languageCode] || 0) + 1;
+        }
+    });
+    
+    console.log("Book counts by language:", languageCounts);
+    
+    // Transform language data to country data for visualization
+    const countryData = {};
+    for (const [langCode, count] of Object.entries(languageCounts)) {
+        const iso3 = iso3LanguageToCountry[langCode];
+        if (iso3) {
+            // If a country already has a count (multiple languages map to one country),
+            // add to its total
+            countryData[iso3] = (countryData[iso3] || 0) + count;
+        }
+    }
+    
+    // Create a threshold scale instead of a sequential scale for better visibility
+    // This will group the data into ranges rather than a continuous scale
+    const colorScale = d3.scaleThreshold()
+        .domain([1, 5, 10, 20, 50, 100]) // Simplified thresholds ending at 100
+        .range(d3.schemeBlues[7]); // Use Blues color scheme with 7 colors (one less than domains+1)
+    
+    // Create projection
+    const projection = d3.geoNaturalEarth1()
+        .scale(200)
+        .center([0, 0])
+        .translate([600, 400]);
+    
+    // Create path generator
+    const path = d3.geoPath().projection(projection);
+    
+    // Draw map
+    mapGraph.selectAll("path")
+        .data(worldData.features)
+        .enter()
+        .append("path")
+        .attr("d", path)
+        .attr("fill", d => {
+            const iso3 = d.id;
+            return countryData[iso3] ? colorScale(countryData[iso3]) : "#eee";
+        })
+        .attr("stroke", "#fff")
+        .attr("stroke-width", 0.5)
+        .append("title") // Add tooltip with country name and book count
+        .text(d => {
+            const iso3 = d.id;
+            const count = countryData[iso3] || 0;
+            
+            // Find languages for this country
+            const languages = Object.entries(iso3LanguageToCountry)
+                .filter(([lang, country]) => country === iso3)
+                .map(([lang]) => {
+                    const langName = languageCodeToName[lang] || lang;
+                    const langCount = languageCounts[lang] || 0;
+                    return `${langName} (${langCount})`;
+                })
+                .filter(langInfo => langInfo.includes("(0)") === false); // Filter out languages with 0 books
+            
+            // Create tooltip text
+            let tooltipText = `${d.properties.name}: ${count} books`;
+            if (languages.length > 0) {
+                tooltipText += `\n${languages.join(", ")}`;
+            }
+            
+            return tooltipText;
+        });
+    
+    // Add a custom legend for the threshold scale
+    const legendWidth = 400;
+    const legendHeight = 20;
+
+    const legend = mapSvg.append("g")
+        .attr("transform", `translate(400, 40)`);
+
+    // Create legend labels
+    const legendLabels = ["0", "1-4", "5-9", "10-19", "20-49", "50-99", "100+"];
+    const legendColors = ["#eee"].concat(d3.schemeBlues[7]);
+    const legendItemWidth = legendWidth / legendLabels.length;
+
+    // Create color blocks
+    legend.selectAll("rect")
+        .data(legendLabels)
+        .enter()
+        .append("rect")
+        .attr("x", (d, i) => i * legendItemWidth)
+        .attr("y", 0)
+        .attr("width", legendItemWidth)
+        .attr("height", legendHeight)
+        .style("fill", (d, i) => legendColors[i]);
+
+    // Add text labels
+    legend.selectAll("text")
+        .data(legendLabels)
+        .enter()
+        .append("text")
+        .attr("x", (d, i) => i * legendItemWidth + legendItemWidth/2)
+        .attr("y", legendHeight + 15)
+        .attr("text-anchor", "middle")
+        .style("font-size", "10px")
+        .text(d => d);
+
+    // Add legend title
+    legend.append("text")
+        .attr("x", legendWidth / 2)
+        .attr("y", -10)
+        .attr("text-anchor", "middle")
+        .style("font-size", "12px")
+        .style("fill", "#000")
+        .text("Number of Books by Language");
+    
+    // Add language code legend to show mapping between languages and countries
+    const languageLegend = mapSvg.append("g")
+        .attr("transform", `translate(0, 50)`);
+    
+    // Get top languages for the legend (to avoid overcrowding)
+    const topLanguages = Object.entries(languageCounts)
+        .filter(([code]) => iso3LanguageToCountry[code]) // Only include mappable languages
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
+    
+    languageLegend.append("text")
+        .attr("x", 0)
+        .attr("y", -10)
+        .style("font-size", "12px")
+        .style("font-weight", "bold")
+        .text("Top Languages:");
+    
+    // Add language entries
+    topLanguages.forEach((langData, i) => {
+        const langCode = langData[0];
+        const count = langData[1];
+        const fullName = languageCodeToName[langCode] || langCode;
+        
+        languageLegend.append("text")
+            .attr("x", 0)
+            .attr("y", i * 20 + 10)
+            .style("font-size", "11px")
+            .text(`${fullName} (${langCode}): ${count} books`);
+    });
+
+}).catch(function(error) {
+    console.log("Error loading data:", error);
+});

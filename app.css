@@ -1,5 +1,5 @@
 body {
-    background: antiquewhite;
+    background: whitesmoke;
     font-family: 'Garamond', serif;
     margin: 20px;
     margin-top: 40px;
@@ -14,4 +14,21 @@ h1 {
 p {
     margin: 2px;
     color: rgb(128, 128, 128);
+}
+
+.first, .second, .third {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Map-specific styles */
+.third path:hover {
+    opacity: 0.8;
+    stroke: #000;
+    stroke-width: 1px;
+    cursor: pointer;
+}
+
+.third text {
+    font-family: Arial, sans-serif;
 }
