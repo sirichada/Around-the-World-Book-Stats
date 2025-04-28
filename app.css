@@ -8,7 +8,7 @@ body {
 h1 {
     text-align: center;
     margin: 3px;
-    color: tomato;
+    color: whitesmoke;
 }
 
 h2 {
@@ -23,10 +23,8 @@ p {
 
 .first, .second, .third {
     margin: 20px auto;
-    text-align: center;
 }
 
-/* Map-specific styles */
 .third path:hover {
     opacity: 0.8;
     stroke: #000;
@@ -34,8 +32,35 @@ p {
     cursor: pointer;
 }
 
-.third {
-    background-color: lightsalmon;
+#intro {
+    background: tomato;
     border-radius: 10px;
     padding: 10px;
+}
+
+#intro p {
+    color: whitesmoke;
+}
+
+
+#first {
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#second {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.third {
+    background-color: salmon;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.third text {
+    fill: whitesmoke;
 }

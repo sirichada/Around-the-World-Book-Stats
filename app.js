@@ -366,6 +366,8 @@ Promise.all([
         .attr("y", 0)
         .attr("width", legendItemWidth)
         .attr("height", legendHeight)
+        .style("stroke-width", "1px")
+        .style("stroke", "black")
         .style("fill", (d, i) => legendColors[i]);
 
     // Add text labels
@@ -376,7 +378,7 @@ Promise.all([
         .attr("x", (d, i) => i * legendItemWidth + legendItemWidth/2)
         .attr("y", legendHeight + 15)
         .attr("text-anchor", "middle")
-        .style("font-size", "10px")
+        .style("font-size", "14px")
         .text(d => d);
 
     // Add legend title
@@ -384,8 +386,8 @@ Promise.all([
         .attr("x", legendWidth / 2)
         .attr("y", -10)
         .attr("text-anchor", "middle")
-        .style("font-size", "12px")
-        .style("fill", "#000")
+        .style("font-size", "14px")
+        .style("font-weight", "bold")
         .text("Number of Books by Language");
     
     // Add language code legend to show mapping between languages and countries
