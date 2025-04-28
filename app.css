@@ -8,7 +8,7 @@ body {
 h1 {
     text-align: center;
     margin: 3px;
-    color: seagreen;
+    color: tomato;
 }
 
 p {
@@ -27,8 +27,4 @@ p {
     stroke: #000;
     stroke-width: 1px;
     cursor: pointer;
-}
-
-.third text {
-    font-family: Arial, sans-serif;
 }

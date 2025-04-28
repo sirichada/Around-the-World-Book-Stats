@@ -20,11 +20,12 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
 
     // set up the graph
     const svg = first.append("svg")
-        .attr("width", 1500)
-        .attr("height", 1000);
+        .attr("width", "100%")
+        .attr("height", 1000)
+        .center([0, 0]);
 
     const margin = {top: 20, right: 20, bottom: 70, left: 70};
-    const graphWidth = 1500 - margin.left - margin.right;
+    const graphWidth = 1200 - margin.left - margin.right;
     const graphHeight = 1000 - margin.top - margin.bottom;
 
     const firstGraph = svg.append("g")
@@ -61,7 +62,7 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
 
     firstGraph.append("path")
         .datum(yearData)
-        .attr("fill", "lightblue")
+        .attr("fill", "skyblue")
         .attr("class", "area")
         .attr("d", areaChart);
 
@@ -125,11 +126,11 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
 const second = d3.select(".second");
 
 const svg = second.append("svg")
-        .attr("width", 1500)
+        .attr("width", "100%")
         .attr("height", 500);
 
 const secondGraph = svg.append("g")
-        .attr("width", 1500)
+        .attr("width", "100%")
         .attr("height", 500)
         .attr("transform", `translate(100, 100)`);
 
@@ -181,7 +182,7 @@ d3.text("./data/copy_book_genres.json").then(function(text) { // load data
         .enter()
         .append("text")
           .style("font-size", function(d) { return d.size + "px"; })
-          .style("fill", "#69b3a2")
+          .style("fill", "tomato")
           .attr("text-anchor", "middle")
           .style("font-family", "Impact")
           .attr("transform", function(d) {
