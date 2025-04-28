@@ -88,7 +88,7 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
         .attr("cx", d => x(d.year))
         .attr("cy", d => y(d.count))
         .attr("r", 4)
-        .attr("fill", "tomato");
+        .attr("fill", "darkcyan");
 
         console.log("Loaded Data:", data);
         console.log("Processed Year Data:", yearData);    
@@ -181,9 +181,9 @@ d3.text("./data/copy_book_genres.json").then(function(text) { // load data
         .enter()
         .append("text")
           .style("font-size", function(d) { return d.size + "px"; })
-          .style("fill", "skyblue")
+          .style("fill", "whitesmoke")
+          .style("font-weight", "bold")
           .attr("text-anchor", "middle")
-          .style("font-family", "Impact")
           .attr("transform", function(d) {
             return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
           })
