@@ -21,8 +21,7 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
     // set up the graph
     const svg = first.append("svg")
         .attr("width", "100%")
-        .attr("height", 1000)
-        .center([0, 0]);
+        .attr("height", 1000);
 
     const margin = {top: 20, right: 20, bottom: 70, left: 70};
     const graphWidth = 1200 - margin.left - margin.right;
@@ -182,7 +181,7 @@ d3.text("./data/copy_book_genres.json").then(function(text) { // load data
         .enter()
         .append("text")
           .style("font-size", function(d) { return d.size + "px"; })
-          .style("fill", "tomato")
+          .style("fill", "skyblue")
           .attr("text-anchor", "middle")
           .style("font-family", "Impact")
           .attr("transform", function(d) {
@@ -340,21 +339,8 @@ Promise.all([
             const iso3 = d.id;
             const count = countryData[iso3] || 0;
             
-            // Find languages for this country
-            const languages = Object.entries(iso3LanguageToCountry)
-                .filter(([lang, country]) => country === iso3)
-                .map(([lang]) => {
-                    const langName = languageCodeToName[lang] || lang;
-                    const langCount = languageCounts[lang] || 0;
-                    return `${langName} (${langCount})`;
-                })
-                .filter(langInfo => langInfo.includes("(0)") === false); // Filter out languages with 0 books
-            
             // Create tooltip text
             let tooltipText = `${d.properties.name}: ${count} books`;
-            if (languages.length > 0) {
-                tooltipText += `\n${languages.join(", ")}`;
-            }
             
             return tooltipText;
         });
@@ -415,7 +401,7 @@ Promise.all([
     languageLegend.append("text")
         .attr("x", 0)
         .attr("y", -10)
-        .style("font-size", "12px")
+        .style("font-size", "14px")
         .style("font-weight", "bold")
         .text("Top Languages:");
     
@@ -428,7 +414,7 @@ Promise.all([
         languageLegend.append("text")
             .attr("x", 0)
             .attr("y", i * 20 + 10)
-            .style("font-size", "11px")
+            .style("font-size", "14px")
             .text(`${fullName} (${langCode}): ${count} books`);
     });
 

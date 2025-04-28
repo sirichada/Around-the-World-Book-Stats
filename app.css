@@ -11,9 +11,14 @@ h1 {
     color: tomato;
 }
 
+h2 {
+    color: tomato;
+    margin: 0;
+}
+
 p {
     margin: 2px;
-    color: rgb(128, 128, 128);
+    color: black;
 }
 
 .first, .second, .third {
@@ -27,4 +32,10 @@ p {
     stroke: #000;
     stroke-width: 1px;
     cursor: pointer;
+}
+
+.third {
+    background-color: lightsalmon;
+    border-radius: 10px;
+    padding: 10px;
 }
