@@ -21,11 +21,11 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
     // set up the graph
     const svg = first.append("svg")
         .attr("width", "100%")
-        .attr("height", 1000);
+        .attr("height", 500);
 
     const margin = {top: 20, right: 20, bottom: 70, left: 70};
     const graphWidth = 1500 - margin.left - margin.right;
-    const graphHeight = 1000 - margin.top - margin.bottom;
+    const graphHeight = 500 - margin.top - margin.bottom;
 
     const firstGraph = svg.append("g")
         .attr("width", graphWidth)
