@@ -79,6 +79,15 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
     firstGraph.append("g")
         .call(yAxis);
 
+    // Create the tooltip
+    const tip = d3.tip()
+        .attr("class", "d3-tip")
+        .offset([-10, 0])
+        .html(d => `<strong>${d.year}:</strong> <span style='color:lightyellow'>${d.count} books</span>`);
+
+    // Call the tooltip on the SVG
+    svg.call(tip);
+
     // circles on points 
     firstGraph.selectAll("circle")
         .data(yearData)
@@ -88,7 +97,13 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
         .attr("cx", d => x(d.year))
         .attr("cy", d => y(d.count))
         .attr("r", 4)
-        .attr("fill", "darkcyan");
+        .attr("fill", "darkcyan")
+        .on("mouseover", function(event, d) {
+            tip.show(d, this);
+        })
+        .on("mouseout", function(event, d) {
+            tip.hide(d, this);
+        });
 
         console.log("Loaded Data:", data);
         console.log("Processed Year Data:", yearData);    
