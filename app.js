@@ -24,7 +24,7 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
         .attr("height", 1000);
 
     const margin = {top: 20, right: 20, bottom: 70, left: 70};
-    const graphWidth = 1200 - margin.left - margin.right;
+    const graphWidth = 1500 - margin.left - margin.right;
     const graphHeight = 1000 - margin.top - margin.bottom;
 
     const firstGraph = svg.append("g")
@@ -34,7 +34,7 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
 
     // create scales
     const x = d3.scaleLinear()
-        .domain([1900, d3.max(yearData, d => d.year)])
+        .domain([d3.min(yearData, d => d.year), d3.max(yearData, d => d.year)])
         .range([0, graphWidth]);
 
     const y = d3.scaleLinear()
