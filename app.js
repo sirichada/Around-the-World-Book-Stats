@@ -349,17 +349,13 @@ Promise.all([
         })
         .attr("stroke", "#fff")
         .attr("stroke-width", 0.5)
-        .append("title") // Add tooltip with country name and book count
-        .text(d => {
-            const iso3 = d.id;
-            const count = countryData[iso3] || 0;
-            
-            // Create tooltip text
-            let tooltipText = `${d.properties.name}: ${count} books`;
-            
-            return tooltipText;
+        .on("mouseover", function(event, d) {
+            mapTip.show(d, this);
+        })
+        .on("mouseout", function(event, d) {
+            mapTip.hide(d, this);
         });
-    
+
     // Add a custom legend for the threshold scale
     const legendWidth = 400;
     const legendHeight = 20;
@@ -404,6 +400,20 @@ Promise.all([
         .style("font-size", "14px")
         .style("font-weight", "bold")
         .text("Number of Books by Language");
+
+    // Create d3-tip for map
+    const mapTip = d3.tip()
+    .attr("class", "d3-tip")
+    .offset([-10, 0])
+    .html(d => {
+        const iso3 = d.id;
+        const count = countryData[iso3] || 0;
+        return `<strong>${d.properties.name}:</strong> <span style='color:lightyellow'>${count} books</span>`;
+    });
+
+// Attach tip to SVG
+mapSvg.call(mapTip);
+
     
     // Add language code legend to show mapping between languages and countries
     const languageLegend = mapSvg.append("g")
