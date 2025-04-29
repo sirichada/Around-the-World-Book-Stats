@@ -357,49 +357,27 @@ Promise.all([
         });
 
     // Add a custom legend for the threshold scale
-    const legendWidth = 400;
-    const legendHeight = 20;
 
-    const legend = mapSvg.append("g")
-        .attr("transform", `translate(400, 40)`);
+    // Create a vertical legend using d3-legend
+    const colorLegend = d3.legendColor()
+    .labelFormat(d3.format("d"))
+    .scale(colorScale)
+    .shapeWidth(30)
+    .shapeHeight(30)
+    .shapePadding(5)
+    .orient('vertical')
+    .labels(({ i }) => {
+        const labelPairs = ["0", "1-4", "5-9", "10-19", "20-49", "50-99", "100+"];
+        return labelPairs[i];
+    })    
+    .title("# of Books Published")
+    .titleWidth(100);
 
-    // Create legend labels
-    const legendLabels = ["0", "1-4", "5-9", "10-19", "20-49", "50-99", "100+"];
-    const legendColors = ["#eee"].concat(d3.schemeBlues[7]);
-    const legendItemWidth = legendWidth / legendLabels.length;
-
-    // Create color blocks
-    legend.selectAll("rect")
-        .data(legendLabels)
-        .enter()
-        .append("rect")
-        .attr("x", (d, i) => i * legendItemWidth)
-        .attr("y", 0)
-        .attr("width", legendItemWidth)
-        .attr("height", legendHeight)
-        .style("stroke-width", "1px")
-        .style("stroke", "black")
-        .style("fill", (d, i) => legendColors[i]);
-
-    // Add text labels
-    legend.selectAll("text")
-        .data(legendLabels)
-        .enter()
-        .append("text")
-        .attr("x", (d, i) => i * legendItemWidth + legendItemWidth/2)
-        .attr("y", legendHeight + 15)
-        .attr("text-anchor", "middle")
-        .style("font-size", "14px")
-        .text(d => d);
-
-    // Add legend title
-    legend.append("text")
-        .attr("x", legendWidth / 2)
-        .attr("y", -10)
-        .attr("text-anchor", "middle")
-        .style("font-size", "14px")
-        .style("font-weight", "bold")
-        .text("Number of Books by Language");
+    // Append it to the SVG
+    mapSvg.append("g")
+    .attr("class", "legend")
+    .attr("transform", `translate(1100, 30)`) // (x, y) position to the right side
+    .call(colorLegend);
 
     // Create d3-tip for map
     const mapTip = d3.tip()
@@ -411,10 +389,9 @@ Promise.all([
         return `<strong>${d.properties.name}:</strong> <span style='color:lightyellow'>${count} books</span>`;
     });
 
-// Attach tip to SVG
-mapSvg.call(mapTip);
+    // Attach tip to SVG
+    mapSvg.call(mapTip);
 
-    
     // Add language code legend to show mapping between languages and countries
     const languageLegend = mapSvg.append("g")
         .attr("transform", `translate(0, 50)`);
