@@ -212,11 +212,11 @@ const third = d3.select(".third");
 
 const mapSvg = third.append("svg")
     .attr("width", 1200)
-    .attr("height", 700);
+    .attr("height", 650);
 
 const mapGraph = mapSvg.append("g")
     .attr("width", 1200)
-    .attr("height", 700);
+    .attr("height", 650);
 
 // Map of 3-letter language codes to ISO3 country codes
 // This helps us visualize languages on a map
@@ -332,7 +332,7 @@ Promise.all([
     const projection = d3.geoNaturalEarth1()
         .scale(200)
         .center([0, 0])
-        .translate([600, 400]);
+        .translate([600, 350]);
     
     // Create path generator
     const path = d3.geoPath().projection(projection);
