@@ -79,13 +79,13 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
     firstGraph.append("g")
         .call(yAxis);
 
-    // Create the tooltip
+    // create the tooltip
     const tip = d3.tip()
         .attr("class", "d3-tip")
         .offset([-10, 0])
         .html(d => `<strong>${d.year}:</strong> <span style='color:lightyellow'>${d.count} books</span>`);
 
-    // Call the tooltip on the SVG
+    // call the tooltip 
     svg.call(tip);
 
     // circles on points 
@@ -134,6 +134,8 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
     .attr("transform", "rotate(-90)")
     .text("Number of Books");
 
+}).catch(function(error) {
+    console.log("Error loading data:", error);
 });
 
 // select the second graph container
@@ -205,6 +207,8 @@ d3.text("./data/copy_book_genres.json").then(function(text) { // load data
           .text(function(d) { return d.text; });
     }
 
+}).catch(function(error) {
+    console.log("Error loading data:", error);
 });
 
 // third visualization 
@@ -218,8 +222,7 @@ const mapGraph = mapSvg.append("g")
     .attr("width", 1200)
     .attr("height", 650);
 
-// Map of 3-letter language codes to ISO3 country codes
-// This helps us visualize languages on a map
+// map of 3-letter language codes to ISO3 country codes
 const iso3LanguageToCountry = {
     'eng': 'USA', // English -> USA
     'ger': 'DEU', // German -> Germany
@@ -254,7 +257,7 @@ const iso3LanguageToCountry = {
     'ben': 'BGD'  // Bengali -> Bangladesh
 };
 
-// Map of language codes to full language names
+// map of language codes to full language names
 const languageCodeToName = {
     'eng': 'English',
     'ger': 'German',
@@ -289,20 +292,19 @@ const languageCodeToName = {
     'ben': 'Bengali'
 };
 
-// Load the book data and world map data
+// load the book data and world map data
 Promise.all([
     d3.text("./data/copy_books.json"),
     d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
-]).then(function([bookText, worldData]) {
-    // Process book data
+]).then(function([bookText, worldData]) { // get data 
     let bookData = bookText.trim().split('\n')
         .filter(line => line.trim() !== "")
         .map(line => JSON.parse(line));
     
-    // Count books by language
+    // count books by language
     const languageCounts = {};
     bookData.forEach(book => {
-        // Only process books with a valid language code
+        // only process books with a valid language code
         if (book.language_code && book.language_code !== "") {
             const languageCode = book.language_code.toLowerCase();
             languageCounts[languageCode] = (languageCounts[languageCode] || 0) + 1;
@@ -311,33 +313,30 @@ Promise.all([
     
     console.log("Book counts by language:", languageCounts);
     
-    // Transform language data to country data for visualization
+    // transform language data to country data for visualization
     const countryData = {};
     for (const [langCode, count] of Object.entries(languageCounts)) {
         const iso3 = iso3LanguageToCountry[langCode];
         if (iso3) {
-            // If a country already has a count (multiple languages map to one country),
+            // if a country already has a count (multiple languages map to one country),
             // add to its total
             countryData[iso3] = (countryData[iso3] || 0) + count;
         }
     }
     
-    // Create a threshold scale instead of a sequential scale for better visibility
-    // This will group the data into ranges rather than a continuous scale
     const colorScale = d3.scaleThreshold()
-        .domain([1, 5, 10, 20, 50, 100]) // Simplified thresholds ending at 100
-        .range(d3.schemeBlues[7]); // Use Blues color scheme with 7 colors (one less than domains+1)
+        .domain([1, 5, 10, 20, 50, 100]) 
+        .range(d3.schemeBlues[7]);
     
-    // Create projection
+    // create projection
     const projection = d3.geoNaturalEarth1()
         .scale(200)
         .center([0, 0])
         .translate([600, 350]);
     
-    // Create path generator
+    // create path generator
     const path = d3.geoPath().projection(projection);
     
-    // Draw map
     mapGraph.selectAll("path")
         .data(worldData.features)
         .enter()
@@ -356,9 +355,7 @@ Promise.all([
             mapTip.hide(d, this);
         });
 
-    // Add a custom legend for the threshold scale
-
-    // Create a vertical legend using d3-legend
+    // create a vertical legend using d3-legend
     const colorLegend = d3.legendColor()
     .labelFormat(d3.format("d"))
     .scale(colorScale)
@@ -373,13 +370,13 @@ Promise.all([
     .title("# of Books Published")
     .titleWidth(100);
 
-    // Append it to the SVG
+    // append it to the SVG
     mapSvg.append("g")
     .attr("class", "legend")
     .attr("transform", `translate(1100, 30)`) // (x, y) position to the right side
     .call(colorLegend);
 
-    // Create d3-tip for map
+    // create d3-tip for map
     const mapTip = d3.tip()
     .attr("class", "d3-tip")
     .offset([-10, 0])
@@ -389,14 +386,14 @@ Promise.all([
         return `<strong>${d.properties.name}:</strong> <span style='color:lightyellow'>${count} books</span>`;
     });
 
-    // Attach tip to SVG
+    // call tooptip 
     mapSvg.call(mapTip);
 
-    // Add language code legend to show mapping between languages and countries
+    // add language code legend to show mapping between languages and countries
     const languageLegend = mapSvg.append("g")
         .attr("transform", `translate(0, 50)`);
     
-    // Get top languages for the legend (to avoid overcrowding)
+    // get top languages for the legend (to avoid overcrowding)
     const topLanguages = Object.entries(languageCounts)
         .filter(([code]) => iso3LanguageToCountry[code]) // Only include mappable languages
         .sort((a, b) => b[1] - a[1])
@@ -409,7 +406,7 @@ Promise.all([
         .style("font-weight", "bold")
         .text("Top Languages:");
     
-    // Add language entries
+    // add language entries
     topLanguages.forEach((langData, i) => {
         const langCode = langData[0];
         const count = langData[1];
