@@ -1,96 +1,88 @@
 // for first data visualization (area and line chart)
 const first = d3.select(".first");
 
-d3.text("./data/copy_book_works.json").then(function(text) { // get data 
-    let data = text.trim().split('\n')
-        .filter(line => line.trim() !== "") 
-        .map(line => JSON.parse(line));
-        data = data.filter(d => d.original_publication_year !== "");
+// Create SVG with 100% width - this remains the same
+const firstSvg = first.append("svg")
+    .attr("width", "100%")
+    .attr("height", 500);
 
-    let yearCounts = d3.rollup(
-        data,
-        v => v.length,
-        d => +d.original_publication_year // convert year to number
-    );
+// Set up margin convention
+const margin = {top: 20, right: 20, bottom: 70, left: 70};
 
-    // convert map to sorted array and filter invalid years
-    let yearData = Array.from(yearCounts, ([year, count]) => ({ year, count }))
-                        .filter(d => !isNaN(d.year))
-                        .sort((a, b) => d3.ascending(a.year, b.year));
-
-    // set up the graph
-    const svg = first.append("svg")
-        .attr("width", "100%")
-        .attr("height", 500);
-
-    const margin = {top: 20, right: 20, bottom: 70, left: 70};
-    const graphWidth = 1500 - margin.left - margin.right;
+// Create a resize function to update the chart when window size changes
+function createFirstChart(data) {
+    // Clear any existing chart elements
+    firstSvg.selectAll("*").remove();
+    
+    // Calculate graph dimensions based on current container width
+    const containerWidth = parseInt(first.style("width"), 10);
+    const graphWidth = containerWidth - margin.left - margin.right;
     const graphHeight = 500 - margin.top - margin.bottom;
-
-    const firstGraph = svg.append("g")
+    
+    const firstGraph = firstSvg.append("g")
         .attr("width", graphWidth)
         .attr("height", graphHeight)
         .attr("transform", `translate(${margin.left}, ${margin.top})`);
-
+    
     // create scales
     const x = d3.scaleLinear()
-        .domain([d3.min(yearData, d => d.year), d3.max(yearData, d => d.year)])
+        .domain([d3.min(data, d => d.year), d3.max(data, d => d.year)])
         .range([0, graphWidth]);
-
+    
     const y = d3.scaleLinear()
-        .domain([0, d3.max(yearData, d => d.count)])
+        .domain([0, d3.max(data, d => d.count)])
         .range([graphHeight, 0]);
-
+    
     // create area and line generators
     const areaChart = d3.area()
         .x(d => x(d.year))
         .y0(graphHeight)
         .y1(d => y(d.count));
-
+    
     const valueLine = d3.line()
         .x(d => x(d.year))
         .y(d => y(d.count));
-
+    
     firstGraph.append("path")
-        .datum(yearData)
+        .datum(data)
         .attr("class", "line")
         .attr("d", valueLine)
         .attr("fill", "none")
         .attr("stroke", "black")
         .attr("stroke-width", 2);
-
+    
     firstGraph.append("path")
-        .datum(yearData)
+        .datum(data)
         .attr("fill", "skyblue")
         .attr("class", "area")
         .attr("d", areaChart);
-
+    
     // axes
     const xAxis = d3.axisBottom(x)
         .tickFormat(d3.format("d")); // plain year format
-
+    
     const yAxis = d3.axisLeft(y)
         .ticks(5);
-
+    
     firstGraph.append("g")
         .attr("transform", `translate(0, ${graphHeight})`)
         .call(xAxis);
-
+    
     firstGraph.append("g")
         .call(yAxis);
-
+    
     // create the tooltip
     const tip = d3.tip()
         .attr("class", "d3-tip")
         .offset([-10, 0])
         .html(d => `<strong>${d.year}:</strong> <span style='color:lightyellow'>${d.count} books</span>`);
-
+    
     // call the tooltip 
-    svg.call(tip);
-
+    firstSvg.call(tip);
+    
     // circles on points 
     firstGraph.selectAll("circle")
-        .data(yearData)
+        .data(data)
         .enter()
         .append("circle")
         .attr("class", "circle")
@@ -104,35 +96,51 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
         .on("mouseout", function(event, d) {
             tip.hide(d, this);
         });
-
-        console.log("Loaded Data:", data);
-        console.log("Processed Year Data:", yearData);    
-        
-    // x axis
-    firstGraph.append("g")
-    .attr("transform", `translate(0, ${graphHeight})`)
-    .call(xAxis);
-
-    // y axis
-    firstGraph.append("g")
-    .call(yAxis);
-
+    
     // x axis label 
     firstGraph.append("text")
-    .attr("x", graphWidth / 2)
-    .attr("y", graphHeight + 50)
-    .attr("text-anchor", "middle")
-    .attr("font-size", "14px")
-    .text("Publication Year");
-
+        .attr("x", graphWidth / 2)
+        .attr("y", graphHeight + 50)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .text("Publication Year");
+    
     // y axis label
     firstGraph.append("text")
-    .attr("x", -graphHeight / 2)
-    .attr("y", -50)
-    .attr("text-anchor", "middle")
-    .attr("font-size", "14px")
-    .attr("transform", "rotate(-90)")
-    .text("Number of Books");
+        .attr("x", -graphHeight / 2)
+        .attr("y", -50)
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px")
+        .attr("transform", "rotate(-90)")
+        .text("Number of Books");
+}
+
+// Load the data and create the chart
+d3.text("./data/copy_book_works.json").then(function(text) { // get data 
+    let data = text.trim().split('\n')
+        .filter(line => line.trim() !== "") 
+        .map(line => JSON.parse(line));
+    data = data.filter(d => d.original_publication_year !== "");
+
+    let yearCounts = d3.rollup(
+        data,
+        v => v.length,
+        d => +d.original_publication_year // convert year to number
+    );
+
+    // convert map to sorted array and filter invalid years
+    let yearData = Array.from(yearCounts, ([year, count]) => ({ year, count }))
+                        .filter(d => !isNaN(d.year))
+                        .sort((a, b) => d3.ascending(a.year, b.year));
+
+    console.log("Loaded Data:", data);
+    console.log("Processed Year Data:", yearData);
+
+    // Initial chart creation
+    createFirstChart(yearData);
+    
+    // Add resize event listener
+    window.addEventListener('resize', () => createFirstChart(yearData));
 
 }).catch(function(error) {
     console.log("Error loading data:", error);
