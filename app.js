@@ -1,20 +1,14 @@
 // for first data visualization (area and line chart)
 const first = d3.select(".first");
 
-// Create SVG with 100% width - this remains the same
 const firstSvg = first.append("svg")
     .attr("width", "100%")
     .attr("height", 500);
 
-// Set up margin convention
 const margin = {top: 20, right: 20, bottom: 70, left: 70};
 
-// Create a resize function to update the chart when window size changes
 function createFirstChart(data) {
-    // Clear any existing chart elements
-    firstSvg.selectAll("*").remove();
-    
-    // Calculate graph dimensions based on current container width
+    // calculate graph dimensions based on current container width
     const containerWidth = parseInt(first.style("width"), 10);
     const graphWidth = containerWidth - margin.left - margin.right;
     const graphHeight = 500 - margin.top - margin.bottom;
@@ -146,7 +140,7 @@ d3.text("./data/copy_book_works.json").then(function(text) { // get data
     console.log("Error loading data:", error);
 });
 
-// select the second graph container
+// for second data visualization (word cloud)
 const second = d3.select(".second");
 
 const svg = second.append("svg")
@@ -219,7 +213,7 @@ d3.text("./data/copy_book_genres.json").then(function(text) { // load data
     console.log("Error loading data:", error);
 });
 
-// third visualization 
+// for third data visualization (map)
 const third = d3.select(".third");
 
 const mapSvg = third.append("svg")
